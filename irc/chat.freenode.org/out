@@ -1,0 +1,2224 @@
+2015-01-13 00:17 *** Looking up your hostname...
+2015-01-13 00:17 *** Checking Ident
+2015-01-13 00:17 *** Found your hostname
+2015-01-13 00:17 *** No Ident response
+2015-01-13 00:17 Welcome to the freenode Internet Relay Chat Network doormon
+2015-01-13 00:17 Your host is hitchcock.freenode.net[31.13.222.109/6667], running version ircd-seven-1.1.3
+2015-01-13 00:17 This server was created Sat Oct 11 2014 at 13:43:24 UTC
+2015-01-13 00:17 hitchcock.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-01-13 00:17 CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-01-13 00:17 CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-01-13 00:17 EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU are supported by this server
+2015-01-13 00:17 There are 173 users and 89632 invisible on 26 servers
+2015-01-13 00:17 25 IRC Operators online
+2015-01-13 00:17 7 unknown connection(s)
+2015-01-13 00:17 51814 channels formed
+2015-01-13 00:17 I have 5792 clients and 1 servers
+2015-01-13 00:17 5792 6473 Current local users 5792, max 6473
+2015-01-13 00:17 89805 101901 Current global users 89805, max 101901
+2015-01-13 00:17 Highest connection count: 6474 (6473 clients) (989092 connections received)
+2015-01-13 00:17 - hitchcock.freenode.net Message of the Day - 
+2015-01-13 00:17 -  
+2015-01-13 00:17 - Welcome to hitchcock.freenode.net in Sofia, Bulgaria, EU, kindly sponsored by
+2015-01-13 00:17 - Neterra Communications (www.neterra.net)
+2015-01-13 00:17 -  
+2015-01-13 00:17 - HITCHCOCK, SIR ALFRED [1899 - 1980] Born in Essex,
+2015-01-13 00:17 - England, Sir Alfred Hitchcock was a noted film director
+2015-01-13 00:17 - and producer. Over a long career he pioneered many modern
+2015-01-13 00:17 - techniques in film-making, made more than 50 feature films,
+2015-01-13 00:17 - and influenced many present-day directors and producers.
+2015-01-13 00:17 -  
+2015-01-13 00:17 - Welcome to freenode - supporting the free and open source
+2015-01-13 00:17 - software communities since 1998.
+2015-01-13 00:17 -  
+2015-01-13 00:17 - **************************************************************
+2015-01-13 00:17 -                       SECURITY ALERT
+2015-01-13 00:17 -  
+2015-01-13 00:17 - Over the weekend of 13th-14th September freenode staff noticed
+2015-01-13 00:17 - some compromised binaries present on a number of servers. 
+2015-01-13 00:17 - The servers in question have been removed from the network and
+2015-01-13 00:17 - shut down.  However, it's possible that network traffic  -
+2015-01-13 00:17 - including SSL traffic - has been sniffed and passwords
+2015-01-13 00:17 - exposed.
+2015-01-13 00:17 -  
+2015-01-13 00:17 - We therefore recommend that all users change their nickserv 
+2015-01-13 00:17 - password(s) to a new value which is not shared with any
+2015-01-13 00:17 - other service.
+2015-01-13 00:17 -  
+2015-01-13 00:17 - You can do this with /msg nickserv set password newpasshere
+2015-01-13 00:17 -  
+2015-01-13 00:17 - Please note that investigation is ongoing to discover the root
+2015-01-13 00:17 - cause of the attack, and until this investigation is complete
+2015-01-13 00:17 - we cannot be 100% certain that all traces of the compromises 
+2015-01-13 00:17 - have been removed. We may have to ask you to change your  
+2015-01-13 00:17 - passwords again after analysis has completed.
+2015-01-13 00:17 -  
+2015-01-13 00:17 - Further details will appear on https://blog.freenode.net/
+2015-01-13 00:17 -  
+2015-01-13 00:17 - **************************************************************
+2015-01-13 00:17 -  
+2015-01-13 00:17 - By connecting to freenode you indicate that you have read and
+2015-01-13 00:17 - accept our policies as set out on http://www.freenode.net
+2015-01-13 00:17 - freenode runs an open proxy scanner. Please join #freenode for
+2015-01-13 00:17 - any network-related questions or queries, where a number of
+2015-01-13 00:17 - volunteer staff and helpful users will be happy to assist you.
+2015-01-13 00:17 -  
+2015-01-13 00:17 - You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-01-13 00:17 - together with like-minded FOSS enthusiasts for talks and
+2015-01-13 00:17 - real-life collaboration.
+2015-01-13 00:17 -  
+2015-01-13 00:17 - We would like to thank Private Internet Access
+2015-01-13 00:17 - (https://www.privateinternetaccess.com/) and the other
+2015-01-13 00:17 - organisations that help keep freenode and our other projects
+2015-01-13 00:17 - running for their sustained support.
+2015-01-13 00:17 -  
+2015-01-13 00:17 - In particular we would like to thank the sponsor
+2015-01-13 00:17 - of this server, details of which can be found above.
+2015-01-13 00:17 -  
+2015-01-13 00:17 End of /MOTD command.
+2015-01-13 00:17 +i
+2015-01-13 00:19 *** Looking up your hostname...
+2015-01-13 00:19 *** Checking Ident
+2015-01-13 00:19 *** Found your hostname
+2015-01-13 00:19 *** Looking up your hostname...
+2015-01-13 00:19 *** Checking Ident
+2015-01-13 00:19 *** Found your hostname
+2015-01-13 00:19 *** No Ident response
+2015-01-13 00:19 Welcome to the freenode Internet Relay Chat Network doormon
+2015-01-13 00:19 Your host is asimov.freenode.net[174.143.119.91/6667], running version ircd-seven-1.1.3
+2015-01-13 00:19 This server was created Tue Jul 22 2014 at 13:52:16 UTC
+2015-01-13 00:19 asimov.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-01-13 00:19 CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-01-13 00:19 CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-01-13 00:19 EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU are supported by this server
+2015-01-13 00:19 There are 174 users and 89580 invisible on 26 servers
+2015-01-13 00:19 25 IRC Operators online
+2015-01-13 00:19 12 unknown connection(s)
+2015-01-13 00:19 51808 channels formed
+2015-01-13 00:19 I have 8736 clients and 1 servers
+2015-01-13 00:19 8736 9794 Current local users 8736, max 9794
+2015-01-13 00:19 89754 102229 Current global users 89754, max 102229
+2015-01-13 00:19 Highest connection count: 9795 (9794 clients) (2301785 connections received)
+2015-01-13 00:19 - asimov.freenode.net Message of the Day - 
+2015-01-13 00:19 - Welcome to asimov.freenode.net in TX, USA!  Thanks to
+2015-01-13 00:19 - Rackspace (www.rackspace.com) for sponsoring
+2015-01-13 00:19 - this server!
+2015-01-13 00:19 -  
+2015-01-13 00:19 - ASIMOV, ISAAC [1920-1992].  One of the brightest stars of the
+2015-01-13 00:19 - science fiction universe.  Author of I Robot, the
+2015-01-13 00:19 - Foundation series (which "grew like Topsy"), Pebble in the
+2015-01-13 00:19 - Sky and hundreds of works of science fact and science
+2015-01-13 00:19 - fiction.
+2015-01-13 00:19 -  
+2015-01-13 00:19 - Welcome to freenode - supporting the free and open source
+2015-01-13 00:19 - software communities since 1998.
+2015-01-13 00:19 -  
+2015-01-13 00:19 - By connecting to freenode you indicate that you have read and
+2015-01-13 00:19 - accept our policies as set out on http://www.freenode.net
+2015-01-13 00:19 - freenode runs an open proxy scanner. Please join #freenode for
+2015-01-13 00:19 - any network-related questions or queries, where a number of
+2015-01-13 00:19 - volunteer staff and helpful users will be happy to assist you.
+2015-01-13 00:19 -  
+2015-01-13 00:19 - You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-01-13 00:19 - together with like-minded FOSS enthusiasts for talks and
+2015-01-13 00:19 - real-life collaboration.
+2015-01-13 00:19 -  
+2015-01-13 00:19 - We would like to thank Private Internet Access
+2015-01-13 00:19 - (https://www.privateinternetaccess.com/) and the other
+2015-01-13 00:19 - organisations that help keep freenode and our other projects
+2015-01-13 00:19 - running for their sustained support.
+2015-01-13 00:19 -  
+2015-01-13 00:19 - In particular we would like to thank the sponsor
+2015-01-13 00:19 - of this server, details of which can be found above.
+2015-01-13 00:19 -  
+2015-01-13 00:19 - ***************************************************************
+2015-01-13 00:19 - Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2015-01-13 00:19 - ***************************************************************
+2015-01-13 00:19 End of /MOTD command.
+2015-01-13 00:19 +i
+2015-01-13 00:20 *** Looking up your hostname...
+2015-01-13 00:20 *** Checking Ident
+2015-01-13 00:20 *** Found your hostname
+2015-01-13 00:20 *** No Ident response
+2015-01-13 00:20 Welcome to the freenode Internet Relay Chat Network doormon
+2015-01-13 00:20 Your host is orwell.freenode.net[185.30.166.38/6667], running version ircd-seven-1.1.3
+2015-01-13 00:20 This server was created Sat Feb 22 2014 at 16:03:54 BRT
+2015-01-13 00:20 orwell.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-01-13 00:20 CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-01-13 00:20 CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-01-13 00:20 EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU are supported by this server
+2015-01-13 00:20 There are 173 users and 89543 invisible on 26 servers
+2015-01-13 00:20 25 IRC Operators online
+2015-01-13 00:20 9 unknown connection(s)
+2015-01-13 00:20 51777 channels formed
+2015-01-13 00:20 I have 8583 clients and 1 servers
+2015-01-13 00:20 8583 15001 Current local users 8583, max 15001
+2015-01-13 00:20 89716 104047 Current global users 89716, max 104047
+2015-01-13 00:20 Highest connection count: 15002 (15001 clients) (2880514 connections received)
+2015-01-13 00:20 - orwell.freenode.net Message of the Day - 
+2015-01-13 00:20 - Welcome to orwell.freenode.net in Amsterdam, NL.
+2015-01-13 00:20 - Thanks to http://www.hyperfilter.com/ for sponsoring
+2015-01-13 00:20 - this server!
+2015-01-13 00:20 -  
+2015-01-13 00:20 - ORWELL, GEORGE [1903 - 1950] Born in India, his mother
+2015-01-13 00:20 - moved him to England when he was one year old, and it
+2015-01-13 00:20 - was in England where he was educated and spent most of
+2015-01-13 00:20 - his life.  Orwell is perhaps best known for his novels
+2015-01-13 00:20 - Nineteen Eighty-Four and Animal Farm.
+2015-01-13 00:20 -  
+2015-01-13 00:20 -  
+2015-01-13 00:20 - Welcome to freenode - supporting the free and open source
+2015-01-13 00:20 - software communities since 1998.
+2015-01-13 00:20 -  
+2015-01-13 00:20 - **************************************************************
+2015-01-13 00:20 -                       SECURITY ALERT
+2015-01-13 00:20 -  
+2015-01-13 00:20 - Over the weekend of 13th-14th September freenode staff noticed
+2015-01-13 00:20 - some compromised binaries present on a number of servers. 
+2015-01-13 00:20 - The servers in question have been removed from the network and
+2015-01-13 00:20 - shut down.  However, it's possible that network traffic  -
+2015-01-13 00:20 - including SSL traffic - has been sniffed and passwords
+2015-01-13 00:20 - exposed.
+2015-01-13 00:20 -  
+2015-01-13 00:20 - We therefore recommend that all users change their nickserv 
+2015-01-13 00:20 - password(s) to a new value which is not shared with any
+2015-01-13 00:20 - other service.
+2015-01-13 00:20 -  
+2015-01-13 00:20 - You can do this with /msg nickserv set password newpasshere
+2015-01-13 00:20 -  
+2015-01-13 00:20 - Please note that investigation is ongoing to discover the root
+2015-01-13 00:20 - cause of the attack, and until this investigation is complete
+2015-01-13 00:20 - we cannot be 100% certain that all traces of the compromises 
+2015-01-13 00:20 - have been removed. We may have to ask you to change your  
+2015-01-13 00:20 - passwords again after analysis has completed.
+2015-01-13 00:20 -  
+2015-01-13 00:20 - Further details will appear on https://blog.freenode.net/
+2015-01-13 00:20 -  
+2015-01-13 00:20 - **************************************************************
+2015-01-13 00:20 -  
+2015-01-13 00:20 - By connecting to freenode you indicate that you have read and
+2015-01-13 00:20 - accept our policies as set out on http://www.freenode.net
+2015-01-13 00:20 - freenode runs an open proxy scanner. Please join #freenode for
+2015-01-13 00:20 - any network-related questions or queries, where a number of
+2015-01-13 00:20 - volunteer staff and helpful users will be happy to assist you.
+2015-01-13 00:20 -  
+2015-01-13 00:20 - You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-01-13 00:20 - together with like-minded FOSS enthusiasts for talks and
+2015-01-13 00:20 - real-life collaboration.
+2015-01-13 00:20 -  
+2015-01-13 00:20 - We would like to thank Private Internet Access
+2015-01-13 00:20 - (https://www.privateinternetaccess.com/) and the other
+2015-01-13 00:20 - organisations that help keep freenode and our other projects
+2015-01-13 00:20 - running for their sustained support.
+2015-01-13 00:20 -  
+2015-01-13 00:20 - In particular we would like to thank the sponsor
+2015-01-13 00:20 - of this server, details of which can be found above.
+2015-01-13 00:20 -  
+2015-01-13 00:20 End of /MOTD command.
+2015-01-13 00:20 +i
+2015-01-13 00:21 *** Looking up your hostname...
+2015-01-13 00:21 *** Checking Ident
+2015-01-13 00:21 *** Found your hostname
+2015-01-13 00:21 *** No Ident response
+2015-01-13 00:21 Welcome to the freenode Internet Relay Chat Network doormon
+2015-01-13 00:21 Your host is verne.freenode.net[185.30.166.35/6667], running version ircd-seven-1.1.3
+2015-01-13 00:21 This server was created Sat Mar 22 2014 at 14:55:42 EDT
+2015-01-13 00:21 verne.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-01-13 00:21 CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-01-13 00:21 CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-01-13 00:21 EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU are supported by this server
+2015-01-13 00:21 There are 173 users and 89516 invisible on 26 servers
+2015-01-13 00:21 25 IRC Operators online
+2015-01-13 00:21 9 unknown connection(s)
+2015-01-13 00:21 51782 channels formed
+2015-01-13 00:21 I have 7455 clients and 1 servers
+2015-01-13 00:21 7455 15001 Current local users 7455, max 15001
+2015-01-13 00:21 89689 104047 Current global users 89689, max 104047
+2015-01-13 00:21 Highest connection count: 15002 (15001 clients) (2689040 connections received)
+2015-01-13 00:21 - verne.freenode.net Message of the Day - 
+2015-01-13 00:21 - Welcome to verne.freenode.net in Amsterdam, NL.
+2015-01-13 00:21 - Thanks to http://www.hyperfilter.com/ for sponsoring
+2015-01-13 00:21 - this server!
+2015-01-13 00:21 -  
+2015-01-13 00:21 -  
+2015-01-13 00:21 - VERNE, Jules (1828-1905). Born in Nantes, France, Verne was
+2015-01-13 00:21 - a pioneering french author known for novels such as Twenty
+2015-01-13 00:21 - Thousand Leagues Under the Sea, A Journey to the Center of the
+2015-01-13 00:21 - Earth, and Around the World in Eighty Days. Often lauded as the
+2015-01-13 00:21 - Father of science fiction, Verne wrote about concepts such as
+2015-01-13 00:21 - space travel, skyscrapers, and worldwide communications
+2015-01-13 00:21 - networks long before these ideas became popularised or realised.
+2015-01-13 00:21 -  
+2015-01-13 00:21 - Welcome to freenode - supporting the free and open source
+2015-01-13 00:21 - software communities since 1998.
+2015-01-13 00:21 -  
+2015-01-13 00:21 - **************************************************************
+2015-01-13 00:21 -                       SECURITY ALERT
+2015-01-13 00:21 -  
+2015-01-13 00:21 - Over the weekend of 13th-14th September freenode staff noticed
+2015-01-13 00:21 - some compromised binaries present on a number of servers. 
+2015-01-13 00:21 - The servers in question have been removed from the network and
+2015-01-13 00:21 - shut down.  However, it's possible that network traffic  -
+2015-01-13 00:21 - including SSL traffic - has been sniffed and passwords
+2015-01-13 00:21 - exposed.
+2015-01-13 00:21 -  
+2015-01-13 00:21 - We therefore recommend that all users change their nickserv 
+2015-01-13 00:21 - password(s) to a new value which is not shared with any
+2015-01-13 00:21 - other service.
+2015-01-13 00:21 -  
+2015-01-13 00:21 - You can do this with /msg nickserv set password newpasshere
+2015-01-13 00:21 -  
+2015-01-13 00:21 - Please note that investigation is ongoing to discover the root
+2015-01-13 00:21 - cause of the attack, and until this investigation is complete
+2015-01-13 00:21 - we cannot be 100% certain that all traces of the compromises 
+2015-01-13 00:21 - have been removed. We may have to ask you to change your  
+2015-01-13 00:21 - passwords again after analysis has completed.
+2015-01-13 00:21 -  
+2015-01-13 00:21 - Further details will appear on https://blog.freenode.net/
+2015-01-13 00:21 -  
+2015-01-13 00:21 - **************************************************************
+2015-01-13 00:21 -  
+2015-01-13 00:21 - By connecting to freenode you indicate that you have read and
+2015-01-13 00:21 - accept our policies as set out on http://www.freenode.net
+2015-01-13 00:21 - freenode runs an open proxy scanner. Please join #freenode for
+2015-01-13 00:21 - any network-related questions or queries, where a number of
+2015-01-13 00:21 - volunteer staff and helpful users will be happy to assist you.
+2015-01-13 00:21 -  
+2015-01-13 00:21 - You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-01-13 00:21 - together with like-minded FOSS enthusiasts for talks and
+2015-01-13 00:21 - real-life collaboration.
+2015-01-13 00:21 -  
+2015-01-13 00:21 - We would like to thank Private Internet Access
+2015-01-13 00:21 - (https://www.privateinternetaccess.com/) and the other
+2015-01-13 00:21 - organisations that help keep freenode and our other projects
+2015-01-13 00:21 - running for their sustained support.
+2015-01-13 00:21 -  
+2015-01-13 00:21 - In particular we would like to thank the sponsor
+2015-01-13 00:21 - of this server, details of which can be found above.
+2015-01-13 00:21 -  
+2015-01-13 00:21 End of /MOTD command.
+2015-01-13 00:21 +i
+2015-01-13 00:22 #pumpingstationone Pumping Station: One | https://wiki.pumpingstationone.org/IRC | https://pumpingstationone.org/events/ | https://wiki.pumpingstationone.org/Visiting
+2015-01-13 00:22 #pumpingstationone Toba!~eastein@pumpingstationone/cto 1420071313
+2015-01-13 00:22 @ #pumpingstationone doormon KyleB imcleod asl2 bjonnh Warped CarlFK a5m0 alesage hef1 +loclhst chillmon CrimsonVIII zirc tdfischer jackhholmes chronmon schedmon iiie0_ +Toba agocs AnimalFarmPig eventmon spacemon peoplemon ps1wikimon DoormanDave akama ashanan moey hef michd loans `justin greetermon @ChanServ sparr ultrashag NegativeK sylphiae r4v5 pdp7_ misterbonnie brybot skay Sean-Der t_j tdy angelixd
+2015-01-13 00:22 #pumpingstationone End of /NAMES list.
+2015-01-13 00:30 *** Looking up your hostname...
+2015-01-13 00:30 *** Checking Ident
+2015-01-13 00:30 *** Found your hostname
+2015-01-13 00:30 *** No Ident response
+2015-01-13 00:30 Welcome to the freenode Internet Relay Chat Network doormon
+2015-01-13 00:30 Your host is card.freenode.net[38.229.70.22/6667], running version ircd-seven-1.1.3
+2015-01-13 00:30 This server was created Thu Sep 18 2014 at 18:48:25 UTC
+2015-01-13 00:30 card.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-01-13 00:30 CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-01-13 00:30 CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-01-13 00:30 EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU are supported by this server
+2015-01-13 00:30 There are 170 users and 89203 invisible on 26 servers
+2015-01-13 00:30 25 IRC Operators online
+2015-01-13 00:30 10 unknown connection(s)
+2015-01-13 00:30 51769 channels formed
+2015-01-13 00:30 I have 6876 clients and 4 servers
+2015-01-13 00:30 6876 7843 Current local users 6876, max 7843
+2015-01-13 00:30 89373 101901 Current global users 89373, max 101901
+2015-01-13 00:30 Highest connection count: 7847 (7843 clients) (1886574 connections received)
+2015-01-13 00:30 - card.freenode.net Message of the Day - 
+2015-01-13 00:30 -  
+2015-01-13 00:30 - Welcome to card.freenode.net in Washington, DC, US, kindly sponsored by
+2015-01-13 00:30 - Team Cymru (http://www.team-cymru.org).
+2015-01-13 00:30 -  
+2015-01-13 00:30 - CARD, ORSON SCOTT [1951-].  Born in Richland, Washington, Card grew up in
+2015-01-13 00:30 - California, Arizona, and Utah.  He lived in Brazil for two years as an
+2015-01-13 00:30 - unpaid missionary for the Mormon Church.  Author of the Ender and Alvin
+2015-01-13 00:30 - Maker books, Card's science fiction and fantasy work is strongly influenced
+2015-01-13 00:30 - by his Mormon cultural background.  The first author to win the Hugo and
+2015-01-13 00:30 - Nebula novel awards two years in a row, Card currently lives in Greensboro,
+2015-01-13 00:30 - North Carolina, US.
+2015-01-13 00:30 -  
+2015-01-13 00:30 -  
+2015-01-13 00:30 - Welcome to freenode - supporting the free and open source
+2015-01-13 00:30 - software communities since 1998.
+2015-01-13 00:30 -  
+2015-01-13 00:30 - **************************************************************
+2015-01-13 00:30 -                       SECURITY ALERT
+2015-01-13 00:30 -  
+2015-01-13 00:30 - Over the weekend of 13th-14th September freenode staff noticed
+2015-01-13 00:30 - some compromised binaries present on a number of servers. 
+2015-01-13 00:30 - The servers in question have been removed from the network and
+2015-01-13 00:30 - shut down.  However, it's possible that network traffic  -
+2015-01-13 00:30 - including SSL traffic - has been sniffed and passwords
+2015-01-13 00:30 - exposed.
+2015-01-13 00:30 -  
+2015-01-13 00:30 - We therefore recommend that all users change their nickserv 
+2015-01-13 00:30 - password(s) to a new value which is not shared with any
+2015-01-13 00:30 - other service.
+2015-01-13 00:30 -  
+2015-01-13 00:30 - You can do this with /msg nickserv set password newpasshere
+2015-01-13 00:30 -  
+2015-01-13 00:30 - Please note that investigation is ongoing to discover the root
+2015-01-13 00:30 - cause of the attack, and until this investigation is complete
+2015-01-13 00:30 - we cannot be 100% certain that all traces of the compromises 
+2015-01-13 00:30 - have been removed. We may have to ask you to change your  
+2015-01-13 00:30 - passwords again after analysis has completed.
+2015-01-13 00:30 -  
+2015-01-13 00:30 - Further details will appear on https://blog.freenode.net/
+2015-01-13 00:30 -  
+2015-01-13 00:30 - **************************************************************
+2015-01-13 00:30 -  
+2015-01-13 00:30 - By connecting to freenode you indicate that you have read and
+2015-01-13 00:30 - accept our policies as set out on http://www.freenode.net
+2015-01-13 00:30 - freenode runs an open proxy scanner. Please join #freenode for
+2015-01-13 00:30 - any network-related questions or queries, where a number of
+2015-01-13 00:30 - volunteer staff and helpful users will be happy to assist you.
+2015-01-13 00:30 -  
+2015-01-13 00:30 - You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-01-13 00:30 - together with like-minded FOSS enthusiasts for talks and
+2015-01-13 00:30 - real-life collaboration.
+2015-01-13 00:30 -  
+2015-01-13 00:30 - We would like to thank Private Internet Access
+2015-01-13 00:30 - (https://www.privateinternetaccess.com/) and the other
+2015-01-13 00:30 - organisations that help keep freenode and our other projects
+2015-01-13 00:30 - running for their sustained support.
+2015-01-13 00:30 -  
+2015-01-13 00:30 - In particular we would like to thank the sponsor
+2015-01-13 00:30 - of this server, details of which can be found above.
+2015-01-13 00:30 -  
+2015-01-13 00:30 End of /MOTD command.
+2015-01-13 00:30 +i
+2015-01-13 00:30 #pumpingstationone Pumping Station: One | https://wiki.pumpingstationone.org/IRC | https://pumpingstationone.org/events/ | https://wiki.pumpingstationone.org/Visiting
+2015-01-13 00:30 #pumpingstationone Toba!~eastein@pumpingstationone/cto 1420071313
+2015-01-13 00:30 @ #pumpingstationone doormon KyleB imcleod asl2 bjonnh Warped CarlFK a5m0 alesage hef1 +loclhst chillmon CrimsonVIII zirc tdfischer jackhholmes chronmon schedmon iiie0_ +Toba agocs AnimalFarmPig eventmon spacemon peoplemon ps1wikimon DoormanDave akama angelixd tdy t_j Sean-Der skay brybot misterbonnie pdp7_ r4v5 sylphiae NegativeK ultrashag sparr @ChanServ greetermon `justin loans michd hef ashanan moey
+2015-01-13 00:30 #pumpingstationone End of /NAMES list.
+2015-01-13 00:30 [freenode-info] help freenode weed out clonebots -- please register your IRC nick and auto-identify: http://freenode.net/faq.shtml#nicksetup
+2015-01-13 00:45 *** Looking up your hostname...
+2015-01-13 00:45 *** Checking Ident
+2015-01-13 00:45 *** Found your hostname
+2015-01-13 00:45 *** No Ident response
+2015-01-13 00:45 Welcome to the freenode Internet Relay Chat Network doormon
+2015-01-13 00:45 Your host is rajaniemi.freenode.net[195.148.124.79/6667], running version ircd-seven-1.1.3
+2015-01-13 00:45 This server was created Tue Oct 21 2014 at 11:19:23 UTC
+2015-01-13 00:45 rajaniemi.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-01-13 00:45 CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-01-13 00:45 CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-01-13 00:45 EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU are supported by this server
+2015-01-13 00:45 There are 171 users and 88862 invisible on 26 servers
+2015-01-13 00:45 25 IRC Operators online
+2015-01-13 00:45 11 unknown connection(s)
+2015-01-13 00:45 51731 channels formed
+2015-01-13 00:45 I have 8524 clients and 1 servers
+2015-01-13 00:45 8524 11049 Current local users 8524, max 11049
+2015-01-13 00:45 89033 101901 Current global users 89033, max 101901
+2015-01-13 00:45 Highest connection count: 11050 (11049 clients) (1127139 connections received)
+2015-01-13 00:45 - rajaniemi.freenode.net Message of the Day - 
+2015-01-13 00:45 - Welcome to rajaniemi.freenode.net in Helsinki, Finland.  Our thanks to
+2015-01-13 00:45 - Aalto University for sponsoring this server!
+2015-01-13 00:45 -  
+2015-01-13 00:45 - RAJANIEMI, Hannu  (1978-). Born in Ylivieska, Finland, Rajaniemi is the
+2015-01-13 00:45 - author of two novels and several short stories, and his debut novel 'The
+2015-01-13 00:45 - Quantum Thief' was nominated for the 2011 Locus Award for Best First
+2015-01-13 00:45 - Novel.  Rajaniemi lives in Edinburgh, Scotland where he is founding
+2015-01-13 00:45 - director of ThinkTank Maths, a commercial research organisation.
+2015-01-13 00:45 -  
+2015-01-13 00:45 -  
+2015-01-13 00:45 - Welcome to freenode - supporting the free and open source
+2015-01-13 00:45 - software communities since 1998.
+2015-01-13 00:45 -  
+2015-01-13 00:45 - **************************************************************
+2015-01-13 00:45 -                       SECURITY ALERT
+2015-01-13 00:45 -  
+2015-01-13 00:45 - Over the weekend of 13th-14th September freenode staff noticed
+2015-01-13 00:45 - some compromised binaries present on a number of servers. 
+2015-01-13 00:45 - The servers in question have been removed from the network and
+2015-01-13 00:45 - shut down.  However, it's possible that network traffic  -
+2015-01-13 00:45 - including SSL traffic - has been sniffed and passwords
+2015-01-13 00:45 - exposed.
+2015-01-13 00:45 -  
+2015-01-13 00:45 - We therefore recommend that all users change their nickserv 
+2015-01-13 00:45 - password(s) to a new value which is not shared with any
+2015-01-13 00:45 - other service.
+2015-01-13 00:45 -  
+2015-01-13 00:45 - You can do this with /msg nickserv set password newpasshere
+2015-01-13 00:45 -  
+2015-01-13 00:45 - Please note that investigation is ongoing to discover the root
+2015-01-13 00:45 - cause of the attack, and until this investigation is complete
+2015-01-13 00:45 - we cannot be 100% certain that all traces of the compromises 
+2015-01-13 00:45 - have been removed. We may have to ask you to change your  
+2015-01-13 00:45 - passwords again after analysis has completed.
+2015-01-13 00:45 -  
+2015-01-13 00:45 - Further details will appear on https://blog.freenode.net/
+2015-01-13 00:45 -  
+2015-01-13 00:45 - **************************************************************
+2015-01-13 00:45 -  
+2015-01-13 00:45 - By connecting to freenode you indicate that you have read and
+2015-01-13 00:45 - accept our policies as set out on http://www.freenode.net
+2015-01-13 00:45 - freenode runs an open proxy scanner. Please join #freenode for
+2015-01-13 00:45 - any network-related questions or queries, where a number of
+2015-01-13 00:45 - volunteer staff and helpful users will be happy to assist you.
+2015-01-13 00:45 -  
+2015-01-13 00:45 - You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-01-13 00:45 - together with like-minded FOSS enthusiasts for talks and
+2015-01-13 00:45 - real-life collaboration.
+2015-01-13 00:45 -  
+2015-01-13 00:45 - We would like to thank Private Internet Access
+2015-01-13 00:45 - (https://www.privateinternetaccess.com/) and the other
+2015-01-13 00:45 - organisations that help keep freenode and our other projects
+2015-01-13 00:45 - running for their sustained support.
+2015-01-13 00:45 -  
+2015-01-13 00:45 - In particular we would like to thank the sponsor
+2015-01-13 00:45 - of this server, details of which can be found above.
+2015-01-13 00:45 -  
+2015-01-13 00:45 End of /MOTD command.
+2015-01-13 00:45 +i
+2015-01-13 00:45 #pumpingstationone Pumping Station: One | https://wiki.pumpingstationone.org/IRC | https://pumpingstationone.org/events/ | https://wiki.pumpingstationone.org/Visiting
+2015-01-13 00:45 #pumpingstationone Toba!~eastein@pumpingstationone/cto 1420071313
+2015-01-13 00:45 @ #pumpingstationone doormon KyleB imcleod asl2 bjonnh Warped CarlFK a5m0 alesage hef1 +loclhst chillmon CrimsonVIII zirc tdfischer jackhholmes chronmon schedmon iiie0_ +Toba agocs AnimalFarmPig eventmon spacemon peoplemon ps1wikimon DoormanDave akama angelixd tdy t_j Sean-Der skay brybot misterbonnie pdp7_ r4v5 sylphiae NegativeK ultrashag sparr @ChanServ greetermon `justin loans michd hef moey ashanan
+2015-01-13 00:45 #pumpingstationone End of /NAMES list.
+2015-01-13 00:46 *** Looking up your hostname...
+2015-01-13 00:46 *** Checking Ident
+2015-01-13 00:46 *** Found your hostname
+2015-01-13 00:46 *** No Ident response
+2015-01-13 00:46 Welcome to the freenode Internet Relay Chat Network doormon
+2015-01-13 00:46 Your host is sendak.freenode.net[193.219.128.49/6667], running version ircd-seven-1.1.3
+2015-01-13 00:46 This server was created Tue Oct 21 2014 at 11:26:48 UTC
+2015-01-13 00:46 sendak.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-01-13 00:46 CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-01-13 00:46 CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-01-13 00:46 EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU are supported by this server
+2015-01-13 00:46 There are 171 users and 88847 invisible on 26 servers
+2015-01-13 00:46 25 IRC Operators online
+2015-01-13 00:46 9 unknown connection(s)
+2015-01-13 00:46 51742 channels formed
+2015-01-13 00:46 I have 9946 clients and 1 servers
+2015-01-13 00:46 9946 10959 Current local users 9946, max 10959
+2015-01-13 00:46 89018 101901 Current global users 89018, max 101901
+2015-01-13 00:46 Highest connection count: 10960 (10959 clients) (1074347 connections received)
+2015-01-13 00:46 - sendak.freenode.net Message of the Day - 
+2015-01-13 00:46 - Welcome to sendak.freenode.net in Vilnius, Lithuania, EU.
+2015-01-13 00:46 - Thanks to Microlink Lietuva (http://www.microlink.lt) for providing this
+2015-01-13 00:46 - server!
+2015-01-13 00:46 -  
+2015-01-13 00:46 - SENDAK, MAURICE [1928-2012].  The author of Seven Little
+2015-01-13 00:46 - Monsters and Where the Wild Things Are, Maurice Sendak was
+2015-01-13 00:46 - born in Brooklyn, NY, US, to a family of poor Polish
+2015-01-13 00:46 - immigrants who moved to the US before World War II.  He
+2015-01-13 00:46 - became an illustrator while in high school.
+2015-01-13 00:46 -  
+2015-01-13 00:46 - Welcome to freenode - supporting the free and open source
+2015-01-13 00:46 - software communities since 1998.
+2015-01-13 00:46 -  
+2015-01-13 00:46 - **************************************************************
+2015-01-13 00:46 -                       SECURITY ALERT
+2015-01-13 00:46 -  
+2015-01-13 00:46 - Over the weekend of 13th-14th September freenode staff noticed
+2015-01-13 00:46 - some compromised binaries present on a number of servers. 
+2015-01-13 00:46 - The servers in question have been removed from the network and
+2015-01-13 00:46 - shut down.  However, it's possible that network traffic  -
+2015-01-13 00:46 - including SSL traffic - has been sniffed and passwords
+2015-01-13 00:46 - exposed.
+2015-01-13 00:46 -  
+2015-01-13 00:46 - We therefore recommend that all users change their nickserv 
+2015-01-13 00:46 - password(s) to a new value which is not shared with any
+2015-01-13 00:46 - other service.
+2015-01-13 00:46 -  
+2015-01-13 00:46 - You can do this with /msg nickserv set password newpasshere
+2015-01-13 00:46 -  
+2015-01-13 00:46 - Please note that investigation is ongoing to discover the root
+2015-01-13 00:46 - cause of the attack, and until this investigation is complete
+2015-01-13 00:46 - we cannot be 100% certain that all traces of the compromises 
+2015-01-13 00:46 - have been removed. We may have to ask you to change your  
+2015-01-13 00:46 - passwords again after analysis has completed.
+2015-01-13 00:46 -  
+2015-01-13 00:46 - Further details will appear on https://blog.freenode.net/
+2015-01-13 00:46 -  
+2015-01-13 00:46 - **************************************************************
+2015-01-13 00:46 -  
+2015-01-13 00:46 - By connecting to freenode you indicate that you have read and
+2015-01-13 00:46 - accept our policies as set out on http://www.freenode.net
+2015-01-13 00:46 - freenode runs an open proxy scanner. Please join #freenode for
+2015-01-13 00:46 - any network-related questions or queries, where a number of
+2015-01-13 00:46 - volunteer staff and helpful users will be happy to assist you.
+2015-01-13 00:46 -  
+2015-01-13 00:46 - You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-01-13 00:46 - together with like-minded FOSS enthusiasts for talks and
+2015-01-13 00:46 - real-life collaboration.
+2015-01-13 00:46 -  
+2015-01-13 00:46 - We would like to thank Private Internet Access
+2015-01-13 00:46 - (https://www.privateinternetaccess.com/) and the other
+2015-01-13 00:46 - organisations that help keep freenode and our other projects
+2015-01-13 00:46 - running for their sustained support.
+2015-01-13 00:46 -  
+2015-01-13 00:46 - In particular we would like to thank the sponsor
+2015-01-13 00:46 - of this server, details of which can be found above.
+2015-01-13 00:46 -  
+2015-01-13 00:46 End of /MOTD command.
+2015-01-13 00:46 +i
+2015-01-13 00:47 #pumpingstationone Pumping Station: One | https://wiki.pumpingstationone.org/IRC | https://pumpingstationone.org/events/ | https://wiki.pumpingstationone.org/Visiting
+2015-01-13 00:47 #pumpingstationone Toba!~eastein@pumpingstationone/cto 1420071313
+2015-01-13 00:47 @ #pumpingstationone doormon KyleB imcleod asl2 bjonnh Warped CarlFK a5m0 alesage hef1 +loclhst chillmon CrimsonVIII zirc tdfischer jackhholmes chronmon schedmon iiie0_ +Toba agocs AnimalFarmPig eventmon spacemon peoplemon ps1wikimon DoormanDave akama angelixd tdy t_j Sean-Der skay brybot misterbonnie pdp7_ r4v5 sylphiae NegativeK ultrashag sparr @ChanServ greetermon `justin loans michd hef ashanan moey
+2015-01-13 00:47 #pumpingstationone End of /NAMES list.
+2015-01-13 00:55 *** Looking up your hostname...
+2015-01-13 00:55 *** Checking Ident
+2015-01-13 00:55 *** Found your hostname
+2015-01-13 00:55 *** No Ident response
+2015-01-13 00:55 Welcome to the freenode Internet Relay Chat Network doormon
+2015-01-13 00:55 Your host is verne.freenode.net[185.30.166.35/6667], running version ircd-seven-1.1.3
+2015-01-13 00:55 This server was created Sat Mar 22 2014 at 14:55:42 EDT
+2015-01-13 00:55 verne.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-01-13 00:55 CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-01-13 00:55 CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-01-13 00:55 EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU are supported by this server
+2015-01-13 00:55 There are 171 users and 88719 invisible on 26 servers
+2015-01-13 00:55 25 IRC Operators online
+2015-01-13 00:55 17 unknown connection(s)
+2015-01-13 00:55 51733 channels formed
+2015-01-13 00:55 I have 7396 clients and 1 servers
+2015-01-13 00:55 7396 15001 Current local users 7396, max 15001
+2015-01-13 00:55 88890 104047 Current global users 88890, max 104047
+2015-01-13 00:55 Highest connection count: 15002 (15001 clients) (2689359 connections received)
+2015-01-13 00:55 - verne.freenode.net Message of the Day - 
+2015-01-13 00:55 - Welcome to verne.freenode.net in Amsterdam, NL.
+2015-01-13 00:55 - Thanks to http://www.hyperfilter.com/ for sponsoring
+2015-01-13 00:55 - this server!
+2015-01-13 00:55 -  
+2015-01-13 00:55 -  
+2015-01-13 00:55 - VERNE, Jules (1828-1905). Born in Nantes, France, Verne was
+2015-01-13 00:55 - a pioneering french author known for novels such as Twenty
+2015-01-13 00:55 - Thousand Leagues Under the Sea, A Journey to the Center of the
+2015-01-13 00:55 - Earth, and Around the World in Eighty Days. Often lauded as the
+2015-01-13 00:55 - Father of science fiction, Verne wrote about concepts such as
+2015-01-13 00:55 - space travel, skyscrapers, and worldwide communications
+2015-01-13 00:55 - networks long before these ideas became popularised or realised.
+2015-01-13 00:55 -  
+2015-01-13 00:55 - Welcome to freenode - supporting the free and open source
+2015-01-13 00:55 - software communities since 1998.
+2015-01-13 00:55 -  
+2015-01-13 00:55 - **************************************************************
+2015-01-13 00:55 -                       SECURITY ALERT
+2015-01-13 00:55 -  
+2015-01-13 00:55 - Over the weekend of 13th-14th September freenode staff noticed
+2015-01-13 00:55 - some compromised binaries present on a number of servers. 
+2015-01-13 00:55 - The servers in question have been removed from the network and
+2015-01-13 00:55 - shut down.  However, it's possible that network traffic  -
+2015-01-13 00:55 - including SSL traffic - has been sniffed and passwords
+2015-01-13 00:55 - exposed.
+2015-01-13 00:55 -  
+2015-01-13 00:55 - We therefore recommend that all users change their nickserv 
+2015-01-13 00:55 - password(s) to a new value which is not shared with any
+2015-01-13 00:55 - other service.
+2015-01-13 00:55 -  
+2015-01-13 00:55 - You can do this with /msg nickserv set password newpasshere
+2015-01-13 00:55 -  
+2015-01-13 00:55 - Please note that investigation is ongoing to discover the root
+2015-01-13 00:55 - cause of the attack, and until this investigation is complete
+2015-01-13 00:55 - we cannot be 100% certain that all traces of the compromises 
+2015-01-13 00:55 - have been removed. We may have to ask you to change your  
+2015-01-13 00:55 - passwords again after analysis has completed.
+2015-01-13 00:55 -  
+2015-01-13 00:55 - Further details will appear on https://blog.freenode.net/
+2015-01-13 00:55 -  
+2015-01-13 00:55 - **************************************************************
+2015-01-13 00:55 -  
+2015-01-13 00:55 - By connecting to freenode you indicate that you have read and
+2015-01-13 00:55 - accept our policies as set out on http://www.freenode.net
+2015-01-13 00:55 - freenode runs an open proxy scanner. Please join #freenode for
+2015-01-13 00:55 - any network-related questions or queries, where a number of
+2015-01-13 00:55 - volunteer staff and helpful users will be happy to assist you.
+2015-01-13 00:55 -  
+2015-01-13 00:55 - You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-01-13 00:55 - together with like-minded FOSS enthusiasts for talks and
+2015-01-13 00:55 - real-life collaboration.
+2015-01-13 00:55 -  
+2015-01-13 00:55 - We would like to thank Private Internet Access
+2015-01-13 00:55 - (https://www.privateinternetaccess.com/) and the other
+2015-01-13 00:55 - organisations that help keep freenode and our other projects
+2015-01-13 00:55 - running for their sustained support.
+2015-01-13 00:55 -  
+2015-01-13 00:55 - In particular we would like to thank the sponsor
+2015-01-13 00:55 - of this server, details of which can be found above.
+2015-01-13 00:55 -  
+2015-01-13 00:55 End of /MOTD command.
+2015-01-13 00:55 +i
+2015-01-13 00:55 #pumpingstationone Pumping Station: One | https://wiki.pumpingstationone.org/IRC | https://pumpingstationone.org/events/ | https://wiki.pumpingstationone.org/Visiting
+2015-01-13 00:55 #pumpingstationone Toba!~eastein@pumpingstationone/cto 1420071313
+2015-01-13 00:55 @ #pumpingstationone doormon KyleB imcleod asl2 bjonnh Warped CarlFK a5m0 alesage hef1 +loclhst chillmon CrimsonVIII zirc tdfischer jackhholmes chronmon schedmon iiie0_ +Toba agocs AnimalFarmPig eventmon spacemon peoplemon ps1wikimon DoormanDave akama ashanan moey hef michd loans `justin greetermon @ChanServ sparr ultrashag NegativeK sylphiae r4v5 pdp7_ misterbonnie brybot skay Sean-Der t_j tdy angelixd
+2015-01-13 00:55 #pumpingstationone End of /NAMES list.
+2015-01-13 01:03 -!- KyleB(~androirc@66-87-77-123.pools.spcsdns.net) has quit "Ping timeout: 244 seconds"
+2015-01-13 01:08 -!- vcolombo(~vcolombo@c-67-186-91-118.hsd1.il.comcast.net) has quit "Ping timeout: 255 seconds"
+2015-01-13 01:39 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Quit: Leaving."
+2015-01-13 02:25 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Client Quit"
+2015-01-13 02:32 -!- vcolombo_(~vcolombo@204.13.200.248) has quit "Ping timeout: 244 seconds"
+2015-01-13 03:03 -!- agocs(~agocs@173-9-252-209-Illinois.hfc.comcastbusiness.net) has quit "Quit: alice."
+2015-01-13 03:03 -!- r4v5(~r4v5@173-9-252-209-Illinois.hfc.comcastbusiness.net) has quit "Quit: alice."
+2015-01-13 04:16 -!- jadoo(62d52010@gateway/web/freenode/ip.98.213.32.16) has quit "Ping timeout: 246 seconds"
+2015-01-13 04:19 -!- imcleod(~imcleod@24.12.72.163) has quit "Quit: Leaving"
+2015-01-13 04:30 -!- Bioguy(~Bioguy@c-76-16-86-201.hsd1.il.comcast.net) has quit "Quit: Leaving"
+2015-01-13 05:06 -!- LynxKCG(~lynxkcg@c-24-1-147-220.hsd1.in.comcast.net) has quit "Quit:  Want to be different? Try HydraIRC -> http://www.hydrairc.com <-"
+2015-01-13 06:40 -!- KyleB(~androirc@24-148-83-238.c3-0.grn-ubr2.chi-grn.il.cable.rcn.com) has quit "Remote host closed the connection"
+2015-01-13 06:45 -!- CarlFK(~carl@linuxconf2015-139.net.auckland.ac.nz) has quit "Ping timeout: 240 seconds"
+2015-01-13 06:59 -!- KyleB(~androirc@24-148-83-238.c3-0.grn-ubr2.chi-grn.il.cable.rcn.com) has quit "Read error: Connection reset by peer"
+2015-01-13 07:01 -!- michd changed nick to MichD
+2015-01-13 07:16 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-13 07:27 -!- tac(~tac-tics@99-126-152-116.lightspeed.cicril.sbcglobal.net) has quit "Quit: Leaving"
+2015-01-13 07:47 -!- CrimsonVIII(~Crimson13@71-82-212-125.dhcp.mdsn.wi.charter.com) has quit "Ping timeout: 264 seconds"
+2015-01-13 10:17 -!- CarlFK(~carl@120.136.5.32) has quit "Read error: No route to host"
+2015-01-13 13:42 -!- greetermon(~greetermo@balin.truct.org) has quit "Ping timeout: 256 seconds"
+2015-01-13 14:16 -!- KyleB(~androirc@66.87.77.67) has quit "Ping timeout: 265 seconds"
+2015-01-13 16:50 -!- imcleod(~imcleod@24.12.72.163) has quit "Ping timeout: 244 seconds"
+2015-01-13 16:54 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-13 17:38 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-13 19:08 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-13 19:08 -!- CarlFK(~carl@120.136.5.32) has quit "Quit: Leaving."
+2015-01-13 19:20 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-13 19:34 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-13 19:34 -!- CarlFK(carl@conference/lca/x-bstivxouhiodyiwf) has quit "Ping timeout: 240 seconds"
+2015-01-13 19:40 -!- dkeo(32810fbd@gateway/web/cgi-irc/kiwiirc.com/ip.50.129.15.189) has quit "Client Quit"
+2015-01-13 19:43 -!- dghost changed nick to dghost3611
+2015-01-13 19:51 -!- dghost3611(32810fbd@gateway/web/cgi-irc/kiwiirc.com/ip.50.129.15.189) has quit "Quit: http://www.kiwiirc.com/ - A hand crafted IRC client"
+2015-01-13 19:56 -!- Bioguy(~Bioguy@2601:d:3102:66b0:9850:a2c1:b75:5716) has quit "Read error: Connection reset by peer"
+2015-01-13 20:01 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Client Quit"
+2015-01-13 20:06 -!- KyleB(~androirc@66-87-77-67.pools.spcsdns.net) has quit "Read error: Connection reset by peer"
+2015-01-13 20:07 -!- asl2(~asl2@2602:306:37da:6530:113a:8f59:79c6:9ab2) has quit "Quit: Leaving."
+2015-01-13 20:07 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-13 20:17 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-13 21:13 -!- killpackbot(~killpackb@38.98.151.67) has quit "Remote host closed the connection"
+2015-01-13 21:32 -!- CarlFK(carl@conference/lca/x-rroowbnjvtopqrnp) has quit "*.net *.split"
+2015-01-13 21:32 -!- CrimsonVIII(~Crimson13@71-82-212-125.dhcp.mdsn.wi.charter.com) has quit "*.net *.split"
+2015-01-13 21:32 -!- skay(~quassel@miparque/dev/skay) has quit "*.net *.split"
+2015-01-13 21:32 -!- pdp7_(~pdp7@asciipr0n.com) has quit "*.net *.split"
+2015-01-13 21:32 -!- `justin(~justin@198.23.245.228) has quit "*.net *.split"
+2015-01-13 21:32 -!- NegativeK(~negk@li364-52.members.linode.com) has quit "*.net *.split"
+2015-01-13 21:32 -!- Nerobro(~wolfeman@fg300a.skylan.net) has quit "*.net *.split"
+2015-01-13 21:32 -!- bjonnh(~Bjonnh@unaffiliated/bjonnh) has quit "*.net *.split"
+2015-01-13 21:32 -!- hef(~hef@arbitrarion.com) has quit "*.net *.split"
+2015-01-13 21:32 -!- MichD(~MichD@michd.me) has quit "*.net *.split"
+2015-01-13 21:33 -!- greetermon(~greetermo@balin.truct.org) has quit "*.net *.split"
+2015-01-13 21:33 -!- agocs(~agocs@173-9-252-209-Illinois.hfc.comcastbusiness.net) has quit "*.net *.split"
+2015-01-13 21:33 -!- eventmon(~eventmon@c-24-1-147-220.hsd1.in.comcast.net) has quit "*.net *.split"
+2015-01-13 21:33 -!- brybot(~nodebot@arbitrarion.com) has quit "*.net *.split"
+2015-01-13 21:33 -!- tdfischer(~tdfischer@kde/tdfischer) has quit "*.net *.split"
+2015-01-13 21:35 -!- ultrashag(ultrashag@ipv6.firrre.com) has quit "Ping timeout: 253 seconds"
+2015-01-13 21:36 -!- alesage(~alesage@canonical/alesage) has quit "*.net *.split"
+2015-01-13 21:36 -!- jackhholmes(~anthony@c-50-151-237-231.hsd1.il.comcast.net) has quit "*.net *.split"
+2015-01-13 21:36 -!- chronmon(~chronmon@c-24-1-147-220.hsd1.in.comcast.net) has quit "*.net *.split"
+2015-01-13 21:36 -!- schedmon(~schedmon@freyr.truct.org) has quit "*.net *.split"
+2015-01-13 21:37 -!- AnimalFarmPig(~afp@unaffiliated/animalfarmpig) has quit "Quit: No Ping reply in 180 seconds."
+2015-01-13 21:38 -!- Sean-Der(~Sean-Der@siobud.com) has quit "*.net *.split"
+2015-01-13 21:38 -!- ChanServ(ChanServ@services.) has quit "*.net *.split"
+2015-01-13 21:38 -!- ultrashag(ultrashag@ipv6.firrre.com) has quit "*.net *.split"
+2015-01-13 21:38 -!- KyleB(~androirc@66.87.77.67) has quit "*.net *.split"
+2015-01-13 21:38 -!- sudlowbot(simpleirc@2600:3c00::f03c:91ff:feae:5893) has quit "*.net *.split"
+2015-01-13 21:38 -!- loclhst(~loclhst@ganondorf.loclhst.com) has quit "*.net *.split"
+2015-01-13 21:38 -!- iiie0_(~iiie1@2601:d:5501:2d40:d24:a4aa:6e82:a820) has quit "*.net *.split"
+2015-01-13 21:38 -!- peoplemon(~peoplemon@c-24-1-147-220.hsd1.in.comcast.net) has quit "*.net *.split"
+2015-01-13 21:39 -!- Bioguy(~Bioguy@c-76-16-86-201.hsd1.il.comcast.net) has quit "*.net *.split"
+2015-01-13 21:39 -!- vcolombo(~vcolombo@c-67-186-91-118.hsd1.il.comcast.net) has quit "*.net *.split"
+2015-01-13 21:39 -!- misterbonnie(~bonniek@fsf/member/misterbonnie) has quit "*.net *.split"
+2015-01-13 21:39 -!- AnimalFarmPig(~afp@unaffiliated/animalfarmpig) has quit "*.net *.split"
+2015-01-13 21:39 -!- Warped(~Warped@108.85.160.119) has quit "*.net *.split"
+2015-01-13 21:39 -!- a5m0(~a5m0@unaffiliated/a5m0) has quit "*.net *.split"
+2015-01-13 21:39 -!- ps1wikimon(~ps1wikimo@c-24-1-147-220.hsd1.in.comcast.net) has quit "*.net *.split"
+2015-01-13 21:39 -!- DoormanDave(~kuroishi@drop.administrhater.net) has quit "*.net *.split"
+2015-01-13 21:39 -!- akama(~akama@irc.nexadmin.com) has quit "*.net *.split"
+2015-01-13 21:39 -!- alesage(~alesage@canonical/alesage) has quit "*.net *.split"
+2015-01-13 21:39 -!- jackhholmes(~anthony@c-50-151-237-231.hsd1.il.comcast.net) has quit "*.net *.split"
+2015-01-13 21:39 -!- chronmon(~chronmon@c-24-1-147-220.hsd1.in.comcast.net) has quit "*.net *.split"
+2015-01-13 21:39 -!- schedmon(~schedmon@freyr.truct.org) has quit "*.net *.split"
+2015-01-13 21:39 -!- CarlFK(carl@conference/lca/x-rroowbnjvtopqrnp) has quit "*.net *.split"
+2015-01-13 21:39 -!- CrimsonVIII(~Crimson13@71-82-212-125.dhcp.mdsn.wi.charter.com) has quit "*.net *.split"
+2015-01-13 21:39 -!- skay(~quassel@miparque/dev/skay) has quit "*.net *.split"
+2015-01-13 21:39 -!- pdp7_(~pdp7@asciipr0n.com) has quit "*.net *.split"
+2015-01-13 21:39 -!- `justin(~justin@198.23.245.228) has quit "*.net *.split"
+2015-01-13 21:39 -!- NegativeK(~negk@li364-52.members.linode.com) has quit "*.net *.split"
+2015-01-13 21:39 -!- Nerobro(~wolfeman@fg300a.skylan.net) has quit "*.net *.split"
+2015-01-13 21:39 -!- bjonnh(~Bjonnh@unaffiliated/bjonnh) has quit "*.net *.split"
+2015-01-13 21:39 -!- hef(~hef@arbitrarion.com) has quit "*.net *.split"
+2015-01-13 21:39 -!- MichD(~MichD@michd.me) has quit "*.net *.split"
+2015-01-13 21:39 -!- greetermon(~greetermo@balin.truct.org) has quit "*.net *.split"
+2015-01-13 21:39 -!- agocs(~agocs@173-9-252-209-Illinois.hfc.comcastbusiness.net) has quit "*.net *.split"
+2015-01-13 21:39 -!- eventmon(~eventmon@c-24-1-147-220.hsd1.in.comcast.net) has quit "*.net *.split"
+2015-01-13 21:39 -!- brybot(~nodebot@arbitrarion.com) has quit "*.net *.split"
+2015-01-13 21:39 -!- tdfischer(~tdfischer@kde/tdfischer) has quit "*.net *.split"
+2015-01-13 21:40 -!- chillmon(~chillmon@c-24-1-147-220.hsd1.in.comcast.net) has quit "*.net *.split"
+2015-01-13 21:40 -!- sylphiae(~sylphiae@172.245.130.105) has quit "*.net *.split"
+2015-01-13 21:40 -!- sparr(~sparr@pdpc/supporter/active/sparr) has quit "*.net *.split"
+2015-01-13 21:40 -!- loans(~derek@107.170.110.82) has quit "*.net *.split"
+2015-01-13 21:40 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "*.net *.split"
+2015-01-13 21:40 -!- imcleod(~imcleod@24.12.72.163) has quit "*.net *.split"
+2015-01-13 21:40 -!- r4v5(~r4v5@173-9-252-209-Illinois.hfc.comcastbusiness.net) has quit "*.net *.split"
+2015-01-13 21:40 -!- spacemon(~spacemon@c-24-1-147-220.hsd1.in.comcast.net) has quit "*.net *.split"
+2015-01-13 21:40 -!- moey(~moey@unaffiliated/moey) has quit "*.net *.split"
+2015-01-13 21:40 -!- ashanan(~avner@li211-186.members.linode.com) has quit "*.net *.split"
+2015-01-13 21:40 +voloclhst
+2015-01-13 21:43 -!- Sean-Der(~Sean-Der@siobud.com) has quit "*.net *.split"
+2015-01-13 21:44 -!- ultrashag(ultrashag@ipv6.firrre.com) has quit "*.net *.split"
+2015-01-13 21:44 -!- KyleB(~androirc@66.87.77.67) has quit "*.net *.split"
+2015-01-13 21:44 -!- sudlowbot(simpleirc@2600:3c00::f03c:91ff:feae:5893) has quit "*.net *.split"
+2015-01-13 21:44 -!- loclhst(~loclhst@ganondorf.loclhst.com) has quit "*.net *.split"
+2015-01-13 21:44 -!- iiie0_(~iiie1@2601:d:5501:2d40:d24:a4aa:6e82:a820) has quit "*.net *.split"
+2015-01-13 21:44 -!- peoplemon(~peoplemon@c-24-1-147-220.hsd1.in.comcast.net) has quit "*.net *.split"
+2015-01-13 21:48 -!- Bioguy(~Bioguy@c-76-16-86-201.hsd1.il.comcast.net) has quit "*.net *.split"
+2015-01-13 21:48 -!- vcolombo(~vcolombo@c-67-186-91-118.hsd1.il.comcast.net) has quit "*.net *.split"
+2015-01-13 21:48 -!- misterbonnie(~bonniek@fsf/member/misterbonnie) has quit "*.net *.split"
+2015-01-13 21:50 +vloclhst
+2015-01-13 21:53 -!- chillmon(~chillmon@c-24-1-147-220.hsd1.in.comcast.net) has quit "*.net *.split"
+2015-01-13 21:53 -!- sylphiae(~sylphiae@172.245.130.105) has quit "*.net *.split"
+2015-01-13 21:54 -!- sparr(~sparr@pdpc/supporter/active/sparr) has quit "*.net *.split"
+2015-01-13 21:54 -!- loans(~derek@107.170.110.82) has quit "*.net *.split"
+2015-01-13 21:54 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "*.net *.split"
+2015-01-13 21:54 -!- imcleod(~imcleod@24.12.72.163) has quit "*.net *.split"
+2015-01-13 21:54 -!- r4v5(~r4v5@173-9-252-209-Illinois.hfc.comcastbusiness.net) has quit "*.net *.split"
+2015-01-13 21:54 -!- spacemon(~spacemon@c-24-1-147-220.hsd1.in.comcast.net) has quit "*.net *.split"
+2015-01-13 21:54 -!- moey(~moey@unaffiliated/moey) has quit "*.net *.split"
+2015-01-13 21:55 -!- ashanan(~avner@li211-186.members.linode.com) has quit "*.net *.split"
+2015-01-13 21:55 -!- 17WAAWQTK(~Bioguy@c-76-16-86-201.hsd1.il.comcast.net) has quit "Read error: Connection reset by peer"
+2015-01-13 21:55 -!- misterbonnie(~bonniek@fsf/member/misterbonnie) has quit "Ping timeout: 244 seconds"
+2015-01-13 21:55 -!- Bioguy(~Bioguy@c-76-16-86-201.hsd1.il.comcast.net) has quit "Client Quit"
+2015-01-13 22:01 -!- 7JTABZTDN(~spacemon@c-24-1-147-220.hsd1.in.comcast.net) has quit "Ping timeout: 251 seconds"
+2015-01-13 22:02 -!- ultrashag(ultrashag@ipv6.firrre.com) has quit "*.net *.split"
+2015-01-13 22:02 -!- KyleB(~androirc@66.87.77.67) has quit "*.net *.split"
+2015-01-13 22:02 -!- sudlowbot(simpleirc@2600:3c00::f03c:91ff:feae:5893) has quit "*.net *.split"
+2015-01-13 22:02 -!- loclhst(~loclhst@ganondorf.loclhst.com) has quit "*.net *.split"
+2015-01-13 22:02 -!- iiie0_(~iiie1@2601:d:5501:2d40:d24:a4aa:6e82:a820) has quit "*.net *.split"
+2015-01-13 22:06 +vloclhst
+2015-01-13 22:17 -!- KyleB(~androirc@66.87.77.67) has quit "Read error: Connection reset by peer"
+2015-01-13 22:29 -!- MichD changed nick to michd
+2015-01-13 22:50 -!- imcleod(~imcleod@24.12.72.163) has quit "Ping timeout: 245 seconds"
+2015-01-13 22:55 -!- akama(~akama@irc.nexadmin.com) has quit "Ping timeout: 256 seconds"
+2015-01-13 23:07 -!- Nerobro(~wolfeman@fg300a.skylan.net) has quit "Ping timeout: 255 seconds"
+2015-01-13 23:13 -!- KyleB(~androirc@66-87-77-67.pools.spcsdns.net) has quit "Ping timeout: 264 seconds"
+2015-01-13 23:20 -!- KyleB(~androirc@66-87-77-67.pools.spcsdns.net) has quit "Ping timeout: 244 seconds"
+2015-01-13 23:21 -!- Warped(~Warped@108.85.160.119) has quit "Quit: ChatZilla 0.9.91.1 [Firefox 34.0.5/20141126041045]"
+2015-01-13 23:27 -!- KyleB(~androirc@66-87-79-224.pools.spcsdns.net) has quit "Read error: Connection reset by peer"
+2015-01-13 23:31 -!- misterbo1nie changed nick to misterbonnie
+2015-01-13 23:51 -!- vcolombo(~vcolombo@c-67-186-91-118.hsd1.il.comcast.net) has quit "Ping timeout: 245 seconds"
+2015-01-13 23:52 -!- vcolombo_(~vcolombo@38.106.143.234) has quit "Ping timeout: 252 seconds"
+2015-01-14 00:09 -!- schedmon(~schedmon@freyr.truct.org) has quit "Ping timeout: 264 seconds"
+2015-01-14 00:09 -!- alesage(~alesage@canonical/alesage) has quit "Ping timeout: 264 seconds"
+2015-01-14 00:09 -!- jackhholmes(~anthony@c-50-151-237-231.hsd1.il.comcast.net) has quit "Ping timeout: 264 seconds"
+2015-01-14 00:09 -!- chronmon(~chronmon@c-24-1-147-220.hsd1.in.comcast.net) has quit "Ping timeout: 264 seconds"
+2015-01-14 00:26 -!- bry(~blabla@c-24-1-28-100.hsd1.il.comcast.net) has quit "Read error: Connection reset by peer"
+2015-01-14 00:32 -!- Bioguy(~Pete@2601:d:2380:5d00:6976:8d33:74ba:46ee) has quit "Ping timeout: 244 seconds"
+2015-01-14 00:44 -!- CarlFK(carl@conference/lca/x-rroowbnjvtopqrnp) has quit "Ping timeout: 244 seconds"
+2015-01-14 00:46 -!- DoormanDave changed nick to kuroishi
+2015-01-14 00:50 -!- bjonnh changed nick to kuroishi1
+2015-01-14 00:50 -!- kuroishi1 changed nick to bjonnh
+2015-01-14 01:04 -!- imcleod(~imcleod@24.12.72.163) has quit "Ping timeout: 252 seconds"
+2015-01-14 01:17 -!- Bioguy(~Pete@c-24-1-147-220.hsd1.in.comcast.net) has quit "Remote host closed the connection"
+2015-01-14 01:23 -!- vcolombo(~vcolombo@c-67-186-91-118.hsd1.il.comcast.net) has quit "Ping timeout: 264 seconds"
+2015-01-14 01:26 -!- vcolombo(~vcolombo@c-67-186-91-118.hsd1.il.comcast.net) has quit "Remote host closed the connection"
+2015-01-14 01:28 -!- vcolombo_(~vcolombo@204.13.200.248) has quit "Ping timeout: 264 seconds"
+2015-01-14 01:31 -!- vcolombo(~vcolombo@c-67-186-91-118.hsd1.il.comcast.net) has quit "Ping timeout: 256 seconds"
+2015-01-14 01:32 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Quit: Leaving."
+2015-01-14 02:04 -!- Bioguy(~Pete@2601:d:2380:5d00:700f:5b7f:3b6c:dfdd) has quit "Ping timeout: 244 seconds"
+2015-01-14 02:24 -!- bry(~Adium@2601:d:2380:5d00:99f:78c5:8e18:10a) has quit "Quit: Leaving."
+2015-01-14 02:35 -!- Nonebot(~Nonebot@c-24-1-147-220.hsd1.in.comcast.net) has quit "Ping timeout: 256 seconds"
+2015-01-14 02:46 -!- Bioguy(~Pete@c-24-1-147-220.hsd1.in.comcast.net) has quit "Ping timeout: 245 seconds"
+2015-01-14 02:59 -!- Nonebot(~Nonebot@c-24-1-147-220.hsd1.in.comcast.net) has quit "Remote host closed the connection"
+2015-01-14 03:06 -!- sudlowbot(simpleirc@2600:3c00::f03c:91ff:feae:5893) has quit "Ping timeout: 244 seconds"
+2015-01-14 03:09 -!- Nonebot(~Nonebot@c-24-1-147-220.hsd1.in.comcast.net) has quit "Remote host closed the connection"
+2015-01-14 03:28 -!- KyleB(~androirc@66.87.79.224) has quit "Read error: Connection reset by peer"
+2015-01-14 04:15 -!- jackhhol1es(~anthony@c-50-151-237-231.hsd1.il.comcast.net) has quit "Remote host closed the connection"
+2015-01-14 04:35 -!- KyleB(~androirc@24-148-83-238.c3-0.grn-ubr2.chi-grn.il.cable.rcn.com) has quit "Ping timeout: 244 seconds"
+2015-01-14 04:47 -!- vcolombo(~vcolombo@c-67-186-91-118.hsd1.il.comcast.net) has quit "Remote host closed the connection"
+2015-01-14 04:50 -!- imcleod(~imcleod@24.12.72.163) has quit "Remote host closed the connection"
+2015-01-14 04:52 -!- vcolombo(~vcolombo@c-67-186-91-118.hsd1.il.comcast.net) has quit "Ping timeout: 256 seconds"
+2015-01-14 04:56 -!- CarlFK(~carl@linuxconf2015-139.net.auckland.ac.nz) has quit "Ping timeout: 264 seconds"
+2015-01-14 05:17 -!- KyleB(~androirc@24-148-83-238.c3-0.grn-ubr2.chi-grn.il.cable.rcn.com) has quit "Ping timeout: 244 seconds"
+2015-01-14 05:48 -!- bry(~Adium@c-24-1-147-220.hsd1.in.comcast.net) has quit "Quit: Leaving."
+2015-01-14 05:49 -!- bry(~Adium@c-24-1-147-220.hsd1.in.comcast.net) has quit "Client Quit"
+2015-01-14 07:28 -!- vcolombo(~vcolombo@c-67-186-91-118.hsd1.il.comcast.net) has quit "Ping timeout: 240 seconds"
+2015-01-14 07:29 -!- iiie0_(~iiie1@2601:d:5501:2d40:d24:a4aa:6e82:a820) has quit "Quit: Be back later ..."
+2015-01-14 07:32 -!- vcolombo_(~vcolombo@204.13.200.248) has quit "Read error: Connection reset by peer"
+2015-01-14 07:35 -!- iiie0_(~iiie1@2601:d:5501:2d40:1816:8d69:8460:2f16) has quit "Ping timeout: 244 seconds"
+2015-01-14 08:05 -!- iiie0_(~iiie1@73.8.80.190) has quit "Ping timeout: 264 seconds"
+2015-01-14 08:32 -!- michd changed nick to MichD
+2015-01-14 09:06 -!- iiie0_(~iiie1@73.8.80.190) has quit "Ping timeout: 264 seconds"
+2015-01-14 10:06 -!- iiie0_(~iiie1@73.8.80.190) has quit "Ping timeout: 245 seconds"
+2015-01-14 11:07 -!- iiie0_(~iiie1@73.8.80.190) has quit "Ping timeout: 240 seconds"
+2015-01-14 11:34 -!- CarlFK(~carl@120.136.5.32) has quit "Client Quit"
+2015-01-14 12:09 -!- iiie0_(~iiie1@73.8.80.190) has quit "Ping timeout: 244 seconds"
+2015-01-14 12:34 -!- KyleB(~androirc@24-148-83-238.c3-0.grn-ubr2.chi-grn.il.cable.rcn.com) has quit "Read error: Connection reset by peer"
+2015-01-14 12:45 -!- skay(~quassel@miparque/dev/skay) has quit "Quit: No Ping reply in 180 seconds."
+2015-01-14 12:55 -!- skay(~quassel@miparque/dev/skay) has quit "Quit: No Ping reply in 180 seconds."
+2015-01-14 12:56 -!- skay(~quassel@rose.makesad.us) has quit "Changing host"
+2015-01-14 13:10 -!- iiie0_(~iiie1@73.8.80.190) has quit "Ping timeout: 252 seconds"
+2015-01-14 14:11 -!- iiie0_(~iiie1@2601:d:5501:2d40:1816:8d69:8460:2f16) has quit "Ping timeout: 245 seconds"
+2015-01-14 14:18 -!- imcleod(~imcleod@24.12.72.163) has quit "Ping timeout: 244 seconds"
+2015-01-14 14:19 -!- KyleB(~androirc@66.87.78.190) has quit "Ping timeout: 264 seconds"
+2015-01-14 14:33 -!- KyleB(~androirc@66.87.93.157) has quit "Ping timeout: 272 seconds"
+2015-01-14 15:12 -!- iiie0_(~iiie1@2601:d:5501:2d40:1816:8d69:8460:2f16) has quit "Ping timeout: 245 seconds"
+2015-01-14 16:13 -!- iiie0_(~iiie1@73.8.80.190) has quit "Ping timeout: 255 seconds"
+2015-01-14 17:13 -!- iiie0_(~iiie1@73.8.80.190) has quit "Ping timeout: 240 seconds"
+2015-01-14 17:40 -!- vcolombo(~vcolombo@c-67-186-91-118.hsd1.il.comcast.net) has quit ""
+2015-01-14 17:52 -!- `justin changed nick to vbot
+2015-01-14 17:52 -!- vbot changed nick to `justin
+2015-01-14 18:07 -!- greetermon(~greetermo@balin.truct.org) has quit "Ping timeout: 264 seconds"
+2015-01-14 18:14 -!- iiie0_(~iiie1@73.8.80.190) has quit "Ping timeout: 255 seconds"
+2015-01-14 19:02 -!- CarlFK(~carl@120.136.5.32) has quit "Ping timeout: 265 seconds"
+2015-01-14 19:14 -!- iiie0_(~iiie1@73.8.80.190) has quit "Ping timeout: 246 seconds"
+2015-01-14 19:28 -!- bry(~blabla@38.124.31.10) has quit "Quit: Leaving."
+2015-01-14 19:38 -!- asl2(~asl2@99-125-166-83.lightspeed.cicril.sbcglobal.net) has quit "Remote host closed the connection"
+2015-01-14 20:15 -!- iiie0_(~iiie1@2601:d:5501:2d40:1816:8d69:8460:2f16) has quit "Ping timeout: 245 seconds"
+2015-01-14 20:25 -!- MichD changed nick to michd
+2015-01-14 20:53 -!- Warped(~Warped@108.85.160.119) has quit "Quit: ChatZilla 0.9.91.1 [Firefox 35.0/20150108202552]"
+2015-01-14 21:16 -!- iiie0_(~iiie1@2601:d:5501:2d40:1816:8d69:8460:2f16) has quit "Ping timeout: 245 seconds"
+2015-01-14 21:23 -!- six600110(~six600110@c-50-140-160-120.hsd1.il.comcast.net) has quit "Quit: Ex-Chat"
+2015-01-14 21:57 -!- kuroishi changed nick to DoormanDave
+2015-01-14 22:13 -!- Toba(~eastein@pumpingstationone/cto) has quit "Ping timeout: 240 seconds"
+2015-01-14 22:13 -!- schedmon(~schedmon@freyr.truct.org) has quit "Ping timeout: 264 seconds"
+2015-01-14 22:14 -!- Toba changed nick to Guest28800
+2015-01-14 22:16 -!- Guest28800 changed nick to Toba
+2015-01-14 22:16 -!- Toba(~eastein@freyr.truct.org) has quit "Changing host"
+2015-01-14 22:17 -!- iiie0_(~iiie1@73.8.80.190) has quit "Ping timeout: 245 seconds"
+2015-01-14 22:20 -!- Warped(~Warped@108.85.160.119) has quit "Quit: ChatZilla 0.9.91.1 [Firefox 35.0/20150108202552]"
+2015-01-14 22:24 -!- schedmon(~schedmon@freyr.truct.org) has quit "Ping timeout: 264 seconds"
+2015-01-14 22:32 -!- schedmon(~schedmon@freyr.truct.org) has quit "Ping timeout: 240 seconds"
+2015-01-14 22:49 -!- KyleB(~androirc@66.87.76.236) has quit "Read error: Connection reset by peer"
+2015-01-14 22:49 -!- schedmon(~schedmon@freyr.truct.org) has quit "Remote host closed the connection"
+2015-01-14 23:05 -!- KyleB(~androirc@66.87.76.236) has quit "Ping timeout: 245 seconds"
+2015-01-14 23:06 -!- Nerobro(~wolfeman@fg300a.skylan.net) has quit "Ping timeout: 264 seconds"
+2015-01-14 23:09 -!- vcolombo(~vcolombo@c-67-186-91-118.hsd1.il.comcast.net) has quit "Ping timeout: 245 seconds"
+2015-01-14 23:09 -!- vcolombo_(~vcolombo@38.106.143.234) has quit "Ping timeout: 252 seconds"
+2015-01-14 23:17 -!- iiie0_(~iiie1@2601:d:5501:2d40:1816:8d69:8460:2f16) has quit "Ping timeout: 245 seconds"
+2015-01-14 23:47 -!- Warped(~Warped@108.85.160.119) has quit "Quit: ChatZilla 0.9.91.1 [Firefox 35.0/20150108202552]"
+2015-01-14 23:51 -!- bry(~blabla@38.124.31.10) has quit "Read error: Connection reset by peer"
+2015-01-14 23:56 -!- KyleB(~androirc@66.87.79.121) has quit "Ping timeout: 272 seconds"
+2015-01-15 00:18 -!- iiie0_(~iiie1@73.8.80.190) has quit "Ping timeout: 246 seconds"
+2015-01-15 00:36 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Quit: Leaving."
+2015-01-15 00:59 -!- tdfischer(~tdfischer@kde/tdfischer) has quit "Quit: http://quassel-irc.org - Chat comfortably. Anywhere."
+2015-01-15 01:09 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-15 01:19 -!- iiie0_(~iiie1@2601:d:5501:2d40:1816:8d69:8460:2f16) has quit "Ping timeout: 245 seconds"
+2015-01-15 01:25 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Quit: Leaving."
+2015-01-15 02:20 -!- iiie0_(~iiie1@2601:d:5501:2d40:1816:8d69:8460:2f16) has quit "Ping timeout: 245 seconds"
+2015-01-15 02:32 -!- aaron changed nick to Guest59030
+2015-01-15 02:32 -!- Guest59030 changed nick to aaron123
+2015-01-15 03:18 -!- tac(~tac-tics@99-126-152-116.lightspeed.cicril.sbcglobal.net) has quit "Quit: Leaving"
+2015-01-15 03:20 -!- iiie0_(~iiie1@2601:d:5501:2d40:1816:8d69:8460:2f16) has quit "Ping timeout: 245 seconds"
+2015-01-15 03:22 -!- iiie0__(~iiie1@73.8.80.190) has quit "Client Quit"
+2015-01-15 03:25 -!- Purple_Lyn(180193dc@gateway/web/freenode/ip.24.1.147.220) has quit "Quit: Page closed"
+2015-01-15 03:33 -!- giovanni changed nick to Guest58333
+2015-01-15 03:35 -!- vcolombo(~vcolombo@c-67-186-91-118.hsd1.il.comcast.net) has quit "Remote host closed the connection"
+2015-01-15 03:40 -!- vcolombo(~vcolombo@c-67-186-91-118.hsd1.il.comcast.net) has quit "Ping timeout: 256 seconds"
+2015-01-15 03:41 -!- ieIe(180193dc@gateway/web/cgi-irc/kiwiirc.com/ip.24.1.147.220) has quit "Quit: http://www.kiwiirc.com/ - A hand crafted IRC client"
+2015-01-15 03:57 -!- imcleod(~imcleod@24.12.72.163) has quit "Remote host closed the connection"
+2015-01-15 04:18 -!- Guest58333(180193dc@gateway/web/freenode/ip.24.1.147.220) has quit "Quit: Page closed"
+2015-01-15 05:05 -!- Sean-Der(~Sean-Der@siobud.com) has quit "Quit: ZNC - http://znc.in"
+2015-01-15 05:14 -!- aaron123(180193dc@gateway/web/freenode/ip.24.1.147.220) has quit "Ping timeout: 246 seconds"
+2015-01-15 06:31 -!- bry(~Adium@2601:d:2380:5d00:1cd8:ad6f:f83c:768) has quit "Quit: Leaving."
+2015-01-15 06:46 -!- soylentbomb(~k@unaffiliated/soylentbomb) has quit "Ping timeout: 245 seconds"
+2015-01-15 06:49 -!- Warped(~Warped@108.85.160.119) has quit "Ping timeout: 244 seconds"
+2015-01-15 06:55 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Quit: Leaving."
+2015-01-15 08:21 -!- KyleB(~androirc@24-148-83-238.c3-0.grn-ubr2.chi-grn.il.cable.rcn.com) has quit "Remote host closed the connection"
+2015-01-15 08:36 -!- michd changed nick to MichD
+2015-01-15 08:40 -!- tac(~tac-tics@99-126-152-116.lightspeed.cicril.sbcglobal.net) has quit "Quit: Leaving"
+2015-01-15 09:33 -!- ieIe(6bd7b43d@gateway/web/cgi-irc/kiwiirc.com/ip.107.215.180.61) has quit "Quit: http://www.kiwiirc.com/ - A hand crafted IRC client"
+2015-01-15 09:37 -!- Warped(~Warped@108.85.160.119) has quit "Ping timeout: 272 seconds"
+2015-01-15 09:57 -!- CarlFK(~carl@linuxconf2015-139.net.auckland.ac.nz) has quit "Ping timeout: 245 seconds"
+2015-01-15 12:44 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Client Quit"
+2015-01-15 13:31 -!- imcleod(~imcleod@24.12.72.163) has quit "Ping timeout: 276 seconds"
+2015-01-15 14:08 -!- Warped(~Warped@108.85.160.119) has quit "Ping timeout: 276 seconds"
+2015-01-15 17:24 -!- skay_ changed nick to skay__
+2015-01-15 17:42 -!- Nonebot(~Nonebot@c-24-1-147-220.hsd1.in.comcast.net) has quit "Remote host closed the connection"
+2015-01-15 18:12 -!- efeariaro(29dc4437@gateway/web/cgi-irc/kiwiirc.com/ip.41.220.68.55) has quit "Quit: http://www.kiwiirc.com/ - A hand crafted IRC client"
+2015-01-15 18:12 -!- vcolombo(~vcolombo@c-67-186-91-118.hsd1.il.comcast.net) has quit "Ping timeout: 245 seconds"
+2015-01-15 18:23 -!- CarlFK(~carl@120.136.5.32) has quit "Ping timeout: 276 seconds"
+2015-01-15 18:58 -!- ieIe(6bd7b43d@gateway/web/cgi-irc/kiwiirc.com/ip.107.215.180.61) has quit "Quit: http://www.kiwiirc.com/ - A hand crafted IRC client"
+2015-01-15 19:14 -!- iiie0__(~iiie1@2601:d:5501:2d40:a458:79d5:d2fe:3d73) has quit "Ping timeout: 245 seconds"
+2015-01-15 19:35 -!- vcolombo_(~vcolombo@cip-248.trustwave.com) has quit ""
+2015-01-15 20:15 -!- iiie0__(~iiie1@73.8.80.190) has quit "Ping timeout: 264 seconds"
+2015-01-15 20:23 -!- CarlFK(carl@conference/lca/x-mqoadmysyaofpfcn) has quit "Quit: Leaving."
+2015-01-15 21:55 -!- vcolombo(~vcolombo@c-67-186-91-118.hsd1.il.comcast.net) has quit ""
+2015-01-15 22:09 -!- MichD changed nick to michd
+2015-01-15 22:26 -!- Rei(a5146c9b@gateway/web/freenode/ip.165.20.108.155) has quit "Quit: Page closed"
+2015-01-15 22:34 -!- Nerobro(~wolfeman@fg300a.skylan.net) has quit "Ping timeout: 245 seconds"
+2015-01-15 22:37 -!- Rei(a5146c9b@gateway/web/freenode/ip.165.20.108.155) has quit "Ping timeout: 246 seconds"
+2015-01-15 22:47 -!- ii shutting down: ping timeout
+2015-01-16 01:37 *** Looking up your hostname...
+2015-01-16 01:37 *** Checking Ident
+2015-01-16 01:37 *** Found your hostname
+2015-01-16 01:37 *** No Ident response
+2015-01-16 01:37 Welcome to the freenode Internet Relay Chat Network doormon
+2015-01-16 01:37 Your host is asimov.freenode.net[174.143.119.91/6667], running version ircd-seven-1.1.3
+2015-01-16 01:37 This server was created Tue Jul 22 2014 at 13:52:16 UTC
+2015-01-16 01:37 asimov.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-01-16 01:37 CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-01-16 01:37 CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-01-16 01:37 EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU are supported by this server
+2015-01-16 01:37 There are 184 users and 84527 invisible on 27 servers
+2015-01-16 01:37 19 IRC Operators online
+2015-01-16 01:37 10 unknown connection(s)
+2015-01-16 01:37 51456 channels formed
+2015-01-16 01:37 I have 1738 clients and 1 servers
+2015-01-16 01:37 1738 11441 Current local users 1738, max 11441
+2015-01-16 01:37 84711 102229 Current global users 84711, max 102229
+2015-01-16 01:37 Highest connection count: 11442 (11441 clients) (2388272 connections received)
+2015-01-16 01:37 - asimov.freenode.net Message of the Day - 
+2015-01-16 01:37 - Welcome to asimov.freenode.net in TX, USA!  Thanks to
+2015-01-16 01:37 - Rackspace (www.rackspace.com) for sponsoring
+2015-01-16 01:37 - this server!
+2015-01-16 01:37 -  
+2015-01-16 01:37 - ASIMOV, ISAAC [1920-1992].  One of the brightest stars of the
+2015-01-16 01:37 - science fiction universe.  Author of I Robot, the
+2015-01-16 01:37 - Foundation series (which "grew like Topsy"), Pebble in the
+2015-01-16 01:37 - Sky and hundreds of works of science fact and science
+2015-01-16 01:37 - fiction.
+2015-01-16 01:37 -  
+2015-01-16 01:37 - Welcome to freenode - supporting the free and open source
+2015-01-16 01:37 - software communities since 1998.
+2015-01-16 01:37 -  
+2015-01-16 01:37 - By connecting to freenode you indicate that you have read and
+2015-01-16 01:37 - accept our policies as set out on http://www.freenode.net
+2015-01-16 01:37 - freenode runs an open proxy scanner. Please join #freenode for
+2015-01-16 01:37 - any network-related questions or queries, where a number of
+2015-01-16 01:37 - volunteer staff and helpful users will be happy to assist you.
+2015-01-16 01:37 -  
+2015-01-16 01:37 - You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-01-16 01:37 - together with like-minded FOSS enthusiasts for talks and
+2015-01-16 01:37 - real-life collaboration.
+2015-01-16 01:37 -  
+2015-01-16 01:37 - We would like to thank Private Internet Access
+2015-01-16 01:37 - (https://www.privateinternetaccess.com/) and the other
+2015-01-16 01:37 - organisations that help keep freenode and our other projects
+2015-01-16 01:37 - running for their sustained support.
+2015-01-16 01:37 -  
+2015-01-16 01:37 - In particular we would like to thank the sponsor
+2015-01-16 01:37 - of this server, details of which can be found above.
+2015-01-16 01:37 -  
+2015-01-16 01:37 - ***************************************************************
+2015-01-16 01:37 - Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2015-01-16 01:37 - ***************************************************************
+2015-01-16 01:37 End of /MOTD command.
+2015-01-16 01:37 +i
+2015-01-16 01:37 #pumpingstationone Pumping Station: One | https://wiki.pumpingstationone.org/IRC | https://pumpingstationone.org/events/ | https://wiki.pumpingstationone.org/Visiting
+2015-01-16 01:37 #pumpingstationone Toba!~eastein@pumpingstationone/cto 1420071313
+2015-01-16 01:37 @ #pumpingstationone doormon vcolombo hef- Guest49482 misterbonnie KyleB imcleod sudlowbot skay__ bjonnh @ChanServ DoormanDave ps1wikimon a5m0 AnimalFarmPig chillmon sylphiae sparr greetermon schedmon Warped CarlFK moey chronmon tdfischer skay spacemon akama `justin hef_ ultrashag pdp7 Sean-Der loans t_j michd soylentbomb r4v5 agocs alesage peoplemon ashanan loclhst CrimsonVIII angelixd_ NegativeK
+2015-01-16 01:37 #pumpingstationone End of /NAMES list.
+2015-01-16 01:45 -!- hef-(~androirc@166.175.63.193) has quit "Read error: Connection reset by peer"
+2015-01-16 01:54 -!- vcolombo(~vcolombo@c-67-186-91-118.hsd1.il.comcast.net) has quit "Remote host closed the connection"
+2015-01-16 02:00 -!- hef-(~androirc@c-24-1-28-100.hsd1.il.comcast.net) has quit "Read error: Connection reset by peer"
+2015-01-16 02:08 -!- soylentbomb(~k@d53-64-122-232.nap.wideopenwest.com) has quit "Ping timeout: 264 seconds"
+2015-01-16 02:22 -!- KyleB(~androirc@66-87-77-9.pools.spcsdns.net) has quit "Ping timeout: 272 seconds"
+2015-01-16 02:27 -!- KyleB(~androirc@66-87-76-218.pools.spcsdns.net) has quit "Read error: Connection reset by peer"
+2015-01-16 02:30 -!- dwlocks(~dwlocks@207-181-230-102.c3-0.mct-ubr1.chi-mct.il.cable.rcn.com) has quit "Remote host closed the connection"
+2015-01-16 02:36 -!- KyleB(~androirc@66.87.76.186) has quit "Read error: Connection reset by peer"
+2015-01-16 02:36 -!- iiie0___(~iiie1@2601:d:5501:2d40:35e3:6e17:5d8f:dea5) has quit "Ping timeout: 245 seconds"
+2015-01-16 02:43 -!- hef-(~androirc@c-24-1-28-100.hsd1.il.comcast.net) has quit "Read error: Connection reset by peer"
+2015-01-16 02:45 -!- KyleB(~androirc@66.87.76.186) has quit "Ping timeout: 245 seconds"
+2015-01-16 02:48 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 240 seconds"
+2015-01-16 02:50 -!- KyleB(~androirc@66.87.78.106) has quit "Ping timeout: 276 seconds"
+2015-01-16 02:55 -!- dockerbutt(~dockerbut@c-24-1-229-100.hsd1.il.comcast.net) has quit "Remote host closed the connection"
+2015-01-16 03:04 -!- imcleod(~imcleod@24.12.72.163) has quit "Remote host closed the connection"
+2015-01-16 03:05 -!- sudlowbot(simpleirc@2600:3c00::f03c:91ff:feae:5893) has quit "Ping timeout: 245 seconds"
+2015-01-16 03:07 -!- iiie0___(~iiie1@2601:d:5501:2d40:35e3:6e17:5d8f:dea5) has quit "Client Quit"
+2015-01-16 03:07 -!- dwlocks(~dwlocks@207-181-230-102.c3-0.mct-ubr1.chi-mct.il.cable.rcn.com) has quit "Ping timeout: 245 seconds"
+2015-01-16 03:09 -!- dockerbutt(~dockerbut@c-24-1-229-100.hsd1.il.comcast.net) has quit "Quit: Bye, cruel world!"
+2015-01-16 03:14 -!- KyleB(~androirc@66.87.77.162) has quit "Ping timeout: 245 seconds"
+2015-01-16 03:20 -!- KyleB(~androirc@66.87.77.84) has quit "Read error: Connection reset by peer"
+2015-01-16 03:30 -!- KyleB(~androirc@66.87.95.72) has quit "Ping timeout: 256 seconds"
+2015-01-16 03:45 -!- vcolombo(~vcolombo@c-67-186-91-118.hsd1.il.comcast.net) has quit "Read error: Connection reset by peer"
+2015-01-16 03:49 -!- iiie0___(~iiie1@73.8.80.190) has quit "Quit: Be back later ..."
+2015-01-16 03:49 -!- KyleB(~androirc@66.87.79.42) has quit "Read error: Connection reset by peer"
+2015-01-16 03:55 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 255 seconds"
+2015-01-16 03:59 -!- vcolombo(~vcolombo@c-67-186-91-118.hsd1.il.comcast.net) has quit "Ping timeout: 245 seconds"
+2015-01-16 04:34 -!- KyleB(~androirc@66-87-79-42.pools.spcsdns.net) has quit "Read error: Connection reset by peer"
+2015-01-16 04:44 -!- iiie0___(~iiie1@2601:d:5501:2d40:34fd:55d2:bebf:c337) has quit "Quit: Be back later ..."
+2015-01-16 04:49 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 252 seconds"
+2015-01-16 06:28 -!- iiie0___(~iiie1@73.8.80.190) has quit "Quit: Be back later ..."
+2015-01-16 06:30 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-16 06:33 -!- iiie0___(~iiie1@2601:d:5501:2d40:bc17:837c:a978:bd0c) has quit "Ping timeout: 245 seconds"
+2015-01-16 08:06 -!- iiie0___(~iiie1@2601:d:5501:2d40:91bc:f870:78fd:a308) has quit "Ping timeout: 245 seconds"
+2015-01-16 08:11 -!- michd changed nick to MichD
+2015-01-16 08:24 -!- greetermon(~greetermo@balin.truct.org) has quit "Ping timeout: 256 seconds"
+2015-01-16 08:32 -!- hef-(~androirc@c-24-1-28-100.hsd1.il.comcast.net) has quit "Remote host closed the connection"
+2015-01-16 08:45 -!- hef-(~androirc@c-24-1-28-100.hsd1.il.comcast.net) has quit "Remote host closed the connection"
+2015-01-16 09:06 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 240 seconds"
+2015-01-16 09:55 -!- CarlFK(~carl@linuxconf2015-139.net.auckland.ac.nz) has quit "Ping timeout: 276 seconds"
+2015-01-16 10:07 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 245 seconds"
+2015-01-16 11:09 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 272 seconds"
+2015-01-16 11:53 -!- CarlFK(~carl@120.136.5.32) has quit "Ping timeout: 244 seconds"
+2015-01-16 11:54 -!- dwlocks(~dwlocks@207-181-230-102.c3-0.mct-ubr1.chi-mct.il.cable.rcn.com) has quit "Remote host closed the connection"
+2015-01-16 12:09 -!- iiie0___(~iiie1@2601:d:5501:2d40:91bc:f870:78fd:a308) has quit "Ping timeout: 245 seconds"
+2015-01-16 13:09 -!- iiie0___(~iiie1@2601:d:5501:2d40:91bc:f870:78fd:a308) has quit "Ping timeout: 245 seconds"
+2015-01-16 13:44 -!- skay__(~skay@2001:4802:7800:2:70a:4cbd:ff20:4981) has quit "Quit: WeeChat 0.4.2"
+2015-01-16 14:10 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 244 seconds"
+2015-01-16 14:13 -!- KyleB(~androirc@66.87.77.218) has quit "Ping timeout: 252 seconds"
+2015-01-16 14:24 -!- KyleB(~androirc@66.87.94.78) has quit "Ping timeout: 245 seconds"
+2015-01-16 14:32 -!- Guest49482 changed nick to Toba
+2015-01-16 14:32 -!- Toba changed nick to Guest3529
+2015-01-16 14:32 -!- Guest3529 changed nick to Toba
+2015-01-16 14:32 -!- Toba(~eastein@freyr.truct.org) has quit "Changing host"
+2015-01-16 14:57 -!- hef-(~androirc@c-24-1-28-100.hsd1.il.comcast.net) has quit "Read error: Connection reset by peer"
+2015-01-16 15:11 -!- iiie0___(~iiie1@2601:d:5501:2d40:91bc:f870:78fd:a308) has quit "Ping timeout: 245 seconds"
+2015-01-16 15:31 -!- bry(~blabla@38.124.31.10) has quit "Read error: Connection reset by peer"
+2015-01-16 15:40 -!- misterbonnie(~bonniek@asciipr0n.com) has quit "Changing host"
+2015-01-16 16:03 -!- dwlocks(~dwlocks@207-181-230-102.c3-0.mct-ubr1.chi-mct.il.cable.rcn.com) has quit "Ping timeout: 264 seconds"
+2015-01-16 16:12 -!- iiie0___(~iiie1@2601:d:5501:2d40:91bc:f870:78fd:a308) has quit "Ping timeout: 245 seconds"
+2015-01-16 16:13 -!- hef-(~androirc@166.175.59.147) has quit "Read error: Connection reset by peer"
+2015-01-16 16:16 -!- vcolombo(~vcolombo@c-67-186-91-118.hsd1.il.comcast.net) has quit "Remote host closed the connection"
+2015-01-16 16:17 -!- vcolombo(~vcolombo@c-67-186-91-118.hsd1.il.comcast.net) has quit "Remote host closed the connection"
+2015-01-16 16:59 -!- KyleB(~androirc@66.87.77.218) has quit "Read error: Connection reset by peer"
+2015-01-16 17:13 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 264 seconds"
+2015-01-16 18:13 -!- iiie0___(~iiie1@2601:d:5501:2d40:91bc:f870:78fd:a308) has quit "Ping timeout: 245 seconds"
+2015-01-16 19:01 -!- iiie0___(~iiie1@2601:d:5501:2d40:dbb:3a9e:f046:cb38) has quit "Ping timeout: 245 seconds"
+2015-01-16 19:25 -!- hef-(~androirc@166.175.59.208) has quit "Read error: Connection reset by peer"
+2015-01-16 19:28 -!- imcleod(~imcleod@24.12.72.163) has quit "Remote host closed the connection"
+2015-01-16 19:33 -!- MichD changed nick to michd
+2015-01-16 20:02 -!- iiie0___(~iiie1@2601:d:5501:2d40:dbb:3a9e:f046:cb38) has quit "Ping timeout: 245 seconds"
+2015-01-16 20:48 -!- CarlFK(~carl@120.136.5.32) has quit "Ping timeout: 264 seconds"
+2015-01-16 21:02 -!- iiie0___(~iiie1@2601:d:5501:2d40:dbb:3a9e:f046:cb38) has quit "Ping timeout: 245 seconds"
+2015-01-16 22:04 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 252 seconds"
+2015-01-16 22:09 -!- CarlFK(carl@conference/lca/x-dfakgvleblgrboot) has quit "Quit: Leaving."
+2015-01-16 22:34 -!- imcleod(~imcleod@24.12.72.163) has quit "Remote host closed the connection"
+2015-01-16 22:38 -!- vcolombo(~vcolombo@c-67-186-91-118.hsd1.il.comcast.net) has quit ""
+2015-01-16 22:39 -!- tdfischer(~tdfischer@kde/tdfischer) has quit "Quit: http://quassel-irc.org - Chat comfortably. Anywhere."
+2015-01-16 23:03 -!- Nerobro(~wolfeman@fg300a.skylan.net) has quit "Ping timeout: 245 seconds"
+2015-01-16 23:04 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 255 seconds"
+2015-01-16 23:21 -!- KyleB(~androirc@66.87.77.218) has quit "Ping timeout: 252 seconds"
+2015-01-17 00:05 -!- KyleB(~androirc@66.87.77.218) has quit "Read error: Connection reset by peer"
+2015-01-17 00:26 -!- hef-(~androirc@166.175.59.111) has quit "Client Quit"
+2015-01-17 00:43 -!- ieIe(6bd7b43d@gateway/web/cgi-irc/kiwiirc.com/ip.107.215.180.61) has quit "Quit: http://www.kiwiirc.com/ - A hand crafted IRC client"
+2015-01-17 00:47 -!- bry(~blabla@38.124.31.10) has quit "Read error: Connection reset by peer"
+2015-01-17 00:53 -!- hef-(~androirc@166.175.59.111) has quit "Remote host closed the connection"
+2015-01-17 00:54 -!- KyleB(~androirc@24-148-83-238.c3-0.grn-ubr2.chi-grn.il.cable.rcn.com) has quit "Ping timeout: 256 seconds"
+2015-01-17 00:56 -!- imcleod(~imcleod@24.12.72.163) has quit "Ping timeout: 264 seconds"
+2015-01-17 01:10 -!- KyleB(~androirc@24-148-83-238.c3-0.grn-ubr2.chi-grn.il.cable.rcn.com) has quit "Ping timeout: 240 seconds"
+2015-01-17 01:28 -!- iiie0___(~iiie1@73.8.80.190) has quit "Quit: Be back later ..."
+2015-01-17 01:32 -!- imcleod(~imcleod@24.12.72.163) has quit "Ping timeout: 256 seconds"
+2015-01-17 01:33 -!- iiie0___(~iiie1@2601:d:5501:2d40:986f:6bac:4a4d:3abd) has quit "Ping timeout: 245 seconds"
+2015-01-17 01:44 -!- hef-(~androirc@166.175.59.111) has quit "Read error: Connection reset by peer"
+2015-01-17 02:06 -!- Nonebot(~Nonebot@c-24-1-147-220.hsd1.in.comcast.net) has quit "Remote host closed the connection"
+2015-01-17 02:41 -!- dwlocks(~dwlocks@207-181-230-102.c3-0.mct-ubr1.chi-mct.il.cable.rcn.com) has quit "Ping timeout: 240 seconds"
+2015-01-17 02:52 -!- tac(~tac-tics@99-126-152-116.lightspeed.cicril.sbcglobal.net) has quit "Ping timeout: 264 seconds"
+2015-01-17 03:27 -!- CarlFK(~carl@121-72-210-56.dsl.telstraclear.net) has quit "Read error: Connection reset by peer"
+2015-01-17 05:10 -!- KyleB(~androirc@c-24-1-147-220.hsd1.in.comcast.net) has quit "Read error: No route to host"
+2015-01-17 05:14 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-17 05:15 -!- KyleB(~androirc@c-24-1-147-220.hsd1.in.comcast.net) has quit "Ping timeout: 256 seconds"
+2015-01-17 06:31 -!- hef-(~androirc@c-24-1-28-100.hsd1.il.comcast.net) has quit "Remote host closed the connection"
+2015-01-17 06:42 -!- gigawatts121(~chatzilla@c-24-15-227-144.hsd1.il.comcast.net) has quit "Quit: ChatZilla 0.9.91 [Firefox 34.0.5/20141126041045]"
+2015-01-17 07:02 -!- dwlocks(~dwlocks@207-181-230-102.c3-0.mct-ubr1.chi-mct.il.cable.rcn.com) has quit "Ping timeout: 240 seconds"
+2015-01-17 07:23 -!- KyleB(~androirc@c-24-1-147-220.hsd1.in.comcast.net) has quit "Ping timeout: 245 seconds"
+2015-01-17 07:25 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 240 seconds"
+2015-01-17 07:41 -!- Warped(~Warped@108.85.160.119) has quit "Quit: ChatZilla 0.9.91.1 [Firefox 35.0/20150108202552]"
+2015-01-17 08:26 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 244 seconds"
+2015-01-17 09:27 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 252 seconds"
+2015-01-17 09:34 -!- KyleB(~androirc@24-148-83-238.c3-0.grn-ubr2.chi-grn.il.cable.rcn.com) has quit "Ping timeout: 252 seconds"
+2015-01-17 10:27 -!- iiie0___(~iiie1@2601:d:5501:2d40:59d9:5744:dfe5:7166) has quit "Ping timeout: 245 seconds"
+2015-01-17 11:28 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 272 seconds"
+2015-01-17 12:29 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 264 seconds"
+2015-01-17 13:30 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 256 seconds"
+2015-01-17 14:31 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 265 seconds"
+2015-01-17 15:31 -!- iiie0___(~iiie1@2601:d:5501:2d40:59d9:5744:dfe5:7166) has quit "Ping timeout: 245 seconds"
+2015-01-17 15:50 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Quit: Leaving."
+2015-01-17 16:32 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 246 seconds"
+2015-01-17 16:54 -!- jackhholmes(~anthony@c-50-151-237-231.hsd1.il.comcast.net) has quit "Ping timeout: 244 seconds"
+2015-01-17 17:32 -!- iiie0___(~iiie1@2601:d:5501:2d40:59d9:5744:dfe5:7166) has quit "Ping timeout: 245 seconds"
+2015-01-17 18:08 -!- dwlocks(~dwlocks@207-181-230-102.c3-0.mct-ubr1.chi-mct.il.cable.rcn.com) has quit "Ping timeout: 265 seconds"
+2015-01-17 18:20 -!- Warped(~Warped@108.85.160.119) has quit "Quit: ChatZilla 0.9.91.1 [Firefox 35.0/20150108202552]"
+2015-01-17 18:24 -!- ieIe(6bd7b43d@gateway/web/cgi-irc/kiwiirc.com/ip.107.215.180.61) has quit "Quit: http://www.kiwiirc.com/ - A hand crafted IRC client"
+2015-01-17 18:33 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 240 seconds"
+2015-01-17 19:41 -!- CarlFK(~carl@120.136.5.32) has quit "Read error: Connection reset by peer"
+2015-01-17 20:22 -!- iiie0___(~iiie1@2601:d:5501:2d40:2550:6e4e:b06b:f48d) has quit "Quit: Be back later ..."
+2015-01-17 20:27 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 245 seconds"
+2015-01-17 20:40 -!- KyleB(~androirc@66-87-77-133.pools.spcsdns.net) has quit "Read error: Connection reset by peer"
+2015-01-17 20:47 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Quit: Leaving."
+2015-01-17 20:52 -!- dwlocks(~dwlocks@207-181-230-102.c3-0.mct-ubr1.chi-mct.il.cable.rcn.com) has quit "Ping timeout: 255 seconds"
+2015-01-17 21:20 -!- iiie0___(~iiie1@2601:d:5501:2d40:71f3:85cb:4ea3:90ec) has quit "Quit: Be back later ..."
+2015-01-17 21:25 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 245 seconds"
+2015-01-17 21:41 -!- CarlFK(~carl@203.176.188.17) has quit "Ping timeout: 252 seconds"
+2015-01-17 21:46 -!- KyleB(~androirc@66.87.77.133) has quit "Read error: Connection reset by peer"
+2015-01-17 22:16 -!- CarlFK(~carl@203.176.188.17) has quit "Ping timeout: 245 seconds"
+2015-01-17 22:24 -!- KyleB(~androirc@66.87.77.133) has quit "Read error: Connection reset by peer"
+2015-01-17 22:33 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-17 22:53 -!- CarlFK(~carl@203.176.188.17) has quit "Ping timeout: 246 seconds"
+2015-01-17 22:53 -!- dwlocks(~dwlocks@207-181-230-102.c3-0.mct-ubr1.chi-mct.il.cable.rcn.com) has quit "Ping timeout: 256 seconds"
+2015-01-17 23:29 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Quit: Leaving."
+2015-01-18 00:04 -!- iiie0___(~iiie1@2601:d:5501:2d40:ed25:93d4:1de1:f94e) has quit "Quit: Be back later ..."
+2015-01-18 00:09 -!- iiie0___(~iiie1@2601:d:5501:2d40:ed25:93d4:1de1:f94e) has quit "Ping timeout: 245 seconds"
+2015-01-18 01:22 -!- tdy(~tdy@unaffiliated/tdy) has quit "Client Quit"
+2015-01-18 01:48 -!- tdy(~tdy@unaffiliated/tdy) has quit "Read error: Connection reset by peer"
+2015-01-18 01:59 -!- tdy(~tdy@unaffiliated/tdy) has quit "Ping timeout: 256 seconds"
+2015-01-18 02:15 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Client Quit"
+2015-01-18 03:10 -!- agocs(~agocs@173-9-252-209-Illinois.hfc.comcastbusiness.net) has quit "Ping timeout: 252 seconds"
+2015-01-18 03:10 -!- r4v5(~r4v5@173-9-252-209-Illinois.hfc.comcastbusiness.net) has quit "Ping timeout: 264 seconds"
+2015-01-18 03:49 -!- tac changed nick to tac_
+2015-01-18 04:07 -!- tac_(~tac-tics@99-126-152-116.lightspeed.cicril.sbcglobal.net) has quit "Ping timeout: 264 seconds"
+2015-01-18 05:24 -!- Warped(~Warped@108.85.160.119) has quit "Quit: ChatZilla 0.9.91.1 [Firefox 35.0/20150108202552]"
+2015-01-18 05:38 -!- KyleB(~androirc@24-148-83-238.c3-0.grn-ubr2.chi-grn.il.cable.rcn.com) has quit "Quit: AndroIRC - Android IRC Client ( http://www.androirc.com )"
+2015-01-18 06:03 -!- imcleod(~imcleod@24.12.72.163) has quit "Remote host closed the connection"
+2015-01-18 06:29 -!- dwlocks(~dwlocks@c-24-1-147-220.hsd1.in.comcast.net) has quit "Remote host closed the connection"
+2015-01-18 06:42 -!- tac-tics(~tac-tics@99-126-152-116.lightspeed.cicril.sbcglobal.net) has quit "Ping timeout: 264 seconds"
+2015-01-18 09:13 -!- tachoknight(~tachoknig@71.201.47.228) has quit "Quit: Leaving"
+2015-01-18 09:31 -!- tac(~tac-tics@99-126-152-116.lightspeed.cicril.sbcglobal.net) has quit "Ping timeout: 245 seconds"
+2015-01-18 09:37 -!- KyleB(~androirc@24-148-83-238.c3-0.grn-ubr2.chi-grn.il.cable.rcn.com) has quit "Remote host closed the connection"
+2015-01-18 10:40 -!- ieIe(6bd7b43d@gateway/web/cgi-irc/kiwiirc.com/ip.107.215.180.61) has quit "Quit: http://www.kiwiirc.com/ - A hand crafted IRC client"
+2015-01-18 15:15 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Quit: Leaving."
+2015-01-18 16:09 -!- CarlFK(~carl@172.56.20.81) has quit "Remote host closed the connection"
+2015-01-18 17:09 -!- hef-(~androirc@c-24-1-28-100.hsd1.il.comcast.net) has quit "Ping timeout: 256 seconds"
+2015-01-18 18:39 -!- KyleB(~androirc@24-148-83-238.c3-0.grn-ubr2.chi-grn.il.cable.rcn.com) has quit "Ping timeout: 245 seconds"
+2015-01-18 19:08 -!- panther_ changed nick to panther__
+2015-01-18 19:08 -!- panther__ changed nick to panther_
+2015-01-18 19:08 -!- panther_ changed nick to panther__
+2015-01-18 19:22 -!- ChanServ(ChanServ@services.) has quit "shutting down"
+2015-01-18 19:25 +oChanServ
+2015-01-18 21:23 -!- iiie0___(~iiie1@2601:d:5501:2d40:5029:18f5:38a4:8e07) has quit "Quit: Be back later ..."
+2015-01-18 21:32 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 255 seconds"
+2015-01-18 21:58 -!- iiie0___(~iiie1@2601:d:5501:2d40:4dc5:d5ee:9d63:5d16) has quit "Ping timeout: 245 seconds"
+2015-01-18 22:04 -!- imcleod(~imcleod@24.12.72.163) has quit "Remote host closed the connection"
+2015-01-18 22:14 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Quit: Leaving."
+2015-01-18 22:28 -!- panther__(~panther_@c-67-175-46-40.hsd1.il.comcast.net) has quit "Ping timeout: 252 seconds"
+2015-01-18 22:48 -!- tac(~tac-tics@99-126-152-116.lightspeed.cicril.sbcglobal.net) has quit "Quit: Leaving"
+2015-01-18 22:54 -!- ieIe(6bd7b43d@gateway/web/cgi-irc/kiwiirc.com/ip.107.215.180.61) has quit "Quit: http://www.kiwiirc.com/ - A hand crafted IRC client"
+2015-01-18 23:00 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 276 seconds"
+2015-01-18 23:24 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Client Quit"
+2015-01-18 23:59 -!- bry(~Adium@2601:d:2380:5d00:75b8:19df:b3a6:c70a) has quit "Quit: Leaving."
+2015-01-18 23:59 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 245 seconds"
+2015-01-19 00:11 -!- ieIe(6bd7b43d@gateway/web/cgi-irc/kiwiirc.com/ip.107.215.180.61) has quit "Quit: http://www.kiwiirc.com/ - A hand crafted IRC client"
+2015-01-19 00:28 -!- panther__(~panther_@c-67-175-46-40.hsd1.il.comcast.net) has quit "Ping timeout: 245 seconds"
+2015-01-19 00:53 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Quit: Leaving."
+2015-01-19 01:00 -!- iiie0___(~iiie1@2601:d:5501:2d40:4dc5:d5ee:9d63:5d16) has quit "Ping timeout: 245 seconds"
+2015-01-19 02:03 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 265 seconds"
+2015-01-19 02:45 -!- Skittles(~AndChat50@2602:306:bddf:a490:7061:c65:7d2e:e855) has quit "Client Quit"
+2015-01-19 02:53 -!- CarlFK(~carl@c-67-164-106-208.hsd1.ca.comcast.net) has quit "Ping timeout: 255 seconds"
+2015-01-19 03:59 -!- tac(~tac-tics@99-126-152-116.lightspeed.cicril.sbcglobal.net) has quit "Quit: Leaving"
+2015-01-19 04:07 -!- Warped(~Warped@108.85.160.119) has quit "Ping timeout: 276 seconds"
+2015-01-19 04:19 -!- ieIe(6bd7b43d@gateway/web/cgi-irc/kiwiirc.com/ip.107.215.180.61) has quit "Quit: http://www.kiwiirc.com/ - A hand crafted IRC client"
+2015-01-19 04:19 -!- bry(~Adium@2601:d:2380:5d00:75b8:19df:b3a6:c70a) has quit "Quit: Leaving."
+2015-01-19 04:49 -!- imcleod(~imcleod@24.12.72.163) has quit "Remote host closed the connection"
+2015-01-19 04:55 -!- bry(~Adium@2601:d:2380:5d00:75b8:19df:b3a6:c70a) has quit "Quit: Leaving."
+2015-01-19 05:58 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-19 06:05 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-19 06:10 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Client Quit"
+2015-01-19 06:16 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Client Quit"
+2015-01-19 06:26 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-19 07:42 -!- iiie0___(~iiie1@73.8.80.190) has quit "Quit: Be back later ..."
+2015-01-19 07:47 -!- iiie0___(~iiie1@2601:d:5501:2d40:91be:d543:5b36:4855) has quit "Ping timeout: 245 seconds"
+2015-01-19 08:18 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 264 seconds"
+2015-01-19 08:24 -!- michd changed nick to MichD
+2015-01-19 08:38 -!- iiie0___(~iiie1@2601:d:5501:2d40:91be:d543:5b36:4855) has quit "Ping timeout: 245 seconds"
+2015-01-19 09:39 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 245 seconds"
+2015-01-19 10:39 -!- iiie0___(~iiie1@2601:d:5501:2d40:91be:d543:5b36:4855) has quit "Ping timeout: 245 seconds"
+2015-01-19 11:40 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 244 seconds"
+2015-01-19 12:41 -!- iiie0___(~iiie1@2601:d:5501:2d40:91be:d543:5b36:4855) has quit "Ping timeout: 245 seconds"
+2015-01-19 13:42 -!- iiie0___(~iiie1@2601:d:5501:2d40:91be:d543:5b36:4855) has quit "Ping timeout: 245 seconds"
+2015-01-19 14:43 -!- iiie0___(~iiie1@2601:d:5501:2d40:91be:d543:5b36:4855) has quit "Ping timeout: 245 seconds"
+2015-01-19 15:44 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 244 seconds"
+2015-01-19 16:30 -!- Warped(~Warped@108.85.160.119) has quit "Ping timeout: 276 seconds"
+2015-01-19 17:32 -!- moey(~moey@unaffiliated/moey) has quit "Ping timeout: 256 seconds"
+2015-01-19 17:37 -!- six600110(~six600110@c-50-140-160-120.hsd1.il.comcast.net) has quit "Remote host closed the connection"
+2015-01-19 17:50 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-19 18:03 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-19 18:19 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Client Quit"
+2015-01-19 19:59 -!- MichD changed nick to michd
+2015-01-19 20:54 -!- asl2(~asl2@99-125-166-83.lightspeed.cicril.sbcglobal.net) has quit "Quit: Leaving."
+2015-01-19 21:48 -!- bjonnh changed nick to negativek1
+2015-01-19 21:48 -!- negativek1 changed nick to bjonnh
+2015-01-19 21:48 -!- bjonnh changed nick to negativek1
+2015-01-19 21:48 -!- negativek1 changed nick to bjonnh
+2015-01-19 22:06 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-19 22:10 -!- Chadwell(~Adium@50-196-240-145-static.hfc.comcastbusiness.net) has quit "Quit: Leaving."
+2015-01-19 22:32 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-19 22:40 -!- `Nerobro(~wolfeman@71.201.224.174) has quit "Ping timeout: 264 seconds"
+2015-01-20 00:29 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Quit: Leaving."
+2015-01-20 02:47 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-20 03:30 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Client Quit"
+2015-01-20 05:30 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-20 06:21 -!- hef-(~androirc@c-24-1-28-100.hsd1.il.comcast.net) has quit "Read error: Connection reset by peer"
+2015-01-20 06:47 -!- tac(~tac-tics@c-50-172-59-90.hsd1.il.comcast.net) has quit "Quit: Leaving"
+2015-01-20 07:15 -!- ieIe(~ieIe@2602:306:bd7b:43d0:a9f6:b1f6:5086:fa02) has quit "Quit: Leaving"
+2015-01-20 07:47 -!- iiie0___(~iiie1@2601:d:5501:2d40:18d7:32f7:d687:2c43) has quit "Quit: Be back later ..."
+2015-01-20 08:10 -!- iiie0___(~iiie1@73.8.80.190) has quit "Quit: Be back later ..."
+2015-01-20 08:25 -!- michd changed nick to MichD
+2015-01-20 08:47 -!- iiie0___(~iiie1@2601:d:5501:2d40:6d5b:665f:3135:332c) has quit "Ping timeout: 245 seconds"
+2015-01-20 09:49 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 272 seconds"
+2015-01-20 10:49 -!- iiie0___(~iiie1@2601:d:5501:2d40:6d5b:665f:3135:332c) has quit "Ping timeout: 245 seconds"
+2015-01-20 11:00 -!- iiie0___(~iiie1@2601:d:5501:2d40:6d5b:665f:3135:332c) has quit "Ping timeout: 245 seconds"
+2015-01-20 12:02 -!- iiie0___(~iiie1@2601:d:5501:2d40:6d5b:665f:3135:332c) has quit "Ping timeout: 245 seconds"
+2015-01-20 13:03 -!- iiie0___(~iiie1@2601:d:5501:2d40:6d5b:665f:3135:332c) has quit "Ping timeout: 245 seconds"
+2015-01-20 14:04 -!- iiie0___(~iiie1@2601:d:5501:2d40:6d5b:665f:3135:332c) has quit "Ping timeout: 245 seconds"
+2015-01-20 14:08 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Quit: Leaving."
+2015-01-21 17:03 *** Looking up your hostname...
+2015-01-21 17:03 *** Checking Ident
+2015-01-21 17:03 *** Found your hostname
+2015-01-21 17:03 *** No Ident response
+2015-01-21 17:03 Welcome to the freenode Internet Relay Chat Network doormon
+2015-01-21 17:03 Your host is orwell.freenode.net[185.30.166.38/6667], running version ircd-seven-1.1.3
+2015-01-21 17:03 This server was created Sat Feb 22 2014 at 16:03:54 BRT
+2015-01-21 17:03 orwell.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-01-21 17:03 CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-01-21 17:03 CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-01-21 17:03 EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU are supported by this server
+2015-01-21 17:03 There are 185 users and 98466 invisible on 27 servers
+2015-01-21 17:03 25 IRC Operators online
+2015-01-21 17:03 13 unknown connection(s)
+2015-01-21 17:03 49536 channels formed
+2015-01-21 17:03 I have 4105 clients and 1 servers
+2015-01-21 17:03 4105 15001 Current local users 4105, max 15001
+2015-01-21 17:03 98651 104047 Current global users 98651, max 104047
+2015-01-21 17:03 Highest connection count: 15002 (15001 clients) (3041478 connections received)
+2015-01-21 17:03 - orwell.freenode.net Message of the Day - 
+2015-01-21 17:03 - Welcome to orwell.freenode.net in Amsterdam, NL.
+2015-01-21 17:03 - Thanks to http://www.hyperfilter.com/ for sponsoring
+2015-01-21 17:03 - this server!
+2015-01-21 17:03 -  
+2015-01-21 17:03 - ORWELL, GEORGE [1903 - 1950] Born in India, his mother
+2015-01-21 17:03 - moved him to England when he was one year old, and it
+2015-01-21 17:03 - was in England where he was educated and spent most of
+2015-01-21 17:03 - his life.  Orwell is perhaps best known for his novels
+2015-01-21 17:03 - Nineteen Eighty-Four and Animal Farm.
+2015-01-21 17:03 -  
+2015-01-21 17:03 -  
+2015-01-21 17:03 - Welcome to freenode - supporting the free and open source
+2015-01-21 17:03 - software communities since 1998.
+2015-01-21 17:03 -  
+2015-01-21 17:03 - **************************************************************
+2015-01-21 17:03 -                       SECURITY ALERT
+2015-01-21 17:03 -  
+2015-01-21 17:03 - Over the weekend of 13th-14th September freenode staff noticed
+2015-01-21 17:03 - some compromised binaries present on a number of servers. 
+2015-01-21 17:03 - The servers in question have been removed from the network and
+2015-01-21 17:03 - shut down.  However, it's possible that network traffic  -
+2015-01-21 17:03 - including SSL traffic - has been sniffed and passwords
+2015-01-21 17:03 - exposed.
+2015-01-21 17:03 -  
+2015-01-21 17:03 - We therefore recommend that all users change their nickserv 
+2015-01-21 17:03 - password(s) to a new value which is not shared with any
+2015-01-21 17:03 - other service.
+2015-01-21 17:03 -  
+2015-01-21 17:03 - You can do this with /msg nickserv set password newpasshere
+2015-01-21 17:03 -  
+2015-01-21 17:03 - Please note that investigation is ongoing to discover the root
+2015-01-21 17:03 - cause of the attack, and until this investigation is complete
+2015-01-21 17:03 - we cannot be 100% certain that all traces of the compromises 
+2015-01-21 17:03 - have been removed. We may have to ask you to change your  
+2015-01-21 17:03 - passwords again after analysis has completed.
+2015-01-21 17:03 -  
+2015-01-21 17:03 - Further details will appear on https://blog.freenode.net/
+2015-01-21 17:03 -  
+2015-01-21 17:03 - **************************************************************
+2015-01-21 17:03 -  
+2015-01-21 17:03 - By connecting to freenode you indicate that you have read and
+2015-01-21 17:03 - accept our policies as set out on http://www.freenode.net
+2015-01-21 17:03 - freenode runs an open proxy scanner. Please join #freenode for
+2015-01-21 17:03 - any network-related questions or queries, where a number of
+2015-01-21 17:03 - volunteer staff and helpful users will be happy to assist you.
+2015-01-21 17:03 -  
+2015-01-21 17:03 - You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-01-21 17:03 - together with like-minded FOSS enthusiasts for talks and
+2015-01-21 17:03 - real-life collaboration.
+2015-01-21 17:03 -  
+2015-01-21 17:03 - We would like to thank Private Internet Access
+2015-01-21 17:03 - (https://www.privateinternetaccess.com/) and the other
+2015-01-21 17:03 - organisations that help keep freenode and our other projects
+2015-01-21 17:03 - running for their sustained support.
+2015-01-21 17:03 -  
+2015-01-21 17:03 - In particular we would like to thank the sponsor
+2015-01-21 17:03 - of this server, details of which can be found above.
+2015-01-21 17:03 -  
+2015-01-21 17:03 End of /MOTD command.
+2015-01-21 17:03 +i
+2015-01-21 17:03 #pumpingstationone Pumping Station: One | https://wiki.pumpingstationone.org/IRC | https://pumpingstationone.org/events/ | https://wiki.pumpingstationone.org/Visiting | Yes, the Internet at the space is down so the wiki is down. Sorry.
+2015-01-21 17:03 #pumpingstationone Toba!~eastein@pumpingstationone/cto 1421770891
+2015-01-21 17:03 @ #pumpingstationone doormon zirc hef garndt KyleB asl2 alesage Chadwell imcleod chillmon peoplemon spacemon schedmon +`Nerobro sahal moey CarlFK tachoknight @ChanServ r4v5 agocs tdy sudlowbot tdfischer greetermon +Toba misterbonnie bjonnh kuroishi a5m0 AnimalFarmPig sylphiae sparr skay akama `justin hef_ ultrashag pdp7 Sean-Der loans t_j MichD NegativeK angelixd_ CrimsonVIII loclhst ashanan
+2015-01-21 17:03 #pumpingstationone End of /NAMES list.
+2015-01-21 17:03 [freenode-info] if you're at a conference and other people are having trouble connecting, please mention it to staff: http://freenode.net/faq.shtml#gettinghelp
+2015-01-21 17:25 -!- CarlFK(~carl@c-67-164-106-208.hsd1.ca.comcast.net) has quit "Quit: Leaving."
+2015-01-21 17:39 -!- hef(~hef@host-70-34-134-228.host.ussignalcom.net) has quit "Read error: Connection reset by peer"
+2015-01-21 18:43 -!- CarlFK(~carl@172.56.21.81) has quit "Ping timeout: 244 seconds"
+2015-01-21 19:25 -!- asl2(~asl2@99-125-166-83.lightspeed.cicril.sbcglobal.net) has quit "Quit: Leaving."
+2015-01-21 19:48 -!- CarlFK(~carl@172.56.21.81) has quit "Ping timeout: 264 seconds"
+2015-01-21 19:51 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-21 19:59 -!- ieIe(~ieIe@2602:306:bd7b:43d0:940d:6136:8772:523) has quit "Ping timeout: 245 seconds"
+2015-01-21 20:19 -!- KyleB(~androirc@66-87-78-80.pools.spcsdns.net) has quit "Read error: Connection reset by peer"
+2015-01-21 22:05 -!- jackhholmes(~anthony@c-50-151-237-231.hsd1.il.comcast.net) has quit "Ping timeout: 276 seconds"
+2015-01-21 22:48 -!- Chadwell(~Adium@50-196-240-145-static.hfc.comcastbusiness.net) has quit "Quit: Leaving."
+2015-01-21 22:55 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-21 23:02 -!- `Nerobro(~wolfeman@fg300a.skylan.net) has quit "Ping timeout: 256 seconds"
+2015-01-21 23:08 -!- KyleB(~androirc@66.87.78.80) has quit "Ping timeout: 246 seconds"
+2015-01-21 23:12 -!- MichD changed nick to michd
+2015-01-21 23:49 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-22 00:15 -!- KyleB(~androirc@66.87.78.80) has quit "Read error: Connection reset by peer"
+2015-01-22 00:32 -!- KyleB(~androirc@2601:d:2381:b00:45cb:33ba:f157:8308) has quit "Ping timeout: 245 seconds"
+2015-01-22 00:42 -!- KyleB(~androirc@2601:d:2381:b00:45cb:33ba:f157:8308) has quit "Ping timeout: 245 seconds"
+2015-01-22 00:44 -!- bjonnh changed nick to zirc1
+2015-01-22 00:44 -!- zirc1 changed nick to bjonnh
+2015-01-22 01:12 -!- bjonnh changed nick to hef1
+2015-01-22 01:12 -!- hef1 changed nick to bjonnh
+2015-01-22 01:14 -!- jackhholmes(~anthony@c-50-151-237-231.hsd1.il.comcast.net) has quit "Quit: leaving"
+2015-01-22 01:20 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Quit: Leaving."
+2015-01-22 01:40 -!- jackhholmes(~anthony@c-50-151-237-231.hsd1.il.comcast.net) has quit "Quit: leaving"
+2015-01-22 01:42 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-22 02:06 -!- `justin(~justin@198.23.245.228) has quit "Ping timeout: 264 seconds"
+2015-01-22 02:06 -!- alesage(~alesage@canonical/alesage) has quit "Ping timeout: 264 seconds"
+2015-01-22 02:06 -!- hef_(~hef@arbitrarion.com) has quit "Ping timeout: 264 seconds"
+2015-01-22 02:06 -!- t_j(~tj@duy2.x.rootbsd.net) has quit "Ping timeout: 264 seconds"
+2015-01-22 02:06 -!- Warped(~Warped@108.85.160.119) has quit "Ping timeout: 264 seconds"
+2015-01-22 02:08 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-22 02:14 -!- jackhholmes(~anthony@c-50-151-237-231.hsd1.il.comcast.net) has quit "Ping timeout: 244 seconds"
+2015-01-22 02:39 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-22 02:42 -!- ieIe(~ieIe@2602:306:bd7b:43d0:940d:6136:8772:523) has quit "Quit: Leaving"
+2015-01-22 03:22 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-22 03:58 -!- alesage_(~alesage@c-67-162-27-130.hsd1.il.comcast.net) has quit "Quit: Leaving"
+2015-01-22 04:03 -!- hef-(~androirc@166.175.61.74) has quit "Ping timeout: 240 seconds"
+2015-01-22 04:15 -!- alesage(~alesage@2601:d:d103:54b0:20ef:8900:4b9f:7844) has quit "Changing host"
+2015-01-22 04:21 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-22 04:39 -!- imcleod(~imcleod@24.12.72.163) has quit "Remote host closed the connection"
+2015-01-22 06:21 -!- alesage(~alesage@canonical/alesage) has quit "Remote host closed the connection"
+2015-01-22 07:08 -!- hef-(~androirc@166.175.57.186) has quit "Remote host closed the connection"
+2015-01-22 08:06 -!- tac(~tac-tics@99-126-152-116.lightspeed.cicril.sbcglobal.net) has quit "Quit: Leaving"
+2015-01-22 09:01 -!- michd changed nick to MichD
+2015-01-22 09:38 -!- spacemon(~spacemon@c-73-50-115-10.hsd1.il.comcast.net) has quit "Ping timeout: 272 seconds"
+2015-01-22 15:20 -!- KyleB(~androirc@66.87.79.236) has quit "Read error: Connection reset by peer"
+2015-01-22 15:32 -!- `Nerobro(~wolfeman@fg300a.skylan.net) has quit "Ping timeout: 264 seconds"
+2015-01-22 15:36 -!- `Nerobro_(~wolfeman@fg300a.skylan.net) has quit "Ping timeout: 265 seconds"
+2015-01-22 15:36 -!- hef-(~androirc@166.175.57.186) has quit "Ping timeout: 246 seconds"
+2015-01-22 16:09 -!- hef-(~androirc@166.175.58.240) has quit "Read error: Connection reset by peer"
+2015-01-22 16:20 -!- `Nerobro__(~wolfeman@fg300a.skylan.net) has quit "Ping timeout: 245 seconds"
+2015-01-22 17:47 -!- Chadwell(~Adium@50-196-240-145-static.hfc.comcastbusiness.net) has quit "Quit: Leaving."
+2015-01-22 18:06 -!- ieIe(~ieIe@2602:306:bd7b:43d0:19e8:69f1:1a67:d97a) has quit "Quit: Leaving"
+2015-01-22 19:13 -!- t_j_ changed nick to t_j
+2015-01-22 20:12 -!- MichD changed nick to michd
+2015-01-22 20:40 -!- asl2(~asl2@99-125-166-83.lightspeed.cicril.sbcglobal.net) has quit "Quit: Leaving."
+2015-01-22 20:48 -!- KyleB(~androirc@66.87.79.236) has quit "Read error: Connection reset by peer"
+2015-01-22 21:07 -!- keith_(43a7ca97@gateway/web/freenode/ip.67.167.202.151) has quit "Ping timeout: 246 seconds"
+2015-01-22 21:47 -!- Chadwell(~Adium@50-196-240-145-static.hfc.comcastbusiness.net) has quit "Quit: Leaving."
+2015-01-22 23:04 -!- KyleB(~androirc@66.87.79.236) has quit "Ping timeout: 276 seconds"
+2015-01-22 23:13 -!- hef(~hef@host-70-34-134-228.host.ussignalcom.net) has quit "Read error: Connection reset by peer"
+2015-01-22 23:34 -!- `Nerobro_(~wolfeman@fg300a.skylan.net) has quit "Ping timeout: 245 seconds"
+2015-01-22 23:35 -!- imcleod(~imcleod@24.12.72.163) has quit "Quit: Leaving"
+2015-01-23 01:10 -!- bry(~blabla@38.124.31.10) has quit "Read error: Connection reset by peer"
+2015-01-23 01:44 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Quit: Leaving."
+2015-01-23 03:07 -!- loans changed nick to schedmon1
+2015-01-23 03:08 -!- schedmon1 changed nick to loans
+2015-01-23 04:11 -!- imcleod(~imcleod@24.12.72.163) has quit "Ping timeout: 256 seconds"
+2015-01-23 04:18 -!- tac(~tac-tics@99-126-152-116.lightspeed.cicril.sbcglobal.net) has quit "Quit: Leaving"
+2015-01-23 05:29 -!- bry(~Adium@2601:d:2381:b00:dcc:3a9d:497b:82ac) has quit "Quit: Leaving."
+2015-01-23 05:41 -!- imcleod(~imcleod@24.12.72.163) has quit "Remote host closed the connection"
+2015-01-23 06:14 -!- CrimsonVIII(~Crimson13@71-82-212-125.dhcp.mdsn.wi.charter.com) has quit "Ping timeout: 252 seconds"
+2015-01-23 06:36 -!- dockerbot(~dockerbot@c-73-50-115-10.hsd1.il.comcast.net) has quit "Remote host closed the connection"
+2015-01-23 06:39 -!- dockerbot(~dockerbot@c-73-50-115-10.hsd1.il.comcast.net) has quit "Read error: Connection reset by peer"
+2015-01-23 07:02 -!- dockerbot(~dockerbot@c-73-50-115-10.hsd1.il.comcast.net) has quit "Ping timeout: 252 seconds"
+2015-01-23 07:37 -!- dockerbot(~dockerbot@c-24-1-229-100.hsd1.il.comcast.net) has quit "Client Quit"
+2015-01-23 07:39 -!- dockerbot(~dockerbot@c-24-1-229-100.hsd1.il.comcast.net) has quit "Remote host closed the connection"
+2015-01-23 07:41 -!- dockerbot(~dockerbot@c-24-1-229-100.hsd1.il.comcast.net) has quit "Remote host closed the connection"
+2015-01-23 08:16 -!- iiie0___(~iiie1@2601:d:5501:2d40:6d6f:d4a3:c1e6:4f87) has quit "Client Quit"
+2015-01-23 09:07 -!- michd changed nick to MichD
+2015-01-23 12:36 -!- ieIe(~ieIe@107-215-180-61.lightspeed.cicril.sbcglobal.net) has quit "Ping timeout: 272 seconds"
+2015-01-23 13:39 -!- garndt(sid7486@gateway/web/irccloud.com/x-wecuxtywbkqbnyhi) has quit ""
+2015-01-23 13:53 -!- CarlFK(~carl@c-67-164-106-208.hsd1.ca.comcast.net) has quit "Ping timeout: 240 seconds"
+2015-01-23 14:49 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Quit: Leaving."
+2015-01-23 15:15 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Ping timeout: 256 seconds"
+2015-01-23 15:34 -!- bry(~blabla@38.124.31.10) has quit "Ping timeout: 255 seconds"
+2015-01-23 15:42 -!- KyleB(~androirc@66.87.79.115) has quit "Read error: Connection reset by peer"
+2015-01-23 15:42 -!- bry(~blabla@wireless-165-124-128-186.nuwlan.northwestern.edu) has quit "Read error: Connection reset by peer"
+2015-01-23 17:01 -!- KyleB(~androirc@66.87.79.115) has quit "Ping timeout: 264 seconds"
+2015-01-23 17:34 -!- zirc(~zirc@c-73-50-115-10.hsd1.il.comcast.net) has quit "Remote host closed the connection"
+2015-01-23 17:34 -!- chronmon(~chronmon@c-73-50-115-10.hsd1.il.comcast.net) has quit "Read error: Connection reset by peer"
+2015-01-23 17:38 -!- schedmon(~schedmon@freyr.truct.org) has quit "Ping timeout: 265 seconds"
+2015-01-23 17:53 -!- asl2 changed nick to dodprocurement
+2015-01-23 17:54 -!- dodprocurement changed nick to asl2
+2015-01-23 17:55 -!- imcleod(~imcleod@24.12.72.163) has quit "Remote host closed the connection"
+2015-01-23 18:07 -!- KyleB(~androirc@66.87.79.162) has quit "Read error: Connection reset by peer"
+2015-01-23 18:18 -!- imcleod(~imcleod@24.12.72.163) has quit "Ping timeout: 244 seconds"
+2015-01-23 18:30 -!- imcleod(~imcleod@24.12.72.163) has quit "Remote host closed the connection"
+2015-01-23 19:07 -!- chillmon(~chillmon@c-73-50-115-10.hsd1.il.comcast.net) has quit "Ping timeout: 265 seconds"
+2015-01-23 19:29 -!- bry(~blabla@38.124.31.10) has quit "Quit: Leaving."
+2015-01-23 20:04 -!- KyleB(~androirc@66.87.79.162) has quit "Read error: Connection reset by peer"
+2015-01-23 20:16 -!- `Nerobro_ changed nick to `Nerobro
+2015-01-23 20:16 -!- MichD changed nick to michd
+2015-01-23 20:37 -!- jackhholmes(~anthony@c-50-151-237-231.hsd1.il.comcast.net) has quit "Ping timeout: 264 seconds"
+2015-01-23 21:03 -!- jackhholmes(~anthony@71.239.78.161) has quit "Ping timeout: 256 seconds"
+2015-01-23 21:06 -!- jadoo(62d52010@gateway/web/freenode/ip.98.213.32.16) has quit "Quit: Page closed"
+2015-01-23 21:21 -!- asl2(~asl2@2602:306:37da:6530:15c:3ebc:8820:7ff4) has quit "Ping timeout: 245 seconds"
+2015-01-23 21:30 -!- bry(~blabla@c-24-1-28-100.hsd1.il.comcast.net) has quit "Read error: Connection reset by peer"
+2015-01-23 21:48 -!- asl21 changed nick to asl2
+2015-01-23 21:59 -!- Chadwell(~Adium@50-196-240-145-static.hfc.comcastbusiness.net) has quit "Quit: Leaving."
+2015-01-23 22:14 -!- asl2(~asl2@2602:306:37da:6530:151c:41ba:cdb8:e10d) has quit "Quit: Leaving."
+2015-01-23 22:45 -!- tac(~tac-tics@99-126-152-116.lightspeed.cicril.sbcglobal.net) has quit "Ping timeout: 246 seconds"
+2015-01-23 22:51 -!- `Nerobro(~wolfeman@fg300a.skylan.net) has quit "Ping timeout: 252 seconds"
+2015-01-23 23:02 -!- KyleB(~androirc@66-87-79-162.pools.spcsdns.net) has quit "Read error: Connection reset by peer"
+2015-01-23 23:15 -!- bry(~blabla@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-23 23:37 -!- bry(~blabla@c-24-1-28-100.hsd1.il.comcast.net) has quit "Read error: Connection reset by peer"
+2015-01-24 00:06 -!- bry(~blabla@c-24-1-28-100.hsd1.il.comcast.net) has quit "Read error: Connection reset by peer"
+2015-01-24 00:14 -!- bjonnh changed nick to zirc1
+2015-01-24 00:14 -!- zirc1 changed nick to bjonnh
+2015-01-24 00:38 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Quit: Leaving."
+2015-01-24 02:25 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Quit: Leaving."
+2015-01-24 03:47 -!- Toba(~eastein@pumpingstationone/cto) has quit "Ping timeout: 245 seconds"
+2015-01-24 03:48 -!- Toba changed nick to Guest37987
+2015-01-24 03:59 -!- imcleod(~imcleod@24.12.72.163) has quit "Remote host closed the connection"
+2015-01-24 04:00 -!- Guest37987 changed nick to not_toba
+2015-01-24 04:01 -!- not_toba changed nick to Toba
+2015-01-24 04:01 -!- Toba(~eastein@freyr.truct.org) has quit "Changing host"
+2015-01-24 04:08 -!- hef[mac](~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-24 05:01 -!- hef changed nick to hef[mac]
+2015-01-24 05:42 -!- hef[mac](~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-24 05:45 -!- hef changed nick to hef[mac]
+2015-01-24 06:24 -!- dockerbot(~dockerbot@c-73-50-115-10.hsd1.il.comcast.net) has quit "Remote host closed the connection"
+2015-01-24 06:25 -!- hef[mac](~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Read error: Connection reset by peer"
+2015-01-24 06:34 -!- dockerbot(~dockerbot@c-73-50-115-10.hsd1.il.comcast.net) has quit "Remote host closed the connection"
+2015-01-24 06:46 -!- tac(~tac-tics@99-126-152-116.lightspeed.cicril.sbcglobal.net) has quit "Quit: Leaving"
+2015-01-24 07:05 -!- bryanna(~bry@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-24 07:32 -!- dockerbot(~dockerbot@c-73-50-115-10.hsd1.il.comcast.net) has quit "Remote host closed the connection"
+2015-01-24 08:23 -!- dockerbot(~dockerbot@c-73-50-115-10.hsd1.il.comcast.net) has quit "Remote host closed the connection"
+2015-01-24 08:35 -!- Warped_(~Warped@108.85.160.119) has quit "Quit: ChatZilla 0.9.91.1 [Firefox 35.0/20150108202552]"
+2015-01-24 11:24 -!- ieIe(~ieIe@2602:306:bd7b:43d0:40e9:2862:f9f6:c51b) has quit "Ping timeout: 245 seconds"
+2015-01-24 14:43 -!- michd changed nick to MichD
+2015-01-24 15:38 -!- MichD changed nick to michd
+2015-01-24 15:43 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Quit: Leaving."
+2015-01-24 16:15 -!- yan__(4932730a@gateway/web/freenode/ip.73.50.115.10) has quit "Ping timeout: 246 seconds"
+2015-01-24 17:03 -!- hef changed nick to hef[mac]
+2015-01-24 17:10 -!- ii shutting down: ping timeout
+2015-01-27 00:39 *** Looking up your hostname...
+2015-01-27 00:39 *** Checking Ident
+2015-01-27 00:39 *** Found your hostname
+2015-01-27 00:39 *** No Ident response
+2015-01-27 00:39 Welcome to the freenode Internet Relay Chat Network doormon
+2015-01-27 00:39 Your host is hitchcock.freenode.net[31.13.222.109/6667], running version ircd-seven-1.1.3
+2015-01-27 00:39 This server was created Sat Oct 11 2014 at 13:43:24 UTC
+2015-01-27 00:39 hitchcock.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-01-27 00:39 CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-01-27 00:39 CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-01-27 00:39 EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU are supported by this server
+2015-01-27 00:39 There are 166 users and 89451 invisible on 27 servers
+2015-01-27 00:39 23 IRC Operators online
+2015-01-27 00:39 12 unknown connection(s)
+2015-01-27 00:39 50352 channels formed
+2015-01-27 00:39 I have 2314 clients and 1 servers
+2015-01-27 00:39 2314 6879 Current local users 2314, max 6879
+2015-01-27 00:39 89617 105671 Current global users 89617, max 105671
+2015-01-27 00:39 Highest connection count: 6880 (6879 clients) (1236121 connections received)
+2015-01-27 00:39 - hitchcock.freenode.net Message of the Day - 
+2015-01-27 00:39 -  
+2015-01-27 00:39 - Welcome to hitchcock.freenode.net in Sofia, Bulgaria, EU, kindly sponsored by
+2015-01-27 00:39 - Neterra Communications (www.neterra.net)
+2015-01-27 00:39 -  
+2015-01-27 00:39 - HITCHCOCK, SIR ALFRED [1899 - 1980] Born in Essex,
+2015-01-27 00:39 - England, Sir Alfred Hitchcock was a noted film director
+2015-01-27 00:39 - and producer. Over a long career he pioneered many modern
+2015-01-27 00:39 - techniques in film-making, made more than 50 feature films,
+2015-01-27 00:39 - and influenced many present-day directors and producers.
+2015-01-27 00:39 -  
+2015-01-27 00:39 - Welcome to freenode - supporting the free and open source
+2015-01-27 00:39 - software communities since 1998.
+2015-01-27 00:39 -  
+2015-01-27 00:39 - **************************************************************
+2015-01-27 00:39 -                       SECURITY ALERT
+2015-01-27 00:39 -  
+2015-01-27 00:39 - Over the weekend of 13th-14th September freenode staff noticed
+2015-01-27 00:39 - some compromised binaries present on a number of servers. 
+2015-01-27 00:39 - The servers in question have been removed from the network and
+2015-01-27 00:39 - shut down.  However, it's possible that network traffic  -
+2015-01-27 00:39 - including SSL traffic - has been sniffed and passwords
+2015-01-27 00:39 - exposed.
+2015-01-27 00:39 -  
+2015-01-27 00:39 - We therefore recommend that all users change their nickserv 
+2015-01-27 00:39 - password(s) to a new value which is not shared with any
+2015-01-27 00:39 - other service.
+2015-01-27 00:39 -  
+2015-01-27 00:39 - You can do this with /msg nickserv set password newpasshere
+2015-01-27 00:39 -  
+2015-01-27 00:39 - Please note that investigation is ongoing to discover the root
+2015-01-27 00:39 - cause of the attack, and until this investigation is complete
+2015-01-27 00:39 - we cannot be 100% certain that all traces of the compromises 
+2015-01-27 00:39 - have been removed. We may have to ask you to change your  
+2015-01-27 00:39 - passwords again after analysis has completed.
+2015-01-27 00:39 -  
+2015-01-27 00:39 - Further details will appear on https://blog.freenode.net/
+2015-01-27 00:39 -  
+2015-01-27 00:39 - **************************************************************
+2015-01-27 00:39 -  
+2015-01-27 00:39 - By connecting to freenode you indicate that you have read and
+2015-01-27 00:39 - accept our policies as set out on http://www.freenode.net
+2015-01-27 00:39 - freenode runs an open proxy scanner. Please join #freenode for
+2015-01-27 00:39 - any network-related questions or queries, where a number of
+2015-01-27 00:39 - volunteer staff and helpful users will be happy to assist you.
+2015-01-27 00:39 -  
+2015-01-27 00:39 - You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-01-27 00:39 - together with like-minded FOSS enthusiasts for talks and
+2015-01-27 00:39 - real-life collaboration.
+2015-01-27 00:39 -  
+2015-01-27 00:39 - We would like to thank Private Internet Access
+2015-01-27 00:39 - (https://www.privateinternetaccess.com/) and the other
+2015-01-27 00:39 - organisations that help keep freenode and our other projects
+2015-01-27 00:39 - running for their sustained support.
+2015-01-27 00:39 -  
+2015-01-27 00:39 - In particular we would like to thank the sponsor
+2015-01-27 00:39 - of this server, details of which can be found above.
+2015-01-27 00:39 -  
+2015-01-27 00:39 End of /MOTD command.
+2015-01-27 00:39 +i
+2015-01-27 00:39 #pumpingstationone Pumping Station: One | https://wiki.pumpingstationone.org/IRC | https://pumpingstationone.org/events/ | https://wiki.pumpingstationone.org/Visiting | For javascript help, ask MichD
+2015-01-27 00:39 #pumpingstationone Toba!~eastein@pumpingstationone/cto 1421942201
+2015-01-27 00:39 @ #pumpingstationone doormon moca garndt asl2 alesage +`Nerobro imcleod Bioguy tachoknight zirc greetermon akama tdfischer dockerbot pdp7 chillmon sylphiae moey Toba__ hef peoplemon spacemon Warped jackhholmes Crimson13 brybot `justin t_j hef__ soylentbomb sahal @ChanServ tdy sudlowbot misterbonnie bjonnh DoormanDave a5m0 AnimalFarmPig sparr skay ultrashag Sean-Der loans michd NegativeK angelixd_ loclhst ashanan
+2015-01-27 00:39 #pumpingstationone End of /NAMES list.
+2015-01-27 00:39 -!- zirc(~zirc@c-73-50-115-10.hsd1.il.comcast.net) has quit "Remote host closed the connection"
+2015-01-27 00:41 -!- moca(43af0310@gateway/web/freenode/ip.67.175.3.16) has quit "Quit: Page closed"
+2015-01-27 00:46 -!- dockerbot(~dockerbot@c-73-50-115-10.hsd1.il.comcast.net) has quit "Remote host closed the connection"
+2015-01-27 00:59 -!- bry(~Adium@2601:d:2381:6100:ec23:178a:137a:9a44) has quit "Quit: Leaving."
+2015-01-27 01:40 -!- tachoknight(~ron@71.201.47.228) has quit "Quit: tachoknight"
+2015-01-27 01:48 -!- Bioguy(~Bioguy@73.45.33.167) has quit "Quit: Leaving"
+2015-01-27 01:48 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Quit: Leaving."
+2015-01-27 02:28 -!- iiie0___(~iiie1@73.8.80.190) has quit "Quit: Be back later ..."
+2015-01-27 02:34 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 276 seconds"
+2015-01-27 02:44 -!- bry(~Adium@2601:d:2381:6100:3df3:646c:b39f:4f84) has quit "Quit: Leaving."
+2015-01-27 02:46 -!- bry(~Adium@2601:d:2381:6100:3df3:646c:b39f:4f84) has quit "Client Quit"
+2015-01-27 02:57 -!- vcolombo(~vcolombo@c-67-186-91-118.hsd1.il.comcast.net) has quit "Ping timeout: 264 seconds"
+2015-01-27 03:14 -!- bry(~Adium@2601:d:2381:6100:3df3:646c:b39f:4f84) has quit "Quit: Leaving."
+2015-01-27 03:23 -!- CarlFK(~carl@2601:d:2381:6100:d9f2:b262:70c8:976c) has quit "Ping timeout: 245 seconds"
+2015-01-27 03:45 -!- feeling_groovy(4b76208b@gateway/web/freenode/ip.75.118.32.139) has quit "Client Quit"
+2015-01-27 04:24 -!- iiie0___(~iiie1@2601:d:5501:2d40:9582:1364:2b6a:f000) has quit "Quit: Be back later ..."
+2015-01-27 04:29 -!- imcleod(~imcleod@24.12.72.163) has quit "Ping timeout: 265 seconds"
+2015-01-27 04:29 -!- iiie0___(~iiie1@2601:d:5501:2d40:9582:1364:2b6a:f000) has quit "Ping timeout: 245 seconds"
+2015-01-27 04:41 -!- treyrex(cfb5fa97@gateway/web/freenode/ip.207.181.250.151) has quit "Ping timeout: 246 seconds"
+2015-01-27 05:31 -!- em(cdb25ae7@gateway/web/freenode/ip.205.178.90.231) has quit "Ping timeout: 246 seconds"
+2015-01-27 06:25 -!- iiie0___(~iiie1@2601:d:5501:2d40:58a6:a0a9:3cf7:81ff) has quit "Quit: Be back later ..."
+2015-01-27 06:29 -!- iiie0___(~iiie1@2601:d:5501:2d40:58a6:a0a9:3cf7:81ff) has quit "Ping timeout: 245 seconds"
+2015-01-27 07:04 -!- iiie0___(~iiie1@2601:d:5501:2d40:ac40:207d:1969:717f) has quit "Ping timeout: 245 seconds"
+2015-01-27 07:26 -!- tachoknight(~tachoknig@71.201.47.228) has quit "Ping timeout: 252 seconds"
+2015-01-27 08:00 -!- michd changed nick to MichD
+2015-01-27 08:06 -!- iiie0___(~iiie1@2601:d:5501:2d40:ac40:207d:1969:717f) has quit "Ping timeout: 245 seconds"
+2015-01-27 08:24 -!- tac_(~tac-tics@99-126-152-116.lightspeed.cicril.sbcglobal.net) has quit "Ping timeout: 264 seconds"
+2015-01-27 08:35 -!- jackhholmes(~anthony@71.239.78.161) has quit "Ping timeout: 276 seconds"
+2015-01-27 09:06 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 246 seconds"
+2015-01-27 10:03 -!- `Nerobro(~wolfeman@fg300a.skylan.net) has quit "Read error: Connection reset by peer"
+2015-01-27 10:07 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 252 seconds"
+2015-01-27 10:19 -!- tac-tics(~tac-tics@99-126-152-116.lightspeed.cicril.sbcglobal.net) has quit "Quit: Leaving"
+2015-01-27 11:08 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 256 seconds"
+2015-01-27 12:09 -!- iiie0___(~iiie1@2601:d:5501:2d40:ac40:207d:1969:717f) has quit "Ping timeout: 245 seconds"
+2015-01-27 13:10 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 265 seconds"
+2015-01-27 14:10 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 245 seconds"
+2015-01-27 15:11 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 240 seconds"
+2015-01-27 16:12 -!- iiie0___(~iiie1@2601:d:5501:2d40:ac40:207d:1969:717f) has quit "Ping timeout: 245 seconds"
+2015-01-27 16:27 -!- Nonebot(~Nonebot@c-73-50-115-10.hsd1.il.comcast.net) has quit "Ping timeout: 245 seconds"
+2015-01-27 16:35 -!- Warped(~Warped@108.85.160.119) has quit "Quit: ChatZilla 0.9.91.1 [Firefox 35.0/20150108202552]"
+2015-01-27 16:55 -!- Bioguy(~Bioguy@73.45.33.167) has quit "Ping timeout: 264 seconds"
+2015-01-27 16:58 -!- CarlFK(~carl@c-98-223-145-234.hsd1.in.comcast.net) has quit "Quit: Leaving."
+2015-01-27 17:12 -!- iiie0___(~iiie1@2601:d:5501:2d40:ac40:207d:1969:717f) has quit "Ping timeout: 245 seconds"
+2015-01-27 17:41 -!- asl2 changed nick to thenuge
+2015-01-27 17:42 -!- thenuge changed nick to asl2
+2015-01-27 17:52 -!- B1oguy changed nick to Bioguy
+2015-01-27 17:52 -!- Bioguy changed nick to Guest14698
+2015-01-27 17:52 -!- Guest14698(~Bioguy@73.45.33.167) has quit "Quit: Leaving"
+2015-01-27 17:53 -!- schedmon(~schedmon@freyr.truct.org) has quit "Ping timeout: 246 seconds"
+2015-01-27 18:03 -!- dockerbot(~dockerbot@c-73-50-115-10.hsd1.il.comcast.net) has quit "Remote host closed the connection"
+2015-01-27 18:05 -!- aumix(4932730a@gateway/web/freenode/ip.73.50.115.10) has quit "Ping timeout: 246 seconds"
+2015-01-27 18:14 -!- iiie0___(~iiie1@73.8.80.190) has quit "Ping timeout: 256 seconds"
+2015-01-27 18:16 -!- Jason____(0c10c2e3@gateway/web/freenode/ip.12.16.194.227) has quit "Ping timeout: 246 seconds"
+2015-01-27 18:42 -!- KoalaBro2(~androirc@66-87-79-169.pools.spcsdns.net) has quit "Read error: Connection reset by peer"
+2015-01-27 19:14 -!- iiie0___(~iiie1@2601:d:5501:2d40:ac40:207d:1969:717f) has quit "Ping timeout: 245 seconds"
+2015-01-27 19:36 -!- B1oguy(~Bioguy@2601:d:3100:1061:156f:561f:3178:654) has quit "Quit: Leaving"
+2015-01-28 03:03 -!- mrdorianjames(~androirc@70-32-193-142.unassigned.ntelos.net) has quit "Client Quit"
+2015-01-28 03:03 -!- dorianjames(~androirc@70-32-193-142.unassigned.ntelos.net) has quit "Client Quit"
+2015-01-28 03:17 -!- KyleB(~androirc@66-87-77-90.pools.spcsdns.net) has quit "Read error: Connection reset by peer"
+2015-01-28 03:18 -!- Bioguy(~Pete@2601:d:2381:6100:793b:10a0:e750:a453) has quit "Ping timeout: 272 seconds"
+2015-01-28 03:22 -!- CarlFK(~carl@2601:d:2381:6100:75c7:247d:73e7:3c65) has quit "Read error: Connection reset by peer"
+2015-01-28 03:25 -!- bry(~Adium@2601:d:2381:6100:35fb:4f39:a9fa:609a) has quit "Quit: Leaving."
+2015-01-28 03:32 -!- bry(~Adium@c-73-50-115-10.hsd1.il.comcast.net) has quit "Client Quit"
+2015-01-28 03:49 -!- bry(~Adium@c-73-50-115-10.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-28 03:57 -!- bry(~Adium@c-73-50-115-10.hsd1.il.comcast.net) has quit "Client Quit"
+2015-01-28 04:06 -!- KyleB(~androirc@24-148-83-238.c3-0.grn-ubr2.chi-grn.il.cable.rcn.com) has quit "Ping timeout: 246 seconds"
+2015-01-28 04:39 -!- bry(~Adium@c-73-50-115-10.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-28 04:52 -!- akama(~akama@irc.nexadmin.com) has quit "Ping timeout: 264 seconds"
+2015-01-28 05:01 -!- bry(~Adium@c-73-50-115-10.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-28 05:19 -!- imcleod(~imcleod@24.12.72.163) has quit "Remote host closed the connection"
+2015-01-28 05:20 -!- KyleB(~androirc@24-148-83-238.c3-0.grn-ubr2.chi-grn.il.cable.rcn.com) has quit "Read error: Connection reset by peer"
+2015-01-28 05:40 -!- bry(~Adium@c-73-50-115-10.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-01-28 06:15 -!- sudlowbot(simpleirc@2600:3c00::f03c:91ff:feae:5893) has quit "Quit: SUDLOWBOT INACTIVATING"
+2015-01-28 06:18 -!- sudlowbot(simpleirc@2600:3c00::f03c:91ff:feae:5893) has quit "Read error: Connection reset by peer"
+2015-01-28 07:16 -!- iiie0___(~iiie1@73.8.80.190) has quit "Quit: Be back later ..."
+2015-01-28 07:22 -!- iiie0___(~iiie1@2601:d:5501:2d40:38e3:8cc3:5cd6:1870) has quit "Ping timeout: 272 seconds"
+2015-01-28 08:12 -!- tdfischer(~tdfischer@kde/tdfischer) has quit "Ping timeout: 245 seconds"
+2015-01-28 08:22 -!- tac_(~tac-tics@99-126-152-116.lightspeed.cicril.sbcglobal.net) has quit "Ping timeout: 240 seconds"
+2015-01-28 09:06 -!- alesage(~alesage@canonical/alesage) has quit "Ping timeout: 255 seconds"
+2015-01-28 09:16 -!- michd changed nick to MichD
+2015-01-28 09:36 -!- alesage(~alesage@c-50-141-244-202.hsd1.il.comcast.net) has quit "Changing host"
+2015-01-28 13:10 -!- KyleB(~androirc@66.87.76.131) has quit "Client Quit"
+2015-01-28 13:18 -!- KyleB(~androirc@66.87.76.131) has quit "Read error: Connection reset by peer"
+2015-01-28 13:20 -!- KyleB(~androirc@66-87-76-131.pools.spcsdns.net) has quit "Client Quit"
+2015-01-28 13:48 -!- alesage(~alesage@canonical/alesage) has quit "Ping timeout: 256 seconds"
+2015-01-28 14:08 -!- KyleB(~androirc@66-87-76-131.pools.spcsdns.net) has quit "Ping timeout: 246 seconds"
+2015-01-28 14:22 -!- KyleB(~androirc@66-87-95-119.pools.spcsdns.net) has quit "Ping timeout: 244 seconds"
+2015-01-28 15:25 -!- hef-(~androirc@166.175.184.193) has quit "Ping timeout: 264 seconds"
+2015-01-28 15:57 -!- Bioguy(~Bioguy@73.45.33.167) has quit "Quit: Leaving"
+2015-01-28 16:00 -!- CK changed nick to Guest4765
+2015-01-28 16:03 -!- Guest4765(0ce27fd3@gateway/web/freenode/ip.12.226.127.211) has quit "Ping timeout: 246 seconds"
+2015-01-28 16:07 -!- hef-(~androirc@166.175.57.64) has quit "Read error: Connection reset by peer"
+2015-01-28 16:24 -!- tdfischer(~tdfischer@kde/tdfischer) has quit "Ping timeout: 240 seconds"
+2015-01-28 16:26 -!- NegativeK changed nick to negkandcaffeine
+2015-01-28 17:03 -!- imcleod(~imcleod@24.12.72.163) has quit "Remote host closed the connection"
+2015-01-28 17:58 -!- negkandcaffeine changed nick to NegativeK
+2015-01-28 19:11 -!- akama(~akama@irc.nexadmin.com) has quit "Ping timeout: 240 seconds"
+2015-01-28 19:37 -!- asl2(~asl2@99-125-166-83.lightspeed.cicril.sbcglobal.net) has quit "Quit: Leaving."
+2015-01-28 19:56 -!- KyleB(~androirc@66.87.77.112) has quit "Read error: Connection reset by peer"
+2015-01-28 20:03 -!- Warped(~Warped@108.85.160.119) has quit "Quit: ChatZilla 0.9.91.1 [Firefox 35.0.1/20150122214805]"
+2015-01-28 21:06 -!- Nonebot(~Nonebot@c-73-50-115-10.hsd1.il.comcast.net) has quit "Read error: Connection reset by peer"
+2015-01-28 21:07 -!- spew(none@108.61.229.181) has quit "Remote host closed the connection"
+2015-01-28 21:08 -!- sahal(~sahal@we.outchea.tk) has quit "Quit: gone."
+2015-01-28 21:17 -!- AlexZaman(43a5b279@gateway/web/cgi-irc/kiwiirc.com/ip.67.165.178.121) has quit "Client Quit"
+2015-01-28 21:33 -!- AlexZaman(43a5b279@gateway/web/cgi-irc/kiwiirc.com/ip.67.165.178.121) has quit "Quit: http://www.kiwiirc.com/ - A hand crafted IRC client"
+2015-01-28 21:39 -!- treyrex(cfb5fa97@gateway/web/freenode/ip.207.181.250.151) has quit "Client Quit"
+2015-01-28 22:43 -!- imcleod(~imcleod@172.56.37.255) has quit "Ping timeout: 246 seconds"
+2015-01-28 22:45 -!- spew(none@108.61.229.181) has quit "Quit:  Leaving..."
+2015-01-28 22:49 -!- Bioguy(~Bioguy@73.45.33.167) has quit "Quit: Leaving"
+2015-01-28 22:57 -!- `Nerobro(~wolfeman@fg300a.skylan.net) has quit "Ping timeout: 276 seconds"
+2015-01-28 23:11 -!- MichD changed nick to michd
+2015-01-28 23:15 -!- xyopvdb(~ldxyvyvd@bjonnh.net) has quit "Client Quit"
+2015-01-28 23:19 -!- KyleB(~androirc@66-87-77-112.pools.spcsdns.net) has quit "Read error: Connection reset by peer"
+2015-01-28 23:20 -!- toba1(~toba1@bjonnh.net) has quit "Remote host closed the connection"
+2015-01-28 23:22 -!- Toba__ changed nick to Toba
+2015-01-28 23:22 -!- Toba(~eastein@freyr.truct.org) has quit "Changing host"
+2015-01-28 23:22 -!- toba1(~toba1@bjonnh.net) has quit "Client Quit"
+2015-01-28 23:57 -!- CK changed nick to Guest86001
+2015-01-29 00:04 -!- ieIe(~ieIe@107-215-180-61.lightspeed.cicril.sbcglobal.net) has quit "Ping timeout: 245 seconds"
+2015-01-29 00:42 -!- CarlFK(~carl@c-98-223-145-234.hsd1.in.comcast.net) has quit "Quit: Leaving."
+2015-01-29 00:48 -!- bry(~blabla@38.124.31.10) has quit "Read error: Connection reset by peer"
+2015-01-29 01:41 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Quit: Leaving."
+2015-01-29 02:09 -!- tdfischer(~tdfischer@kde/tdfischer) has quit "Ping timeout: 245 seconds"
+2015-01-29 02:11 -!- dockerbot(~dockerbot@c-73-50-115-10.hsd1.il.comcast.net) has quit "Quit: Bye, cruel world!"
+2015-01-29 02:13 -!- Efo(4932730a@gateway/web/freenode/ip.73.50.115.10) has quit "Quit: Page closed"
+2015-01-29 02:15 -!- zirc(~zirc@c-73-50-115-10.hsd1.il.comcast.net) has quit "Remote host closed the connection"
+2015-01-29 03:16 -!- Purple_Lyn(4932730a@gateway/web/freenode/ip.73.50.115.10) has quit "Quit: Page closed"
+2015-01-29 03:28 -!- ieIe(~ieIe@c-73-50-115-10.hsd1.il.comcast.net) has quit "Ping timeout: 265 seconds"
+2015-01-29 03:47 -!- spew(none@108.61.229.181) has quit "Quit:  Leaving..."
+2015-01-29 03:47 -!- iiie0___ changed nick to iiie0
+2015-01-29 03:48 -!- iiie0(~iiie1@73.8.80.190) has quit "Changing host"
+2015-01-29 04:47 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Ping timeout: 252 seconds"
+2015-01-29 05:01 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Read error: Connection reset by peer"
+2015-01-29 05:14 -!- hef-(~androirc@166.175.57.43) has quit "Read error: Connection reset by peer"
+2015-01-29 05:17 -!- chronmon(~chronmon@c-73-50-115-10.hsd1.il.comcast.net) has quit "Ping timeout: 245 seconds"
+2015-01-29 05:18 -!- spacemon(~spacemon@c-73-50-115-10.hsd1.il.comcast.net) has quit "Ping timeout: 276 seconds"
+2015-01-29 06:08 -!- bry(~Adium@2601:d:23c0:168:456d:92fe:6ff8:3b1e) has quit "Quit: Leaving."
+2015-01-29 06:31 -!- sudlowbot(simpleirc@2600:3c00::f03c:91ff:feae:5893) has quit "Ping timeout: 265 seconds"
+2015-01-29 06:43 -!- iiie0(~iiie1@unaffiliated/iiie) has quit "Quit: (null)"
+2015-01-29 07:00 -!- CarlFK(~carl@2601:d:2381:6100:bd4d:ff5f:adf:3b74) has quit "Quit: Leaving."
+2015-01-29 07:08 -!- tac_(~tac-tics@99-126-152-116.lightspeed.cicril.sbcglobal.net) has quit "Quit: Leaving"
+2015-01-29 07:25 -!- bry(~Adium@2601:d:23c0:168:456d:92fe:6ff8:3b1e) has quit "Quit: Leaving."
+2015-01-29 08:06 -!- iiie0(~iiie@unaffiliated/iiie) has quit "Quit: Be back later ..."
+2015-01-29 08:11 -!- iiie0(~iiie@unaffiliated/iiie) has quit "Ping timeout: 272 seconds"
+2015-01-29 09:15 -!- michd changed nick to MichD
+2015-01-29 09:39 -!- iiie0(~iiie@73.8.80.190) has quit "Changing host"
+2015-01-29 09:44 -!- iiie0(~iiie@unaffiliated/iiie) has quit "Ping timeout: 256 seconds"
+2015-01-29 10:40 -!- iiie0(~iiie@2601:d:5501:2d40:b060:1354:cabf:ff2f) has quit "Changing host"
+2015-01-29 10:45 -!- iiie0(~iiie@unaffiliated/iiie) has quit "Ping timeout: 265 seconds"
+2015-01-29 11:48 -!- iiie0(~iiie@unaffiliated/iiie) has quit "Ping timeout: 272 seconds"
+2015-01-29 11:54 -!- Warped(~Warped@108.85.160.119) has quit "Ping timeout: 264 seconds"
+2015-01-29 12:09 -!- Warped(~Warped@108.85.160.119) has quit "Ping timeout: 252 seconds"
+2015-01-29 12:44 -!- iiie0(~iiie@2601:d:5501:2d40:b060:1354:cabf:ff2f) has quit "Changing host"
+2015-01-29 12:48 -!- iiie0(~iiie@unaffiliated/iiie) has quit "Ping timeout: 272 seconds"
+2015-01-29 13:26 -!- imcleod(~imcleod@ip-188-118-61-81.reverse.destiny.be) has quit "Ping timeout: 245 seconds"
+2015-01-29 13:44 -!- iiie0(~iiie@73.8.80.190) has quit "Changing host"
+2015-01-29 13:49 -!- iiie0(~iiie@unaffiliated/iiie) has quit "Ping timeout: 276 seconds"
+2015-01-29 14:45 -!- iiie0(~iiie@2601:d:5501:2d40:b060:1354:cabf:ff2f) has quit "Changing host"
+2015-01-29 14:50 -!- iiie0(~iiie@unaffiliated/iiie) has quit "Ping timeout: 265 seconds"
+2015-01-29 14:56 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Client Quit"
+2015-01-29 15:26 -!- hef-(~androirc@2601:d:23c0:168:a0a5:7e08:a372:f076) has quit "Ping timeout: 265 seconds"
+2015-01-29 15:46 -!- iiie0(~iiie@2601:d:5501:2d40:b060:1354:cabf:ff2f) has quit "Changing host"
+2015-01-29 15:50 -!- iiie0(~iiie@unaffiliated/iiie) has quit "Ping timeout: 272 seconds"
+2015-01-29 16:11 -!- imcleod(~imcleod@ip-188-118-61-81.reverse.destiny.be) has quit "Remote host closed the connection"
+2015-01-29 16:12 -!- tdfischer(~tdfischer@kde/tdfischer) has quit "Ping timeout: 245 seconds"
+2015-01-29 16:20 -!- skay8(~skay8@bjonnh.net) has quit "Remote host closed the connection"
+2015-01-29 16:22 -!- loans8(~loans8@bjonnh.net) has quit "Remote host closed the connection"
+2015-01-29 16:25 -!- skay8(~skay8@bjonnh.net) has quit "Client Quit"
+2015-01-29 16:25 -!- sylphiae8(~sylphiae8@bjonnh.net) has quit "Quit: Bye, cruel world!"
+2015-01-29 16:25 -!- asl28(~asl28@bjonnh.net) has quit "Client Quit"
+2015-01-29 16:26 -!- asl2 changed nick to asl28
+2015-01-29 16:30 -!- asl28 changed nick to asl2
+2015-01-29 16:50 -!- KoalaBro2(~androirc@66-87-78-186.pools.spcsdns.net) has quit "Read error: Connection reset by peer"
+2015-01-29 16:51 -!- iiie0(~iiie@unaffiliated/iiie) has quit "Ping timeout: 272 seconds"
+2015-01-29 17:28 -!- ryantaylor(41c665e2@gateway/web/freenode/ip.65.198.101.226) has quit "Quit: Page closed"
+2015-01-29 17:47 -!- iiie0(~iiie@73.8.80.190) has quit "Changing host"
+2015-01-29 17:49 -!- negativek_(~negativek@bjonnh.net) has quit "Remote host closed the connection"
+2015-01-29 17:52 -!- iiie0(~iiie@unaffiliated/iiie) has quit "Ping timeout: 244 seconds"
+2015-01-29 18:03 -!- bjonnh_(~bjonnh_@bjonnh.net) has quit "Quit: Bye, cruel world!"
+2015-01-29 18:27 -!- KyleB(~androirc@66.87.78.186) has quit "Read error: Connection reset by peer"
+2015-01-29 18:53 -!- iiie0(~iiie@unaffiliated/iiie) has quit "Ping timeout: 272 seconds"
+2015-01-29 19:08 -!- spew(none@108.61.229.181) has quit "Remote host closed the connection"
+2015-01-29 19:41 -!- asl2(~asl2@99-125-166-83.lightspeed.cicril.sbcglobal.net) has quit "Quit: Leaving."
+2015-01-29 19:49 -!- iiie0(~iiie@73.8.80.190) has quit "Changing host"
+2015-01-29 19:53 -!- iiie0(~iiie@unaffiliated/iiie) has quit "Ping timeout: 240 seconds"
+2015-01-29 19:56 -!- chronmon(~chronmon@c-73-50-115-10.hsd1.il.comcast.net) has quit "Ping timeout: 264 seconds"
+2015-01-29 19:56 -!- `Nerobro(~wolfeman@fg300a.skylan.net) has quit "Ping timeout: 264 seconds"
+2015-01-29 19:57 -!- hef(~hef@host-70-34-134-228.host.ussignalcom.net) has quit "Read error: Connection reset by peer"
+2015-01-29 20:36 -!- tac_(~tac-tics@99-126-152-116.lightspeed.cicril.sbcglobal.net) has quit "Ping timeout: 265 seconds"
+2015-01-29 20:54 -!- iiie0(~iiie@unaffiliated/iiie) has quit "Ping timeout: 272 seconds"
+2015-01-29 20:58 -!- stevi_(62ac2e49@gateway/web/freenode/ip.98.172.46.73) has quit "Quit: Page closed"
+2015-01-29 21:24 -!- carlfk_(~carlfk_@bjonnh.net) has quit "Quit: Bye, cruel world!"
+2015-01-29 21:50 -!- iiie0(~iiie@73.8.80.190) has quit "Changing host"
+2015-01-29 21:54 -!- iiie0(~iiie@unaffiliated/iiie) has quit "Ping timeout: 246 seconds"
+2015-01-29 22:11 -!- r4v5_ changed nick to r4v5
+2015-01-29 22:28 -!- Bioguy(~Bioguy@73.45.33.167) has quit "Quit: Leaving"
+2015-01-29 22:31 -!- spew(none@108.61.229.181) has quit "Quit:  Leaving..."
+2015-01-29 22:39 -!- bjonnh changed nick to zirc1
+2015-01-29 22:39 -!- zirc1 changed nick to bjonnh
+2015-01-29 22:51 -!- iiie0(~iiie@73.8.80.190) has quit "Changing host"
+2015-01-29 22:53 -!- KyleB(~androirc@66-87-78-186.pools.spcsdns.net) has quit "Ping timeout: 244 seconds"
+2015-01-29 22:56 -!- iiie0(~iiie@unaffiliated/iiie) has quit "Ping timeout: 256 seconds"
+2015-01-29 22:57 -!- `Nerobro_(~wolfeman@fg300a.skylan.net) has quit "Ping timeout: 255 seconds"
+2015-01-29 23:17 -!- MichD changed nick to michd
+2015-01-29 23:40 -!- ii shutting down: ping timeout
+2015-02-03 03:22 *** Looking up your hostname...
+2015-02-03 03:22 *** Checking Ident
+2015-02-03 03:22 *** Found your hostname
+2015-02-03 03:23 *** No Ident response
+2015-02-03 03:23 Welcome to the freenode Internet Relay Chat Network doormon
+2015-02-03 03:23 Your host is hitchcock.freenode.net[31.13.222.109/6667], running version ircd-seven-1.1.3
+2015-02-03 03:23 This server was created Sat Oct 11 2014 at 13:43:24 UTC
+2015-02-03 03:23 hitchcock.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-02-03 03:23 CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-02-03 03:23 CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-02-03 03:23 EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU are supported by this server
+2015-02-03 03:23 There are 169 users and 86144 invisible on 27 servers
+2015-02-03 03:23 24 IRC Operators online
+2015-02-03 03:23 11 unknown connection(s)
+2015-02-03 03:23 51343 channels formed
+2015-02-03 03:23 I have 4894 clients and 1 servers
+2015-02-03 03:23 4894 6879 Current local users 4894, max 6879
+2015-02-03 03:23 86313 105671 Current global users 86313, max 105671
+2015-02-03 03:23 Highest connection count: 6880 (6879 clients) (1347585 connections received)
+2015-02-03 03:23 - hitchcock.freenode.net Message of the Day - 
+2015-02-03 03:23 -  
+2015-02-03 03:23 - Welcome to hitchcock.freenode.net in Sofia, Bulgaria, EU, kindly sponsored by
+2015-02-03 03:23 - Neterra Communications (www.neterra.net)
+2015-02-03 03:23 -  
+2015-02-03 03:23 - HITCHCOCK, SIR ALFRED [1899 - 1980] Born in Essex,
+2015-02-03 03:23 - England, Sir Alfred Hitchcock was a noted film director
+2015-02-03 03:23 - and producer. Over a long career he pioneered many modern
+2015-02-03 03:23 - techniques in film-making, made more than 50 feature films,
+2015-02-03 03:23 - and influenced many present-day directors and producers.
+2015-02-03 03:23 -  
+2015-02-03 03:23 - Welcome to freenode - supporting the free and open source
+2015-02-03 03:23 - software communities since 1998.
+2015-02-03 03:23 -  
+2015-02-03 03:23 - **************************************************************
+2015-02-03 03:23 -                       SECURITY ALERT
+2015-02-03 03:23 -  
+2015-02-03 03:23 - Over the weekend of 13th-14th September freenode staff noticed
+2015-02-03 03:23 - some compromised binaries present on a number of servers. 
+2015-02-03 03:23 - The servers in question have been removed from the network and
+2015-02-03 03:23 - shut down.  However, it's possible that network traffic  -
+2015-02-03 03:23 - including SSL traffic - has been sniffed and passwords
+2015-02-03 03:23 - exposed.
+2015-02-03 03:23 -  
+2015-02-03 03:23 - We therefore recommend that all users change their nickserv 
+2015-02-03 03:23 - password(s) to a new value which is not shared with any
+2015-02-03 03:23 - other service.
+2015-02-03 03:23 -  
+2015-02-03 03:23 - You can do this with /msg nickserv set password newpasshere
+2015-02-03 03:23 -  
+2015-02-03 03:23 - Please note that investigation is ongoing to discover the root
+2015-02-03 03:23 - cause of the attack, and until this investigation is complete
+2015-02-03 03:23 - we cannot be 100% certain that all traces of the compromises 
+2015-02-03 03:23 - have been removed. We may have to ask you to change your  
+2015-02-03 03:23 - passwords again after analysis has completed.
+2015-02-03 03:23 -  
+2015-02-03 03:23 - Further details will appear on https://blog.freenode.net/
+2015-02-03 03:23 -  
+2015-02-03 03:23 - **************************************************************
+2015-02-03 03:23 -  
+2015-02-03 03:23 - By connecting to freenode you indicate that you have read and
+2015-02-03 03:23 - accept our policies as set out on http://www.freenode.net
+2015-02-03 03:23 - freenode runs an open proxy scanner. Please join #freenode for
+2015-02-03 03:23 - any network-related questions or queries, where a number of
+2015-02-03 03:23 - volunteer staff and helpful users will be happy to assist you.
+2015-02-03 03:23 -  
+2015-02-03 03:23 - You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-02-03 03:23 - together with like-minded FOSS enthusiasts for talks and
+2015-02-03 03:23 - real-life collaboration.
+2015-02-03 03:23 -  
+2015-02-03 03:23 - We would like to thank Private Internet Access
+2015-02-03 03:23 - (https://www.privateinternetaccess.com/) and the other
+2015-02-03 03:23 - organisations that help keep freenode and our other projects
+2015-02-03 03:23 - running for their sustained support.
+2015-02-03 03:23 -  
+2015-02-03 03:23 - In particular we would like to thank the sponsor
+2015-02-03 03:23 - of this server, details of which can be found above.
+2015-02-03 03:23 -  
+2015-02-03 03:23 End of /MOTD command.
+2015-02-03 03:23 +i
+2015-02-03 03:23 #pumpingstationone Pumping Singularity: One | https://wiki.pumpingstationone.org/IRC | https://pumpingstationone.org/events/ | https://wiki.pumpingstationone.org/Visiting | <greetermon> want to yell
+2015-02-03 03:23 #pumpingstationone Toba!~eastein@pumpingstationone/cto 1422487440
+2015-02-03 03:23 @ #pumpingstationone doormon hef- tachoknight` tdy Bioguy hef alesage peoplemon AnimalFarmPig ps1wikimon zirc thingsmon spacemon chronmon dockerbot mstrb bjonnh akama ieIe_ ashanan angelixd CarlFK kuroishi pdp7 tdfischer a5m0 tachoknight +loclhst NegativeK CrimsonVIII sudlowbot minivanmegafun sylphiae ultrashag_ schedmon r4v5 agocs garndt moey +Toba `justin t_j hef_ @ChanServ sparr skay Sean-Der loans michd
+2015-02-03 03:23 #pumpingstationone End of /NAMES list.
+2015-02-03 03:23 -!- zirc(~zirc@c-73-50-115-10.hsd1.il.comcast.net) has quit "Remote host closed the connection"
+2015-02-03 03:33 -!- spacemon(~spacemon@c-73-50-115-10.hsd1.il.comcast.net) has quit "Remote host closed the connection"
+2015-02-03 03:38 -!- hef-(~androirc@166.175.184.157) has quit "Ping timeout: 244 seconds"
+2015-02-03 03:43 -!- iiie0__(~iiie@73.8.80.190) has quit "Ping timeout: 245 seconds"
+2015-02-03 03:57 -!- peoplemon(~peoplemon@c-73-50-115-10.hsd1.il.comcast.net) has quit "Remote host closed the connection"
+2015-02-03 03:57 -!- thingsmon(~thingsmon@c-73-50-115-10.hsd1.il.comcast.net) has quit "Remote host closed the connection"
+2015-02-03 03:57 -!- chronmon(~chronmon@c-73-50-115-10.hsd1.il.comcast.net) has quit "Remote host closed the connection"
+2015-02-03 03:57 -!- ps1wikimon(~ps1wikimo@c-73-50-115-10.hsd1.il.comcast.net) has quit "Remote host closed the connection"
+2015-02-03 03:57 -!- spacemon(~spacemon@c-73-50-115-10.hsd1.il.comcast.net) has quit "Remote host closed the connection"
+2015-02-03 04:10 -!- minivanmegafun(alice@hardch.at) has quit "Remote host closed the connection"
+2015-02-03 04:44 -!- iiie0__(~iiie@2601:d:5501:2d40:21c3:3fb0:dd3f:5fcd) has quit "Ping timeout: 245 seconds"
+2015-02-03 04:44 -!- bry(~Adium@2601:d:23c0:168:64a2:4b81:d491:80ce) has quit "Quit: Leaving."
+2015-02-03 05:44 -!- iiie0__(~iiie@73.8.80.190) has quit "Ping timeout: 240 seconds"
+2015-02-03 06:01 -!- bry(~Adium@c-24-1-28-100.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-02-03 06:16 -!- KyleB(~androirc@66.87.77.200) has quit "Read error: Connection reset by peer"
+2015-02-03 06:45 -!- Bioguy(~Bioguy@2601:d:3100:1061:1d65:d4d4:4da3:48d) has quit "Ping timeout: 250 seconds"
+2015-02-03 06:45 -!- iiie0__(~iiie@2601:d:5501:2d40:21c3:3fb0:dd3f:5fcd) has quit "Ping timeout: 245 seconds"
+2015-02-03 06:57 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Client Quit"
+2015-02-03 07:46 -!- iiie0__(~iiie@2601:d:5501:2d40:21c3:3fb0:dd3f:5fcd) has quit "Ping timeout: 245 seconds"
+2015-02-03 08:46 -!- tac_(~tac-tics@99-126-152-116.lightspeed.cicril.sbcglobal.net) has quit "Quit: Leaving"
+2015-02-03 08:47 -!- iiie0__(~iiie@2601:d:5501:2d40:21c3:3fb0:dd3f:5fcd) has quit "Ping timeout: 245 seconds"
+2015-02-03 08:51 -!- michd changed nick to MichD
+2015-02-03 09:47 -!- iiie0__(~iiie@73.8.80.190) has quit "Ping timeout: 240 seconds"
+2015-02-03 10:12 -!- CarlFK(~carl@c-98-223-145-234.hsd1.in.comcast.net) has quit "Read error: Connection reset by peer"
+2015-02-03 10:48 -!- iiie0__(~iiie@2601:d:5501:2d40:21c3:3fb0:dd3f:5fcd) has quit "Ping timeout: 245 seconds"
+2015-02-03 11:03 -!- CarlFK(~carl@c-98-223-145-234.hsd1.in.comcast.net) has quit "Ping timeout: 246 seconds"
+2015-02-03 11:28 -!- imcleod(~imcleod@62-50-195-63.client.stsn.net) has quit "Ping timeout: 240 seconds"
+2015-02-03 11:49 -!- iiie0__(~iiie@2601:d:5501:2d40:21c3:3fb0:dd3f:5fcd) has quit "Ping timeout: 245 seconds"
+2015-02-03 12:49 -!- iiie0__(~iiie@73.8.80.190) has quit "Ping timeout: 240 seconds"
+2015-02-03 12:57 -!- chronmon(~chronmon@c-73-50-115-10.hsd1.il.comcast.net) has quit "Ping timeout: 250 seconds"
+2015-02-03 12:57 -!- tachoknight`(~tachoknig@71.201.47.228) has quit "Ping timeout: 250 seconds"
+2015-02-03 12:57 -!- hef(~hef@host-70-34-134-228.host.ussignalcom.net) has quit "Ping timeout: 250 seconds"
+2015-02-03 13:27 -!- imcleod(~imcleod@62.50.232.71) has quit "Ping timeout: 245 seconds"
+2015-02-03 13:50 -!- iiie0__(~iiie@73.8.80.190) has quit "Ping timeout: 244 seconds"
+2015-02-03 14:38 -!- hef-(~androirc@166.175.184.157) has quit "Remote host closed the connection"
+2015-02-03 14:53 -!- hef-(~androirc@166.175.184.157) has quit "Read error: Connection reset by peer"
+2015-02-03 15:11 -!- iiie0__(~iiie@73.8.80.190) has quit "Quit: Be back later ..."
+2015-02-03 15:16 -!- iiie0__(~iiie@73.8.80.190) has quit "Ping timeout: 265 seconds"
+2015-02-03 15:46 -!- iiie0__(~iiie@73.8.80.190) has quit "Ping timeout: 245 seconds"
+2015-02-03 15:52 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Quit: Leaving."
+2015-02-03 15:53 -!- spew(none@108.61.229.181) has quit "Remote host closed the connection"
+2015-02-03 16:01 -!- hef-(~androirc@166.175.184.157) has quit "Ping timeout: 246 seconds"
+2015-02-03 16:12 -!- imcleod(~imcleod@62-50-195-63.client.stsn.net) has quit "Remote host closed the connection"
+2015-02-03 16:47 -!- iiie0__(~iiie@2601:d:5501:2d40:9111:6e8e:5b1c:f1df) has quit "Ping timeout: 245 seconds"
+2015-02-03 17:38 -!- ieIe_(~ieIe@107-215-180-61.lightspeed.cicril.sbcglobal.net) has quit "Ping timeout: 255 seconds"
+2015-02-03 17:45 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Quit: Leaving."
+2015-02-03 17:47 -!- iiie0__(~iiie@2601:d:5501:2d40:9111:6e8e:5b1c:f1df) has quit "Ping timeout: 245 seconds"
+2015-02-03 17:49 -!- Nick__(d82f9991@gateway/web/freenode/ip.216.47.153.145) has quit "Client Quit"
+2015-02-03 18:27 -!- Toba(~eastein@pumpingstationone/cto) has quit "Remote host closed the connection"
+2015-02-03 18:28 -!- Toba changed nick to Guest72335
+2015-02-03 18:29 -!- Guest72335 changed nick to Toba
+2015-02-03 18:29 -!- Toba(~eastein@freyr.truct.org) has quit "Changing host"
+2015-02-03 18:48 -!- iiie0__(~iiie@2601:d:5501:2d40:9111:6e8e:5b1c:f1df) has quit "Ping timeout: 245 seconds"
+2015-02-03 18:55 -!- hef(~hef@host-70-34-134-228.host.ussignalcom.net) has quit "Quit: Leaving."
+2015-02-03 19:49 -!- iiie0__(~iiie@73.8.80.190) has quit "Ping timeout: 245 seconds"
+2015-02-03 20:04 -!- tac_(~tac-tics@99-126-152-116.lightspeed.cicril.sbcglobal.net) has quit "Ping timeout: 252 seconds"
+2015-02-03 20:18 -!- MichD changed nick to michd
+2015-02-03 20:49 -!- iiie0__(~iiie@2601:d:5501:2d40:9111:6e8e:5b1c:f1df) has quit "Ping timeout: 245 seconds"
+2015-02-03 21:14 -!- alesage(~alesage@canonical/alesage) has quit "Remote host closed the connection"
+2015-02-03 21:16 -!- alesage(~alesage@c-50-141-244-202.hsd1.il.comcast.net) has quit "Changing host"
+2015-02-03 21:50 -!- iiie0__(~iiie@2601:d:5501:2d40:9111:6e8e:5b1c:f1df) has quit "Ping timeout: 245 seconds"
+2015-02-03 22:06 -!- imcleod(~imcleod@62.50.245.205) has quit "Remote host closed the connection"
+2015-02-03 22:23 -!- alesage(~alesage@canonical/alesage) has quit "Quit: Leaving"
+2015-02-03 22:23 -!- alesage(~alesage@c-50-141-244-202.hsd1.il.comcast.net) has quit "Changing host"
+2015-02-03 22:41 -!- spew(none@108.61.229.181) has quit "Quit:  Leaving..."
+2015-02-03 22:52 -!- iiie0__(~iiie@2601:d:5501:2d40:9111:6e8e:5b1c:f1df) has quit "Ping timeout: 245 seconds"
+2015-02-03 23:02 -!- rectangled(44ffdc49@gateway/web/freenode/ip.68.255.220.73) has quit "Ping timeout: 246 seconds"
+2015-02-03 23:20 -!- ckleehammer(0ce27fd3@gateway/web/freenode/ip.12.226.127.211) has quit "Quit: Page closed"
+2015-02-03 23:23 -!- bry(~blabla@38.124.31.10) has quit "Read error: Connection reset by peer"
+2015-02-03 23:52 -!- iiie0__(~iiie@73.8.80.190) has quit "Ping timeout: 264 seconds"
+2015-02-03 23:53 -!- CarlFK(~carl@c-98-223-145-234.hsd1.in.comcast.net) has quit "Quit: Leaving."
+2015-02-04 00:53 -!- iiie0__(~iiie@73.8.80.190) has quit "Ping timeout: 256 seconds"
+2015-02-04 01:54 -!- iiie0__(~iiie@73.8.80.190) has quit "Ping timeout: 246 seconds"
+2015-02-04 02:54 -!- iiie0__(~iiie@2601:d:5501:2d40:9111:6e8e:5b1c:f1df) has quit "Ping timeout: 245 seconds"
+2015-02-04 03:29 -!- [Lucas](~Lucas@mbigw-qwest.moody.edu) has quit "Quit: Leaving."
+2015-02-04 03:49 -!- bry(~Adium@c-73-50-115-10.hsd1.il.comcast.net) has quit "Quit: Leaving."
+2015-02-04 03:55 -!- iiie0__(~iiie@2601:d:5501:2d40:9111:6e8e:5b1c:f1df) has quit "Ping timeout: 245 seconds"
+2015-02-04 04:06 -!- CarlFK(~carl@2601:d:2381:f100:11f7:5a1e:7a88:a651) has quit "Ping timeout: 245 seconds"
+2015-02-04 04:08 -!- hef(~hef@vpn-chi.wbgames.com) has quit "Quit: Leaving."
+2015-02-04 04:17 -!- moey(~moey@unaffiliated/moey) has quit "Ping timeout: 264 seconds"
+2015-02-04 04:36 -!- B1oguy(~Bioguy@73.45.33.167) has quit "Quit: Leaving"
+2015-02-04 04:56 -!- iiie0__(~iiie@73.8.80.190) has quit "Ping timeout: 245 seconds"
+2015-02-04 05:09 -!- `Nerobro(~wolfeman@fg300a.skylan.net) has quit "Read error: Connection reset by peer"
+2015-02-04 05:14 -!- tac_(~tac-tics@99-126-152-116.lightspeed.cicril.sbcglobal.net) has quit "Ping timeout: 256 seconds"
+2015-02-04 05:28 -!- bry(~Adium@2601:d:2381:f100:d417:7927:f97d:a576) has quit "Quit: Leaving."
+2015-02-04 05:57 -!- iiie0__(~iiie@73.8.80.190) has quit "Ping timeout: 245 seconds"
+2015-02-04 06:57 -!- iiie0__(~iiie@73.8.80.190) has quit "Ping timeout: 246 seconds"
+2015-02-04 07:04 -!- jc__(18944f40@gateway/web/freenode/ip.24.148.79.64) has quit "Ping timeout: 246 seconds"
+2015-02-04 07:58 -!- iiie0__(~iiie@73.8.80.190) has quit "Ping timeout: 240 seconds"
+2015-02-04 08:59 -!- iiie0__(~iiie@73.8.80.190) has quit "Ping timeout: 244 seconds"
+2015-02-04 10:00 -!- iiie0__(~iiie@2601:d:5501:2d40:9111:6e8e:5b1c:f1df) has quit "Ping timeout: 245 seconds"
+2015-02-04 10:48 -!- tdy(~tdy@unaffiliated/tdy) has quit "Ping timeout: 244 seconds"
+2015-02-04 10:59 -!- imcleod(~imcleod@193.191.158.65) has quit "Ping timeout: 256 seconds"
+2015-02-04 11:00 -!- iiie0__(~iiie@2601:d:5501:2d40:9111:6e8e:5b1c:f1df) has quit "Ping timeout: 245 seconds"
+2015-02-04 12:01 -!- iiie0__(~iiie@2601:d:5501:2d40:9111:6e8e:5b1c:f1df) has quit "Ping timeout: 245 seconds"
+2015-02-04 12:17 -!- ii shutting down: ping timeout
+2015-02-04 23:14 *** Looking up your hostname...
+2015-02-04 23:14 *** Checking Ident
+2015-02-04 23:14 *** Found your hostname
+2015-02-04 23:14 *** No Ident response
+2015-02-04 23:14 Welcome to the freenode Internet Relay Chat Network doormon
+2015-02-04 23:14 Your host is morgan.freenode.net[64.32.24.176/6667], running version ircd-seven-1.1.3
+2015-02-04 23:14 This server was created Thu Jul 31 2014 at 17:07:15 UTC
+2015-02-04 23:14 morgan.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-02-04 23:14 CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-02-04 23:14 CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-02-04 23:14 EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU are supported by this server
+2015-02-04 23:14 There are 176 users and 92321 invisible on 27 servers
+2015-02-04 23:14 24 IRC Operators online
+2015-02-04 23:14 18 unknown connection(s)
+2015-02-04 23:14 52213 channels formed
+2015-02-04 23:14 I have 7949 clients and 1 servers
+2015-02-04 23:14 7949 10431 Current local users 7949, max 10431
+2015-02-04 23:14 92497 101659 Current global users 92497, max 101659
+2015-02-04 23:14 Highest connection count: 10432 (10431 clients) (380999 connections received)
+2015-02-04 23:14 - morgan.freenode.net Message of the Day - 
+2015-02-04 23:14 - Welcome to morgan.freenode.net in Chicago, IL, USA! Thank
+2015-02-04 23:14 - you to psyprus for sponsoring this server!
+2015-02-04 23:14 -  
+2015-02-04 23:14 - MORGAN, RICHARD K. (1965-) is an English science fiction
+2015-02-04 23:14 - author. Morgan's books are generally set in a dystopian world.
+2015-02-04 23:14 - His breakout novel Altered Carbon won the Philip K. Dick Award,
+2015-02-04 23:14 - and he has written many successful and amazing works to follow.
+2015-02-04 23:14 - His more recent writings explore the theme of autonomy
+2015-02-04 23:14 - in science fiction and escapism in fantasy.
+2015-02-04 23:14 -  
+2015-02-04 23:14 -  
+2015-02-04 23:14 - Welcome to freenode - supporting the free and open source
+2015-02-04 23:14 - software communities since 1998.
+2015-02-04 23:14 -  
+2015-02-04 23:14 - **************************************************************
+2015-02-04 23:14 -                       SECURITY ALERT
+2015-02-04 23:14 -  
+2015-02-04 23:14 - Over the weekend of 13th-14th September freenode staff noticed
+2015-02-04 23:14 - some compromised binaries present on a number of servers. 
+2015-02-04 23:14 - The servers in question have been removed from the network and
+2015-02-04 23:14 - shut down.  However, it's possible that network traffic  -
+2015-02-04 23:14 - including SSL traffic - has been sniffed and passwords
+2015-02-04 23:14 - exposed.
+2015-02-04 23:14 -  
+2015-02-04 23:14 - We therefore recommend that all users change their nickserv 
+2015-02-04 23:14 - password(s) to a new value which is not shared with any
+2015-02-04 23:14 - other service.
+2015-02-04 23:14 -  
+2015-02-04 23:14 - You can do this with /msg nickserv set password newpasshere
+2015-02-04 23:14 -  
+2015-02-04 23:14 - Please note that investigation is ongoing to discover the root
+2015-02-04 23:14 - cause of the attack, and until this investigation is complete
+2015-02-04 23:14 - we cannot be 100% certain that all traces of the compromises 
+2015-02-04 23:14 - have been removed. We may have to ask you to change your  
+2015-02-04 23:14 - passwords again after analysis has completed.
+2015-02-04 23:14 -  
+2015-02-04 23:14 - Further details will appear on https://blog.freenode.net/
+2015-02-04 23:14 -  
+2015-02-04 23:14 - **************************************************************
+2015-02-04 23:14 -  
+2015-02-04 23:14 - By connecting to freenode you indicate that you have read and
+2015-02-04 23:14 - accept our policies as set out on http://www.freenode.net
+2015-02-04 23:14 - freenode runs an open proxy scanner. Please join #freenode for
+2015-02-04 23:14 - any network-related questions or queries, where a number of
+2015-02-04 23:14 - volunteer staff and helpful users will be happy to assist you.
+2015-02-04 23:14 -  
+2015-02-04 23:14 - You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-02-04 23:14 - together with like-minded FOSS enthusiasts for talks and
+2015-02-04 23:14 - real-life collaboration.
+2015-02-04 23:14 -  
+2015-02-04 23:14 - We would like to thank Private Internet Access
+2015-02-04 23:14 - (https://www.privateinternetaccess.com/) and the other
+2015-02-04 23:14 - organisations that help keep freenode and our other projects
+2015-02-04 23:14 - running for their sustained support.
+2015-02-04 23:14 -  
+2015-02-04 23:14 - In particular we would like to thank the sponsor
+2015-02-04 23:14 - of this server, details of which can be found above.
+2015-02-04 23:14 -  
+2015-02-04 23:14 End of /MOTD command.
+2015-02-04 23:14 +i
+2015-02-04 23:14 #pumpingstationone Pumping Singularity: One | https://wiki.pumpingstationone.org/IRC | https://pumpingstationone.org/events/ | https://wiki.pumpingstationone.org/Visiting | <greetermon> want to yell
+2015-02-04 23:14 #pumpingstationone Toba!~eastein@pumpingstationone/cto 1422487440
+2015-02-04 23:14 @ #pumpingstationone doormon zirc bry dwlocks_bot asl2 hef Bioguy agocs angelixd_ tdy CarlFK alesage ieIe_ +Toba soylentbomb chronmon tachoknight- minivanmegafun thingsmon ps1wikimon spacemon peoplemon AnimalFarmPig dockerbot mstrb bjonnh akama ashanan kuroishi pdp7 tdfischer a5m0 tachoknight +loclhst NegativeK CrimsonVIII sudlowbot sylphiae ultrashag_ schedmon r4v5 garndt `justin t_j hef_ @ChanServ michd loans Sean-Der skay sparr
+2015-02-04 23:14 #pumpingstationone End of /NAMES list.
+2015-02-04 23:48 -!- bry(~blabla@wireless-165-124-128-186.nuwlan.northwestern.edu) has quit "Quit: Leaving."
+2015-02-04 23:57 -!- CarlFK(~carl@c-98-223-145-234.hsd1.in.comcast.net) has quit "Quit: Leaving."
+2015-02-05 00:07 -!- bry1(~Adium@wireless-165-124-128-186.nuwlan.northwestern.edu) has quit "Client Quit"
+2015-02-05 00:11 -!- iiie0__(~iiie@73.8.80.190) has quit "Ping timeout: 264 seconds"
+2015-02-05 00:30 -!- asl2(~asl2@99-125-166-83.lightspeed.cicril.sbcglobal.net) has quit "Quit: Leaving."
+2015-02-05 00:43 -!- bry(~blabla@38.124.31.10) has quit "Read error: Connection reset by peer"
+2015-02-05 01:11 -!- iiie0__(~iiie@2601:d:5501:2d40:9111:6e8e:5b1c:f1df) has quit "Ping timeout: 245 seconds"
+2015-02-05 02:12 -!- dwlocks_bot(~dwlocks@65.167.11.254) has quit "Ping timeout: 245 seconds"
+2015-02-05 04:49 -!- hef-(~androirc@166.175.62.69) has quit "Read error: Connection reset by peer"
+2015-02-05 05:51 -!- bry(~Adium@2601:d:23c0:168:a9fa:c62b:502c:f395) has quit "Quit: Leaving."
+2015-02-05 06:27 -!- iiie0__(~iiie@73.8.80.190) has quit "Quit: Be back later ..."
+2015-02-05 06:32 -!- mrdorianjames(~androirc@70-32-221-19.unassigned.ntelos.net) has quit "Quit: AndroIRC - Android IRC Client ( http://www.androirc.com )"
+2015-02-05 06:32 -!- iiie0__(~iiie@2601:d:5501:2d40:40d2:bd75:b460:1b76) has quit "Ping timeout: 245 seconds"
+2015-02-05 07:32 -!- iiie0__(~iiie@2601:d:5501:2d40:40d2:bd75:b460:1b76) has quit "Ping timeout: 245 seconds"
+2015-02-05 07:34 -!- dwlocks(~dwlocks@207-181-230-102.c3-0.mct-ubr1.chi-mct.il.cable.rcn.com) has quit "Ping timeout: 245 seconds"
+2015-02-05 07:38 -!- michd changed nick to MichD
+2015-02-05 08:13 -!- tac_(~tac-tics@99-126-152-116.lightspeed.cicril.sbcglobal.net) has quit "Quit: Leaving"
+2015-02-05 08:41 -!- iiie0__(~iiie@73.8.80.190) has quit "Ping timeout: 246 seconds"
+2015-02-05 09:42 -!- iiie0__(~iiie@2601:d:5501:2d40:40d2:bd75:b460:1b76) has quit "Ping timeout: 245 seconds"
+2015-02-05 10:34 -!- ieIe_(~ieIe@107-215-180-61.lightspeed.cicril.sbcglobal.net) has quit "Ping timeout: 256 seconds"
+2015-02-05 10:42 -!- iiie0__(~iiie@2601:d:5501:2d40:40d2:bd75:b460:1b76) has quit "Ping timeout: 245 seconds"
+2015-02-05 11:43 -!- iiie0__(~iiie@73.8.80.190) has quit "Ping timeout: 245 seconds"
+2015-02-05 12:44 -!- iiie0__(~iiie@73.8.80.190) has quit "Ping timeout: 246 seconds"
+2015-02-05 13:38 -!- alesage(~alesage@canonical/alesage) has quit "Quit: Leaving"
+2015-02-05 13:44 -!- iiie0__(~iiie@73.8.80.190) has quit "Ping timeout: 244 seconds"
+2015-02-05 13:50 -!- Bioguy(~Bioguy@73.45.33.167) has quit "Quit: Leaving"
+2015-02-05 14:22 -!- KyleB_ changed nick to KyleB
+2015-02-05 14:45 -!- iiie0__(~iiie@2601:d:5501:2d40:40d2:bd75:b460:1b76) has quit "Ping timeout: 245 seconds"
+2015-02-05 15:36 -!- alesage(~alesage@canonical/alesage) has quit "Client Quit"
+2015-02-05 15:46 -!- asl2(~asl2@99-125-166-83.lightspeed.cicril.sbcglobal.net) has quit "Read error: Connection reset by peer"
+2015-02-05 15:46 -!- iiie0__(~iiie@2601:d:5501:2d40:40d2:bd75:b460:1b76) has quit "Ping timeout: 245 seconds"
+2015-02-05 15:58 -!- asl21 changed nick to asl2
+2015-02-05 16:00 -!- alesage(~alesage@canonical/alesage) has quit "Ping timeout: 256 seconds"
+2015-02-05 16:26 -!- dwlocks(~dwlocks@207-181-230-102.c3-0.mct-ubr1.chi-mct.il.cable.rcn.com) has quit "Ping timeout: 246 seconds"
+2015-02-05 16:45 -!- alesage(~alesage@canonical/alesage) has quit "Ping timeout: 265 seconds"
+2015-02-05 16:47 -!- iiie0__(~iiie@73.8.80.190) has quit "Ping timeout: 245 seconds"
+2015-02-05 17:06 -!- alesage(~alesage@canonical/alesage) has quit "Ping timeout: 245 seconds"
+2015-02-05 17:17 -!- MichD changed nick to michd
+2015-02-05 17:48 -!- iiie0__(~iiie@2601:d:5501:2d40:40d2:bd75:b460:1b76) has quit "Ping timeout: 245 seconds"
+2015-02-05 17:52 -!- dwlocks_work(~dwlocks@65.167.11.254) has quit "Read error: Connection reset by peer"
+2015-02-05 18:11 -!- bry changed nick to bry-lunch
+2015-02-05 19:37 -!- tdhclueless50(6317d154@gateway/web/freenode/ip.99.23.209.84) has quit "Client Quit"
+2015-02-05 19:49 -!- iiie0__(~iiie@73.8.80.190) has quit "Ping timeout: 245 seconds"
+2015-02-05 19:57 -!- asl2(~asl2@2602:306:37da:6530:29cf:2bd9:e6ef:6919) has quit "Quit: Leaving."
+2015-02-05 20:02 -!- bry-lunch changed nick to bry
+2015-02-05 20:07 -!- Bioguy changed nick to NegativeK2
+2015-02-05 20:07 -!- alesage(~alesage@canonical/alesage) has quit "Ping timeout: 250 seconds"
+2015-02-05 20:11 -!- alesage(~alesage@70.42.157.202) has quit "Changing host"
+2015-02-05 20:11 -!- NegativeK2 changed nick to Bioguy
+2015-02-05 20:11 -!- alesage_(~alesage@172.56.27.146) has quit "Ping timeout: 240 seconds"
+2015-02-05 20:25 -!- alesage(~alesage@canonical/alesage) has quit "Read error: No route to host"
+2015-02-05 20:26 -!- alesage(~alesage@70.42.157.202) has quit "Changing host"
+2015-02-05 20:50 -!- iiie0__(~iiie@2601:d:5501:2d40:40d2:bd75:b460:1b76) has quit "Ping timeout: 245 seconds"
+2015-02-05 21:15 -!- jackhholmes(~jackhholm@71.239.73.246) has quit "Quit: Leaving"
+2015-02-05 21:38 -!- alesage(~alesage@canonical/alesage) has quit "Remote host closed the connection"
+2015-02-05 21:51 -!- iiie0__(~iiie@2601:d:5501:2d40:40d2:bd75:b460:1b76) has quit "Ping timeout: 245 seconds"
+2015-02-05 22:27 -!- alesage(~alesage@97-92-250-74.dhcp.stls.mo.charter.com) has quit "Changing host"
+2015-02-05 22:37 -!- spew(none@108.61.229.181) has quit "Quit:  Leaving..."
+2015-02-05 22:52 -!- iiie0__(~iiie@2601:d:5501:2d40:40d2:bd75:b460:1b76) has quit "Ping timeout: 245 seconds"
+2015-02-05 22:54 -!- KyleB(~androirc@66.87.78.58) has quit "Ping timeout: 264 seconds"
+2015-02-05 23:02 -!- alesage(~alesage@canonical/alesage) has quit "Remote host closed the connection"
+2015-02-05 23:05 -!- `Nerobro(~wolfeman@fg300a.skylan.net) has quit "Ping timeout: 246 seconds"
+2015-02-05 23:18 -!- dwlocks(~dwlocks@65.167.11.254) has quit "Ping timeout: 245 seconds"
+2015-02-05 23:48 -!- dwlocks(~dwlocks@65.167.11.254) has quit "Ping timeout: 245 seconds"
+2015-02-05 23:52 -!- iiie0__(~iiie@2601:d:5501:2d40:40d2:bd75:b460:1b76) has quit "Ping timeout: 245 seconds"
+2015-02-06 00:19 -!- bry(~blabla@38.124.31.10) has quit "Read error: Connection reset by peer"
+2015-02-06 00:53 -!- iiie0__(~iiie@73.8.80.190) has quit "Ping timeout: 264 seconds"
+2015-02-06 01:54 -!- iiie0__(~iiie@73.8.80.190) has quit "Ping timeout: 252 seconds"
+2015-02-06 02:54 -!- iiie0__(~iiie@2601:d:5501:2d40:40d2:bd75:b460:1b76) has quit "Ping timeout: 245 seconds"
+2015-02-06 03:11 -!- loclhst(~loclhst@ganondorf.loclhst.com) has quit "Ping timeout: 255 seconds"
+2015-02-06 03:17 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Quit: Leaving."
+2015-02-06 03:43 -!- spew(~spew@c-24-12-250-9.hsd1.il.comcast.net) has quit "Quit: spew"
+2015-02-06 03:54 -!- minivanmegafun(alice@hardch.at) has quit "Ping timeout: 250 seconds"
+2015-02-06 03:55 -!- iiie0__(~iiie@2601:d:5501:2d40:40d2:bd75:b460:1b76) has quit "Ping timeout: 245 seconds"
+2015-02-06 04:47 -!- bry(~Adium@2601:d:23c0:168:a0e3:5939:ddfe:94d6) has quit "Quit: Leaving."
+2015-02-06 05:49 -!- iiie0__(~iiie@2601:d:5501:2d40:40d2:bd75:b460:1b76) has quit "Quit: Be back later ..."
+2015-02-06 06:09 -!- iiie0__(~iiie@73.8.80.190) has quit "Ping timeout: 252 seconds"
+2015-02-06 06:26 -!- iiie0__(~iiie@2601:d:5501:2d40:8592:771:5ee2:3555) has quit "Ping timeout: 245 seconds"
+2015-02-06 06:43 -!- dwlocks(~dwlocks@c-73-50-115-10.hsd1.il.comcast.net) has quit "Ping timeout: 264 seconds"
+2015-02-06 07:04 -!- iiie0__(~iiie@2601:d:5501:2d40:8592:771:5ee2:3555) has quit "Ping timeout: 245 seconds"
+2015-02-06 07:25 -!- CarlFK(~carl@c-98-223-145-234.hsd1.in.comcast.net) has quit "Ping timeout: 245 seconds"
+2015-02-06 08:03 -!- michd changed nick to MichD
+2015-02-06 08:05 -!- iiie0__(~iiie@73.8.80.190) has quit "Ping timeout: 245 seconds"
+2015-02-06 08:45 -!- dwlocks(~dwlocks@207-181-230-102.c3-0.mct-ubr1.chi-mct.il.cable.rcn.com) has quit "Ping timeout: 252 seconds"
+2015-02-06 09:06 -!- iiie0__(~iiie@2601:d:5501:2d40:8592:771:5ee2:3555) has quit "Ping timeout: 245 seconds"
+2015-02-06 10:06 -!- iiie0__(~iiie@2601:d:5501:2d40:8592:771:5ee2:3555) has quit "Ping timeout: 245 seconds"
+2015-02-06 10:34 -!- ieIe_(~ieIe@2602:306:bd7b:43d0:d9f7:9dda:bcb:9324) has quit "Ping timeout: 245 seconds"
+2015-02-06 11:07 -!- iiie0__(~iiie@2601:d:5501:2d40:8592:771:5ee2:3555) has quit "Ping timeout: 245 seconds"
+2015-02-06 11:56 -!- hef(~hef@vpn-chi.wbgames.com) has quit "Read error: Connection reset by peer"
+2015-02-06 11:59 -!- ashanan(~avner@li211-186.members.linode.com) has quit "Ping timeout: 265 seconds"
+2015-02-06 12:04 -!- zirc(~zirc@c-73-50-115-10.hsd1.il.comcast.net) has quit "Ping timeout: 245 seconds"
+2015-02-06 12:08 -!- iiie0__(~iiie@2601:d:5501:2d40:8592:771:5ee2:3555) has quit "Ping timeout: 245 seconds"
+2015-02-06 12:19 -!- a5m0(~a5m0@unaffiliated/a5m0) has quit "*.net *.split"
+2015-02-06 12:19 -!- sudlowbot(simpleirc@2600:3c00::f03c:91ff:feae:5893) has quit "*.net *.split"
+2015-02-06 12:19 -!- sylphiae(~sylphiae@172.245.130.105) has quit "*.net *.split"
+2015-02-06 13:09 -!- iiie0__(~iiie@73.8.80.190) has quit "Ping timeout: 264 seconds"
+2015-02-06 13:37 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Quit: Leaving."
+2015-02-06 14:09 -!- iiie0__(~iiie@2601:d:5501:2d40:8592:771:5ee2:3555) has quit "Ping timeout: 245 seconds"
+2015-02-06 14:28 -!- CarlFK(~carl@c-98-223-145-234.hsd1.in.comcast.net) has quit "Remote host closed the connection"
+2015-02-06 14:49 -!- imcleod(imcleod@gateway/conference/devconf/x-tilxwtldfmdzlnhv) has quit "Ping timeout: 252 seconds"
+2015-02-06 15:10 -!- iiie0__(~iiie@2601:d:5501:2d40:8592:771:5ee2:3555) has quit "Ping timeout: 245 seconds"
+2015-02-06 15:12 -!- r4v5(~r4v5@173-9-252-209-Illinois.hfc.comcastbusiness.net) has quit "Ping timeout: 276 seconds"
+2015-02-06 15:14 -!- agocs(~agocs@173-9-252-209-Illinois.hfc.comcastbusiness.net) has quit "Ping timeout: 264 seconds"
+2015-02-06 15:38 -!- bry(~blabla@38.124.31.10) has quit "Ping timeout: 245 seconds"
+2015-02-06 16:27 -!- imcleod(imcleod@gateway/conference/devconf/x-lskaplbjfqjimpzl) has quit "Ping timeout: 252 seconds"
+2015-02-06 16:31 -!- bry1(~blabla@wireless-165-124-128-186.nuwlan.northwestern.edu) has quit "Quit: Leaving."
+2015-02-06 16:46 -!- iiie0__(~iiie@73.8.80.190) has quit "Ping timeout: 250 seconds"
+2015-02-06 16:50 -!- iiie0___(~iiie@73.8.80.190) has quit "Ping timeout: 264 seconds"
+2015-02-06 16:57 -!- iiie0____(~iiie@73.8.80.190) has quit "Read error: Connection reset by peer"
+2015-02-06 17:15 -!- imcleod(imcleod@gateway/conference/devconf/x-kwwgfqbeqvnfyilv) has quit "Ping timeout: 250 seconds"
+2015-02-06 17:33 -!- asl2(~asl2@108-213-172-87.lightspeed.cicril.sbcglobal.net) has quit "Read error: Connection reset by peer"
+2015-02-06 17:51 -!- MichD changed nick to michd
+2015-02-06 18:35 -!- KoalaBro2(~androirc@66.87.78.165) has quit "Read error: Connection reset by peer"
+2015-02-06 19:15 -!- asl2(~asl2@108-213-172-87.lightspeed.cicril.sbcglobal.net) has quit "Quit: Leaving."
+2015-02-06 19:18 -!- Warped(~Warped@108.85.160.119) has quit "Read error: Connection reset by peer"
+2015-02-06 19:30 -!- hef(~hef@vpn-chi.wbgames.com) has quit "Read error: Connection reset by peer"
+2015-02-06 21:12 -!- ii shutting down: ping timeout
+2015-02-10 01:59 *** Looking up your hostname...
+2015-02-10 01:59 *** Checking Ident
+2015-02-10 01:59 *** Found your hostname
+2015-02-10 02:00 *** No Ident response
+2015-02-10 02:00 Welcome to the freenode Internet Relay Chat Network doormon
+2015-02-10 02:00 Your host is morgan.freenode.net[64.32.24.176/6667], running version ircd-seven-1.1.3
+2015-02-10 02:00 This server was created Thu Jul 31 2014 at 17:07:15 UTC
+2015-02-10 02:00 morgan.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-02-10 02:00 CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-02-10 02:00 CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-02-10 02:00 EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU are supported by this server
+2015-02-10 02:00 There are 178 users and 86857 invisible on 26 servers
+2015-02-10 02:00 25 IRC Operators online
+2015-02-10 02:00 19 unknown connection(s)
+2015-02-10 02:00 48353 channels formed
+2015-02-10 02:00 I have 7297 clients and 1 servers
+2015-02-10 02:00 7297 10431 Current local users 7297, max 10431
+2015-02-10 02:00 87035 101659 Current global users 87035, max 101659
+2015-02-10 02:00 Highest connection count: 10432 (10431 clients) (471178 connections received)
+2015-02-10 02:00 - morgan.freenode.net Message of the Day - 
+2015-02-10 02:00 - Welcome to morgan.freenode.net in Chicago, IL, USA! Thank
+2015-02-10 02:00 - you to psyprus for sponsoring this server!
+2015-02-10 02:00 -  
+2015-02-10 02:00 - MORGAN, RICHARD K. (1965-) is an English science fiction
+2015-02-10 02:00 - author. Morgan's books are generally set in a dystopian world.
+2015-02-10 02:00 - His breakout novel Altered Carbon won the Philip K. Dick Award,
+2015-02-10 02:00 - and he has written many successful and amazing works to follow.
+2015-02-10 02:00 - His more recent writings explore the theme of autonomy
+2015-02-10 02:00 - in science fiction and escapism in fantasy.
+2015-02-10 02:00 -  
+2015-02-10 02:00 -  
+2015-02-10 02:00 - Welcome to freenode - supporting the free and open source
+2015-02-10 02:00 - software communities since 1998.
+2015-02-10 02:00 -  
+2015-02-10 02:00 - **************************************************************
+2015-02-10 02:00 -                       SECURITY ALERT
+2015-02-10 02:00 -  
+2015-02-10 02:00 - Over the weekend of 13th-14th September freenode staff noticed
+2015-02-10 02:00 - some compromised binaries present on a number of servers. 
+2015-02-10 02:00 - The servers in question have been removed from the network and
+2015-02-10 02:00 - shut down.  However, it's possible that network traffic  -
+2015-02-10 02:00 - including SSL traffic - has been sniffed and passwords
+2015-02-10 02:00 - exposed.
+2015-02-10 02:00 -  
+2015-02-10 02:00 - We therefore recommend that all users change their nickserv 
+2015-02-10 02:00 - password(s) to a new value which is not shared with any
+2015-02-10 02:00 - other service.
+2015-02-10 02:00 -  
+2015-02-10 02:00 - You can do this with /msg nickserv set password newpasshere
+2015-02-10 02:00 -  
+2015-02-10 02:00 - Please note that investigation is ongoing to discover the root
+2015-02-10 02:00 - cause of the attack, and until this investigation is complete
+2015-02-10 02:00 - we cannot be 100% certain that all traces of the compromises 
+2015-02-10 02:00 - have been removed. We may have to ask you to change your  
+2015-02-10 02:00 - passwords again after analysis has completed.
+2015-02-10 02:00 -  
+2015-02-10 02:00 - Further details will appear on https://blog.freenode.net/
+2015-02-10 02:00 -  
+2015-02-10 02:00 - **************************************************************
+2015-02-10 02:00 -  
+2015-02-10 02:00 - By connecting to freenode you indicate that you have read and
+2015-02-10 02:00 - accept our policies as set out on http://www.freenode.net
+2015-02-10 02:00 - freenode runs an open proxy scanner. Please join #freenode for
+2015-02-10 02:00 - any network-related questions or queries, where a number of
+2015-02-10 02:00 - volunteer staff and helpful users will be happy to assist you.
+2015-02-10 02:00 -  
+2015-02-10 02:00 - You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-02-10 02:00 - together with like-minded FOSS enthusiasts for talks and
+2015-02-10 02:00 - real-life collaboration.
+2015-02-10 02:00 -  
+2015-02-10 02:00 - We would like to thank Private Internet Access
+2015-02-10 02:00 - (https://www.privateinternetaccess.com/) and the other
+2015-02-10 02:00 - organisations that help keep freenode and our other projects
+2015-02-10 02:00 - running for their sustained support.
+2015-02-10 02:00 -  
+2015-02-10 02:00 - In particular we would like to thank the sponsor
+2015-02-10 02:00 - of this server, details of which can be found above.
+2015-02-10 02:00 -  
+2015-02-10 02:00 End of /MOTD command.
+2015-02-10 02:00 +i
+2015-02-10 02:00 #pumpingstationone Pumping Singularity: One | https://wiki.pumpingstationone.org/IRC | https://pumpingstationone.org/events/ | https://wiki.pumpingstationone.org/Visiting | <greetermon> want to yell
+2015-02-10 02:00 #pumpingstationone Toba!~eastein@pumpingstationone/cto 1422487440
+2015-02-10 02:00 @ #pumpingstationone doormon gamblit garndt minivanmegafun schedmon asl2 bry hef- hef alesage tdy mstrb soylentbomb `justin agocs +loclhst CarlFK tachoknight CrimsonVIII zirc dockerbot peoplemon chronmon gmorell @ChanServ r4v5 thingsmon AnimalFarmPig spacemon sylphiae sudlowbot a5m0 ashanan brybot angelixd_ +Toba tachoknight- bjonnh akama kuroishi pdp7 tdfischer NegativeK ultrashag_ t_j hef_ michd loans Sean-Der skay sparr
+2015-02-10 02:00 #pumpingstationone End of /NAMES list.
+2015-02-10 02:11 -!- hef(~hef@host-70-34-134-228.host.ussignalcom.net) has quit "Quit: Leaving."
+2015-02-10 02:37 -!- asl2(~asl2@dsl092-130-095.chi1.dsl.speakeasy.net) has quit "Quit: Leaving."
+2015-02-10 03:09 -!- garndt(sid7486@gateway/web/irccloud.com/x-nrenicowuhjyuyzg) has quit ""
