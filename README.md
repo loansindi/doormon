@@ -2,6 +2,7 @@ IRC door bot, docs to come
 
 /etc/systemd/system/doormon.service
 
+```
 [Unit]
 Description=Script for doormon
 After=doormon.service
@@ -17,9 +18,11 @@ RestartSec=10
 
 [Install]
 WantedBy=multi.user.target
+```
 
 /etc/systemd/system/doorbot.service
 
+```
 [Unit]
 Description=Door monitoring IRC bot
 
@@ -36,3 +39,4 @@ RestartSec=120
 
 [Install]
 WantedBy=multi-user.target
+```
